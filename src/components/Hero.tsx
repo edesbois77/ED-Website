@@ -28,22 +28,22 @@ const Hero: React.FC = () => {
   return (
     <section 
       ref={ref}
-      className="relative bg-red-500 hero-background"
+      className="relative bg-white hero-background"
     >
       {/* Very light overlay for better text readability */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 h-full">
         {/* Text Content - Responsive positioning */}
         <div className={`flex flex-col justify-center h-full py-8 sm:py-12 lg:py-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 tracking-tight">
-            🚨 DEV SERVER TEST: <span className="font-bold">ED</span>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-4 sm:mb-6 tracking-tight">
+            Introducing: <span className="font-bold">ED</span>
           </h1>
           
-          <p className="text-lg sm:text-xl md:text-2xl text-white mb-6 sm:mb-8 max-w-xl font-light leading-relaxed">
-            🔥 IF YOU SEE THIS RED BACKGROUND, HOT RELOAD IS WORKING! 🔥
+          <p className="text-lg sm:text-xl md:text-2xl text-black mb-6 sm:mb-8 max-w-xl font-light leading-relaxed">
+            Modular solutions. Executive outcomes.
           </p>
 
-          <div className="text-base sm:text-lg md:text-xl text-white mb-8 sm:mb-12 max-w-xl font-light leading-relaxed space-y-3 sm:space-y-4">
-            <p>🚀 This site is a creative take on my CV, turning 25 years of leadership, strategy and delivery into a suite of modular products that you can benefit from.</p>
+          <div className="text-base sm:text-lg md:text-xl text-black mb-8 sm:mb-12 max-w-xl font-light leading-relaxed space-y-3 sm:space-y-4">
+            <p>This site is a creative take on my CV, turning 25 years of leadership, strategy and delivery into a suite of modular products that you can benefit from.</p>
             <p>While the company might not be real, the experience behind it very much is. Simply add the products you want to your basket and get in touch with <span className="font-bold">ED</span>.</p>
           </div>
 
