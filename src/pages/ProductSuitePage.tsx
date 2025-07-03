@@ -68,7 +68,7 @@ const ProductSection: React.FC<ProductSectionProps> = ({ product, index, onAddTo
   // Product overview text (exactly 4 lines) - you can customize these for each product
   const getProductOverview = (productId: string) => {
     const overviews: { [key: string]: string } = {
-      'connect-ed': 'Connect-ED opens the door to senior decision-makers across media, sport and entertainment. Built over 25 years of trust, care and instinct, it\'s not just who you know but how you connect with purpose and value.',
+      'connect-ed': 'TESTBBBConnect-ED opens the door to senior decision-makers across media, sport and entertainment. Built over 25 years of trust, care and instinct, it\'s not just who you know but how you connect with purpose and value.',
       'creat-ed': 'Creat-ED brings a creative mindset to every challenge, delivering ideas that excite brands, challenge convention and spark meaningful change. It\'s not just what you create, it\'s how you think.',
       'direct-ed': 'Direct-ED strengthens leadership at every level, from boardroom clarity to team chemistry, with passion at its core. It unlocks trust, sharpens culture, and drives performance, even in high-stakes environments.',
       'monetis-ed': 'Monetis-ED delivers revenue through strategy, storytelling and precision selling. From knowing where to fish to landing the deal, this module brings structure, substance and standout results.',
