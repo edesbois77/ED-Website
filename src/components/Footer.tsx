@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
               </div>
             </div>
             <p className="text-gray-600 mb-6 sm:mb-8 max-w-md leading-relaxed font-light text-sm sm:text-base">
-              tttttEmpowering businesses worldwide with innovative modular solutions 
+              Empowering businesses worldwide with innovative modular solutions 
               that drive growth and operational excellence.
             </p>
             <div className="flex items-center space-x-2 text-gray-600">
