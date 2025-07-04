@@ -62,12 +62,12 @@ const Header: React.FC = () => {
             >
               Product Suite
             </Link>
-            <button
-              onClick={() => scrollToSection('case-studies')}
+            <Link
+              to="/case-studies"
               className="text-gray-600 hover:text-black hover:font-semibold transition-all text-sm font-medium"
             >
               Case Studies
-            </button>
+            </Link>
             <Link
               to="/contact"
               className="text-gray-600 hover:text-black hover:font-semibold transition-all text-sm font-medium"
@@ -134,12 +134,13 @@ const Header: React.FC = () => {
               >
                 Product Suite
               </Link>
-              <button
-                onClick={() => scrollToSection('case-studies')}
-                className="block w-full text-left px-4 py-3 text-gray-600 hover:text-black hover:bg-gray-50 transition-all font-medium"
+              <Link
+                to="/case-studies"
+                className="block px-4 py-3 text-gray-600 hover:text-black hover:bg-gray-50 transition-all font-medium"
+                onClick={closeMobileMenu}
               >
                 Case Studies
-              </button>
+              </Link>
               <Link
                 to="/contact"
                 className="block px-4 py-3 text-gray-600 hover:text-black hover:bg-gray-50 transition-all font-medium"

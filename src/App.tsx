@@ -10,6 +10,8 @@ import ProductSuitePage from './pages/ProductSuitePage';
 import BasketPage from './pages/BasketPage';
 import ProductDetailPage from './pages/ProductDetailPage';
 import ContactPage from './pages/ContactPage';
+import CaseStudiesPage from './pages/CaseStudiesPage';
+import CaseStudyDetailPage from './pages/CaseStudyDetailPage';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
             <Route path="/product/:productId" element={<ProductDetailPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/basket" element={<BasketPage />} />
+            <Route path="/case-studies" element={<CaseStudiesPage />} />
+            <Route path="/case-study/:caseStudyId" element={<CaseStudyDetailPage />} />
           </Routes>
           <Footer />
         </div>
