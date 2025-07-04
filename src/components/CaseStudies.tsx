@@ -40,15 +40,27 @@ interface CaseStudyCardProps {
 const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ caseStudy, index }) => {
   const { ref, isVisible } = useScrollAnimation();
 
+  // Map the case study IDs from mockData to the detailed case study IDs
+  const getCaseStudyDetailId = (caseStudyId: string) => {
+    const idMapping: { [key: string]: string } = {
+      '1': 'nike-global-expansion',
+      '2': 'ea-sports-engagement', 
+      '3': 'coca-cola-campaign'
+    };
+    return idMapping[caseStudyId] || 'nike-global-expansion';
+  };
+
+  const detailPageId = getCaseStudyDetailId(caseStudy.id);
+
   return (
     <div 
       ref={ref}
       className={`group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-lg transition-all duration-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
       style={{ transitionDelay: `${index * 100}ms` }}
     >
-      {/* Image - Now clickable */}
+      {/* Image - Now links to individual case study */}
       <div className="relative overflow-hidden">
-        <Link to="/case-studies" className="block">
+        <Link to={`/case-study/${detailPageId}`} className="block">
           <img
             src={caseStudy.image}
             alt={caseStudy.title}
@@ -67,7 +79,7 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ caseStudy, index }) => {
         </p>
         
         <Link 
-          to="/case-studies"
+          to={`/case-study/${detailPageId}`}
           className="group/btn flex items-center space-x-2 text-black hover:text-gray-600 font-medium transition-colors text-sm sm:text-base"
         >
           <span>Read story</span>
