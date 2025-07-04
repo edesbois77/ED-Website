@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { caseStudies } from '../data/mockData';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
@@ -45,13 +46,15 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ caseStudy, index }) => {
       className={`group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-lg transition-all duration-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
       style={{ transitionDelay: `${index * 100}ms` }}
     >
-      {/* Image */}
+      {/* Image - Now clickable */}
       <div className="relative overflow-hidden">
-        <img
-          src={caseStudy.image}
-          alt={caseStudy.title}
-          className="w-full h-40 sm:h-48 object-cover transition-transform duration-700 group-hover:scale-105"
-        />
+        <Link to="/case-studies" className="block">
+          <img
+            src={caseStudy.image}
+            alt={caseStudy.title}
+            className="w-full h-40 sm:h-48 object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+        </Link>
       </div>
 
       {/* Content */}
@@ -63,10 +66,13 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ caseStudy, index }) => {
           {caseStudy.description}
         </p>
         
-        <button className="group/btn flex items-center space-x-2 text-black hover:text-gray-600 font-medium transition-colors text-sm sm:text-base">
+        <Link 
+          to="/case-studies"
+          className="group/btn flex items-center space-x-2 text-black hover:text-gray-600 font-medium transition-colors text-sm sm:text-base"
+        >
           <span>Read story</span>
           <ArrowRight className="h-4 w-4 group-hover/btn:translate-x-0.5 transition-transform" />
-        </button>
+        </Link>
       </div>
     </div>
   );

@@ -90,14 +90,17 @@ const ProductSection: React.FC<ProductSectionProps> = ({ product, index, onAddTo
       style={{ transitionDelay: `${(index % 3) * 100}ms` }}
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-start">
-        {/* Product Image - Left Side */}
-        <div className="relative group overflow-hidden rounded-2xl order-first lg:order-first">
+        {/* Product Image - Left Side - Now clickable */}
+        <Link 
+          to={`/product/${product.id}`}
+          className="relative group overflow-hidden rounded-2xl order-first lg:order-first block"
+        >
           <img
             src={product.image}
             alt={product.title}
             className="w-full h-64 sm:h-80 lg:h-[400px] object-cover transition-transform duration-700 group-hover:scale-105"
           />
-        </div>
+        </Link>
 
         {/* Product Content - Right Side */}
         <div className="flex flex-col space-y-4 sm:space-y-6 order-last lg:order-last">

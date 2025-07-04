@@ -114,8 +114,8 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ caseStudy, index }) => {
       className={`group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
       style={{ transitionDelay: `${(index % 3) * 100}ms` }}
     >
-      {/* Hero Image */}
-      <div className="relative overflow-hidden">
+      {/* Hero Image - Now clickable */}
+      <Link to={`/case-study/${caseStudy.id}`} className="block relative overflow-hidden">
         <img
           src={caseStudy.visuals.hero}
           alt={caseStudy.title}
@@ -129,7 +129,7 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ caseStudy, index }) => {
             className="h-6 w-auto object-contain"
           />
         </div>
-      </div>
+      </Link>
 
       {/* Content */}
       <div className="p-4 sm:p-6">

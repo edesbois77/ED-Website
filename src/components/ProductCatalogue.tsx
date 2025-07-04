@@ -164,8 +164,11 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, isActive, isPreview,
           : 'shadow-md hover:shadow-lg'
       } ${isMobile ? 'max-w-sm mx-auto' : ''}`}
     >
-      {/* Image - Increased heights for better fit */}
-      <div className="relative overflow-hidden flex-shrink-0">
+      {/* Image - Increased heights for better fit - Now clickable */}
+      <Link 
+        to={`/product/${product.id}`}
+        className="relative overflow-hidden flex-shrink-0 block"
+      >
         <img
           src={product.image}
           alt={product.title}
@@ -173,7 +176,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, isActive, isPreview,
             isMobile ? 'h-56 sm:h-72' : 'h-96'
           }`}
         />
-      </div>
+      </Link>
 
       {/* Content */}
       <div className={`flex flex-col flex-grow ${isMobile ? 'p-4 sm:p-6' : 'p-6'}`}>
