@@ -5,7 +5,7 @@ export const products: Product[] = [
     id: 'connect-ed',
     name: 'Connect-ED™',
     title: '',
-    summary: 'TESTConnect-ED opens the door to senior decision-makers across media, sport and entertainment. Built over 25 years of trust, care and instinct, it’s not just who you know but how you connect with purpose and value.',
+    summary: 'Connect-ED opens the door to senior decision-makers across media, sport and entertainment. Built over 25 years of trust, care and instinct, it’s not just who you know but how you connect with purpose and value.',
     features: [
       '25 years building relationships across sport, media and entertainment.',
       'A black book spanning C-Level to executional leaders across disciplines.', 
