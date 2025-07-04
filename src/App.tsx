@@ -12,6 +12,7 @@ import ProductDetailPage from './pages/ProductDetailPage';
 import ContactPage from './pages/ContactPage';
 import CaseStudiesPage from './pages/CaseStudiesPage';
 import CaseStudyDetailPage from './pages/CaseStudyDetailPage';
+import ThankYouPage from './pages/ThankYouPage';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route path="/basket" element={<BasketPage />} />
             <Route path="/case-studies" element={<CaseStudiesPage />} />
             <Route path="/case-study/:caseStudyId" element={<CaseStudyDetailPage />} />
+            <Route path="/thank-you" element={<ThankYouPage />} />
           </Routes>
           <Footer />
         </div>

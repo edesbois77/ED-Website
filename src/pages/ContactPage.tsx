@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Send, Mail, Phone, MapPin, Clock, Users, Award } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const ContactPage: React.FC = () => {
+  const navigate = useNavigate();
   const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation();
   const { ref: formRef, isVisible: formVisible } = useScrollAnimation();
   const { ref: infoRef, isVisible: infoVisible } = useScrollAnimation();
@@ -19,10 +20,18 @@ const ContactPage: React.FC = () => {
     requestType: 'general'
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setIsSubmitting(true);
+    
+    // Simulate form submission delay
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    
     // Handle form submission
     console.log('Form submitted:', formData);
+    
     // Reset form
     setFormData({ 
       name: '', 
@@ -33,6 +42,11 @@ const ContactPage: React.FC = () => {
       message: '', 
       requestType: 'general' 
     });
+    
+    setIsSubmitting(false);
+    
+    // Navigate to thank you page
+    navigate('/thank-you');
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -231,10 +245,11 @@ const ContactPage: React.FC = () => {
 
                 <button
                   type="submit"
-                  className="group w-full bg-black hover:bg-gray-800 text-white px-8 py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2"
+                  disabled={isSubmitting}
+                  className="group w-full bg-black hover:bg-gray-800 text-white px-8 py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   <Send className="h-4 w-4" />
-                  <span>Send Message</span>
+                  <span>{isSubmitting ? 'Sending...' : 'Send Message'}</span>
                 </button>
               </form>
             </div>
