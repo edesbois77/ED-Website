@@ -13,14 +13,13 @@ const AboutPage: React.FC = () => {
 
   const handleDownloadCV = async () => {
   const cvPath = `${import.meta.env.BASE_URL}cv/Edward_Desbois_CV.pdf`;
+  console.log('Trying to download:', cvPath); // <-- Add this
   try {
-    // Check if file exists first
     const response = await fetch(cvPath, { method: 'HEAD' });
     if (!response.ok) {
       alert('Sorry, the CV file is currently unavailable.');
       return;
     }
-    // Proceed to download
     const link = document.createElement('a');
     link.href = cvPath;
     link.download = 'Edward_Desbois_CV.pdf';
