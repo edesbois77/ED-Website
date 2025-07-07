@@ -26,27 +26,49 @@ const ContactPage: React.FC = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission delay
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    
-    // Handle form submission
-    console.log('Form submitted:', formData);
-    
-    // Reset form
-    setFormData({ 
-      name: '', 
-      email: '', 
-      company: '', 
-      phone: '', 
-      subject: '', 
-      message: '', 
-      requestType: 'general' 
-    });
-    
-    setIsSubmitting(false);
-    
-    // Navigate to thank you page
-    navigate('/thank-you');
+    try {
+      const response = await fetch('https://formcarry.com/s/xljVi0wYcWi', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          company: formData.company,
+          phone: formData.phone,
+          subject: formData.subject,
+          message: formData.message,
+          requestType: formData.requestType,
+          _subject: `${formData.subject || 'Contact Form Submission'} - ${formData.name}`,
+          _source: 'ED Website - Contact Page'
+        })
+      });
+
+      if (response.ok) {
+        // Reset form
+        setFormData({ 
+          name: '', 
+          email: '', 
+          company: '', 
+          phone: '', 
+          subject: '', 
+          message: '', 
+          requestType: 'general' 
+        });
+        
+        // Navigate to thank you page
+        navigate('/thank-you');
+      } else {
+        throw new Error('Form submission failed');
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
+      alert('Sorry, there was an error sending your message. Please try again or contact us directly at hello@ed-solutions.com');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
