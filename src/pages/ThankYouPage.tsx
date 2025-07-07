@@ -14,8 +14,16 @@ const ThankYouPage: React.FC = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const handleDownloadCV = () => {
-    const cvPath = `${import.meta.env.BASE_URL}cv/Edward_Desbois_CV.pdf`;
+  const handleDownloadCV = async () => {
+  const cvPath = `${import.meta.env.BASE_URL}cv/Edward_Desbois_CV.pdf`;
+  try {
+    // Check if file exists first
+    const response = await fetch(cvPath, { method: 'HEAD' });
+    if (!response.ok) {
+      alert('Sorry, the CV file is currently unavailable.');
+      return;
+    }
+    // Proceed to download
     const link = document.createElement('a');
     link.href = cvPath;
     link.download = 'Edward_Desbois_CV.pdf';

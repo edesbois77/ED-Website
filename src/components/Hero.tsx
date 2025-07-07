@@ -6,11 +6,16 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 const Hero: React.FC = () => {
   const { ref, isVisible } = useScrollAnimation();
 
-  const handleDownloadCV = () => {
-    // Check if CV file exists before attempting to download
-    const cvPath = `${import.meta.env.BASE_URL}cv/Edward_Desbois_CV.pdf`;
-    
-    // Create a link element and trigger download
+  const handleDownloadCV = async () => {
+  const cvPath = `${import.meta.env.BASE_URL}cv/Edward_Desbois_CV.pdf`;
+  try {
+    // Check if file exists first
+    const response = await fetch(cvPath, { method: 'HEAD' });
+    if (!response.ok) {
+      alert('Sorry, the CV file is currently unavailable.');
+      return;
+    }
+    // Proceed to download
     const link = document.createElement('a');
     link.href = cvPath;
     link.download = 'Edward_Desbois_CV.pdf';
