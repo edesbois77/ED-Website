@@ -17,7 +17,7 @@ import ThankYouPage from './pages/ThankYouPage';
 function App() {
   return (
     <BasketProvider>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL || "/"}>
         <ScrollToTop />
         <div className="min-h-screen bg-white">
           <Header />
