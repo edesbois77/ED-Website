@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
 
   const handleDownloadCV = () => {
     // Check if CV file exists before attempting to download
-    const cvPath = '/cv/Edward_Desbois_CV.pdf';
+    const cvPath = `${import.meta.env.BASE_URL}cv/Edward_Desbois_CV.pdf`;
     
     // Create a link element and trigger download
     const link = document.createElement('a');

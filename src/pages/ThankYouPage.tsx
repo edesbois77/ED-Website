@@ -15,7 +15,7 @@ const ThankYouPage: React.FC = () => {
   }, []);
 
   const handleDownloadCV = () => {
-    const cvPath = '/cv/Edward_Desbois_CV.pdf';
+    const cvPath = `${import.meta.env.BASE_URL}cv/Edward_Desbois_CV.pdf`;
     const link = document.createElement('a');
     link.href = cvPath;
     link.download = 'Edward_Desbois_CV.pdf';
