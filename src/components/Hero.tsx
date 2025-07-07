@@ -45,8 +45,7 @@ const Hero: React.FC = () => {
 
           <div className="text-base sm:text-lg md:text-xl text-black mb-8 sm:mb-12 max-w-xl font-light leading-relaxed space-y-3 sm:space-y-4">
             <p>This site is a creative take on my CV, turning 25 years of leadership, strategy and delivery into a suite of products that you can acquire at a click of a button.</p>
-            <p>While the company might not be real, the experience behind it very much is. Simply review <span className="font-bold">ED's</span> products, add them to basket and benefit immediately. <a href="/ED-Website/cv/Edward_Desbois_CV.pdf" download>
-      Direct Anchor Download Test</a></p>
+            <p>While the company might not be real, the experience behind it very much is. Simply review <span className="font-bold">ED's</span> products, add them to basket and benefit immediately. <a href="/ED-Website/cv/Edward_Desbois_CV.pdf" download>Direct Anchor Download Test</a></p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 max-w-md group/buttons">
