@@ -27,13 +27,10 @@ const AboutPage: React.FC = () => {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-    
-    // Optional: Add error handling
-    link.onerror = () => {
-      console.error('CV file not found');
-      alert('Sorry, the CV file is currently unavailable.');
-    };
-  };
+  } catch (error) {
+    alert('Sorry, something went wrong. Please try again later.');
+  }
+};
 
   return (
     <div className="min-h-screen bg-white py-8 sm:py-12 md:py-16">

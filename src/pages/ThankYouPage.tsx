@@ -30,7 +30,10 @@ const ThankYouPage: React.FC = () => {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-  };
+  } catch (error) {
+    alert('Sorry, something went wrong. Please try again later.');
+  }
+};
 
   return (
     <div className="min-h-screen bg-white py-8 sm:py-12 md:py-16">

@@ -22,13 +22,10 @@ const Hero: React.FC = () => {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-    
-    // Optional: Add error handling
-    link.onerror = () => {
-      console.error('CV file not found');
-      alert('Sorry, the CV file is currently unavailable.');
-    };
-  };
+  } catch (error) {
+    alert('Sorry, something went wrong. Please try again later.');
+  }
+};
 
   return (
     <section 
