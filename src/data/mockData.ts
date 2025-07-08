@@ -17,11 +17,11 @@ export const products: Product[] = [
     id: 'creat-ed',
     name: 'Creat-ED™',
     title: '',
-    summary: 'Integrates an entrepreneurial mindset that thinks beyond the brief, blending innovation, product evolution, customer satisfaction and partner success to spark meaningful change. It’s not just what you create, it’s how you think.',
+    summary: 'Integrates an entrepreneurial mindset that thinks beyond the brief, blending innovation, product evolution, customer satisfaction and partner success to spark meaningful change.',
     features: [
-      'Ideas built for brand impact, audience fit and commercial return.',
-      'Challenges convention with fresh, instinct-led thinking.',
-      'Surrounds itself with curious, creative, high-performing talent.'
+      'Deliver campaign and product ideas that drive real commercial outcomes.',
+      'Reframe challenges with bold thinking built to unlock new opportunity.',
+      'Access a creative approach that scales across brand, content and partnerships.'
     ],
     image: 'https://i.imgur.com/BD3oITq.jpeg'
   },
