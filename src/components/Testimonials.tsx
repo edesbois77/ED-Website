@@ -66,7 +66,7 @@ const Testimonials: React.FC = () => {
           className={`text-center mb-8 sm:mb-12 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
         >
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-4 sm:mb-6 tracking-tight">
-            What Our Clients Say
+            What ED's Clients Say
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto font-light mb-6 sm:mb-8">
             Trusted by industry leaders worldwide.
