@@ -194,7 +194,7 @@ const AboutPage: React.FC = () => {
                 $300M+
               </div>
               <p className="text-sm sm:text-base text-gray-600 font-light leading-relaxed">
-                Total revenue generated across multiple organisations and markets.
+                Total revenue generated across multiple organisation.
               </p>
             </div>
 
