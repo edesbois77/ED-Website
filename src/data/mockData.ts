@@ -5,11 +5,11 @@ export const products: Product[] = [
     id: 'connect-ed',
     name: 'Connect-ED™',
     title: '',
-    summary: 'Connect-ED opens the door to senior decision-makers across media, sport and entertainment. Built over 25 years of trust, care and instinct, it’s not just who you know but how you connect with purpose and value.',
+    summary: 'Open the door to key decision-makers across media, sport and entertainment. A black book constructed over the past 25 years. It’s not just who you know, it’s how you make it matter.',
     features: [
-      '25 years building relationships across sport, media and entertainment.',
-      'A black book spanning C-Level to executional leaders across disciplines.', 
-      'Proven strategies for warm outreach, cold access and lasting traction.'
+      'Immediate access to a high-trust network across sport, media, and tech.',
+      'Senior-level introductions that unlock partnerships and accelerate growth.', 
+      'Proven outreach strategies that land meetings and open new markets.'
     ],
     image: 'https://i.imgur.com/o0tjSV8.jpeg'
   },
