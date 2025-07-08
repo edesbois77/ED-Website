@@ -157,7 +157,7 @@ const AboutPage: React.FC = () => {
               <div className="space-y-2 sm:space-y-3">
                 {[
                   'Global Leadership: High-performing international teams',
-                  'Proven Revenue Generator: $294M generated',
+                  'Proven Revenue Generator: Hundreds of millions of dollars generated',
                   'Planning & Budgeting: P&Ls, hiring and growth strategy',
                   'Entrepreneurial Mindset: Building new ideas and solutions',
                   'Strategic Storytelling: Turning challenges into clear narratives',
