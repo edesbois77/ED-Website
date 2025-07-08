@@ -32,8 +32,8 @@ const Hero: React.FC = () => {
       className="relative hero-background-grey"
     >
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 h-full">
-        {/* Text Content - Centered */}
-        <div className={`flex flex-col justify-center items-center text-center h-full py-4 sm:py-6 lg:py-8 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+        {/* Text Content - Top aligned */}
+        <div className={`flex flex-col justify-start items-center text-center h-full pt-8 sm:pt-12 lg:pt-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-4 sm:mb-6 tracking-tight">
             Welcome to <span className="font-bold">ED</span>
           </h1>
