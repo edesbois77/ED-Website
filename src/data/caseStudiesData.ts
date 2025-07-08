@@ -31,7 +31,7 @@ export interface DetailedCaseStudy {
 export const detailedCaseStudies: DetailedCaseStudy[] = [
   {
     id: 'visit-britain',
-    title: 'Global Tourism Campaign Revolution',
+    title: 'From Obscurity to Opportunity',
     client: 'Visit Britain',
     logo: 'https://i.imgur.com/2P20M61.png',
     headlineResult: '£26M incremental bookings generated',
