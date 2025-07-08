@@ -341,7 +341,7 @@ const AboutPage: React.FC = () => {
             
             <div className="max-w-4xl mx-auto space-y-4 sm:space-y-6 mb-8 sm:mb-12">
               <p className="text-base sm:text-lg text-gray-700 leading-relaxed font-light">
-                Choose the modules that align with your immediate needs. Deploy proven systems that have already delivered results across multiple industries and markets. Scale your impact with experience that's been tested, refined and packaged for immediate implementation.
+                Choose the products that align with your immediate needs. Deploy proven systems that have already delivered results across multiple industries and markets. Scale your impact with experience that's been tested, refined and packaged for immediate implementation.
               </p>
               
               <p className="text-base sm:text-lg text-gray-700 leading-relaxed font-light">
