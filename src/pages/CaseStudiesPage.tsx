@@ -35,35 +35,6 @@ const CaseStudiesPage: React.FC = () => {
           </p>
         </div>
 
-        {/* Introduction */}
-        <div 
-          ref={introRef}
-          className={`mb-12 sm:mb-16 md:mb-20 transition-all duration-1000 delay-200 ${introVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
-        >
-          <div className="bg-gray-50 rounded-2xl p-6 sm:p-8 md:p-12">
-            <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-2xl sm:text-3xl font-bold text-black mb-6 sm:mb-8 tracking-tight">
-                Strategic Problem Solving in Action
-              </h2>
-              <div className="space-y-4 sm:space-y-6 text-base sm:text-lg text-gray-700 leading-relaxed font-light">
-                <p>
-                  Explore real-world examples of how modular, strategic leadership delivers measurable business results. 
-                  Each case highlights a different aspect of my 25 years leading high-impact teams and projects for global brands.
-                </p>
-                <p>
-                  From digital transformation to community building, revenue generation to customer experience innovation—these 
-                  case studies demonstrate the practical application of <span className="font-bold">ED's</span> service modules 
-                  in complex, high-stakes environments.
-                </p>
-                <p>
-                  Every project showcases the same approach: understand the challenge, develop a clear strategy, execute with 
-                  precision, and deliver results that exceed expectations.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Case Studies Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {detailedCaseStudies.map((caseStudy, index) => (
