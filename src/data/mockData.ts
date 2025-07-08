@@ -29,11 +29,11 @@ export const products: Product[] = [
     id: 'direct-ed',
     name: 'Direct-ED™',
     title: '',
-    summary: 'Direct-ED strengthens leadership at every level, from boardroom clarity to team chemistry, with passion at its core. It unlocks trust, sharpens culture, and drives performance, even in high-stakes environments.',
+    summary: 'Strengthens leadership at every level, from boardroom clarity to team chemistry, with passion at its core. It unlocks trust, sharpens culture and drives performance, even in high-stakes environments.',
     features: [
-      '20+ years leading global teams with empathy, clarity, and conviction.',
-      'Builds winning cultures through smart hiring and authentic mentorship.',
-      'Leads by example, creating trust, momentum, and lasting impact.'
+      'Strengthen leadership with proven global team-building experience.',
+      'Create high-performing cultures through smart hiring and mentoring.',
+      'Unlock trust, momentum, and clarity in complex team environments.'
     ],
     image: 'https://i.imgur.com/wIOEsH7.jpeg'
   },
