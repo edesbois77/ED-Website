@@ -48,7 +48,7 @@ const ProductCatalogue: React.FC = () => {
             <div className="absolute top-1/2 left-2 transform -translate-y-1/2 z-10">
               <button
                 onClick={prevProduct}
-                className="group bg-white/90 hover:bg-white border border-gray-200 hover:border-gray-300 rounded-lg p-3 shadow-md transition-all hover:shadow-lg disabled:opacity-30 disabled:cursor-not-allowed backdrop-blur-sm"
+                className="group bg-white/60 hover:bg-white/80 border border-gray-200/50 hover:border-gray-300 rounded-lg p-3 shadow-md transition-all hover:shadow-lg disabled:opacity-20 disabled:cursor-not-allowed backdrop-blur-sm"
                 disabled={currentIndex === 0}
               >
                 <ChevronLeft className="h-6 w-6 text-gray-600 group-hover:text-black transition-colors" />
@@ -58,7 +58,7 @@ const ProductCatalogue: React.FC = () => {
             <div className="absolute top-1/2 right-2 transform -translate-y-1/2 z-10">
               <button
                 onClick={nextProduct}
-                className="group bg-white/90 hover:bg-white border border-gray-200 hover:border-gray-300 rounded-lg p-3 shadow-md transition-all hover:shadow-lg disabled:opacity-30 disabled:cursor-not-allowed backdrop-blur-sm"
+                className="group bg-white/60 hover:bg-white/80 border border-gray-200/50 hover:border-gray-300 rounded-lg p-3 shadow-md transition-all hover:shadow-lg disabled:opacity-20 disabled:cursor-not-allowed backdrop-blur-sm"
                 disabled={currentIndex === products.length - 1}
               >
                 <ChevronRight className="h-6 w-6 text-gray-600 group-hover:text-black transition-colors" />

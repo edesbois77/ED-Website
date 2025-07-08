@@ -81,8 +81,8 @@ const Testimonials: React.FC = () => {
               <button
                 onClick={scrollLeft}
                 disabled={!canScrollLeft}
-                className={`group bg-white/90 hover:bg-white border border-gray-200 hover:border-gray-300 rounded-lg p-3 shadow-md transition-all hover:shadow-lg backdrop-blur-sm ${
-                  !canScrollLeft ? 'opacity-30 cursor-not-allowed' : ''
+                className={`group bg-white/60 hover:bg-white/80 border border-gray-200/50 hover:border-gray-300 rounded-lg p-3 shadow-md transition-all hover:shadow-lg backdrop-blur-sm ${
+                  !canScrollLeft ? 'opacity-20 cursor-not-allowed' : ''
                 }`}
               >
                 <ChevronLeft className="h-6 w-6 text-gray-600 group-hover:text-black transition-colors" />
@@ -93,8 +93,8 @@ const Testimonials: React.FC = () => {
               <button
                 onClick={scrollRight}
                 disabled={!canScrollRight}
-                className={`group bg-white/90 hover:bg-white border border-gray-200 hover:border-gray-300 rounded-lg p-3 shadow-md transition-all hover:shadow-lg backdrop-blur-sm ${
-                  !canScrollRight ? 'opacity-30 cursor-not-allowed' : ''
+                className={`group bg-white/60 hover:bg-white/80 border border-gray-200/50 hover:border-gray-300 rounded-lg p-3 shadow-md transition-all hover:shadow-lg backdrop-blur-sm ${
+                  !canScrollRight ? 'opacity-20 cursor-not-allowed' : ''
                 }`}
               >
                 <ChevronRight className="h-6 w-6 text-gray-600 group-hover:text-black transition-colors" />
