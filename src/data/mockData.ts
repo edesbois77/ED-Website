@@ -53,7 +53,7 @@ export const products: Product[] = [
     id: 'strategis-ed',
     name: 'Strategis-ED™',
     title: '',
-    summary: 'Strategis-ED takes a step back, finds what matters and charts a path forward. Clear, inclusive and grounded in reality. It’s strategy made simple, actionable and built to stick.',
+    summary: 'No more gut feel. No more hitting and hoping. Strategis-ED helps your business pause, refocus and plot a clear, actionable path forward, built on insight, alignment and commercial reality.',
     features: [
       'Evaluates existing processes with insight, instinct and feedback.',
       'Shapes clear, effective strategies that teams understand and support.',
