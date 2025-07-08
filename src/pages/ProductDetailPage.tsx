@@ -321,9 +321,11 @@ This isn't leadership by textbook. It's shaped by doing, hiring the right people
       },
       'deliver-ed': {
         subtitle: 'Results. Repeated. Respected.',
-        overview: `<p class="mb-4 sm:mb-6">Deliver-<span class="font-bold">ED</span> is built for follow-through, the kind that turns targets into milestones and clients into advocates. From launching new markets to leading multinational teams, this module reflects a track record of not just hitting expectations, but raising them.</p>
+        overview: `<p class="mb-4 sm:mb-6">Deliver-<span class="font-bold">ED</span> is the product that turns ambition into achievement. Built on a career of leading teams, launching markets and exceeding targets, it reflects a proven ability to deliver value at scale, across functions, regions and industries.</p>
 
-<p class="mb-4 sm:mb-6">Whether driving revenue, retaining key accounts, or scaling success across regions, Deliver-<span class="font-bold">ED</span> is about what happens after the pitch: doing the work, delivering the value and outperforming the brief. It’s consistent. It's proven. And it’s trusted at every level, from frontline clients to the boardroom.</p>`,
+<p class="mb-4 sm:mb-6">From structuring high-performing teams to executing strategies that drive multimillion-dollar growth, Deliver-<span class="font-bold">ED</span> brings consistency, clarity and a results-first mindset to every challenge. It’s not about promises, it’s about outcomes.</p>
+
+<p class="mb-4 sm:mb-6">Trusted from the frontline to the boardroom, this is delivery you can rely on.</p>`,
         keyBenefits: [
           'Delivers consistent revenue growth across markets and verticals',
           'Repeatedly exceeds targets and performance expectations',
