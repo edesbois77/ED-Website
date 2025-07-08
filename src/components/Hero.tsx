@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 max-w-2xl group/buttons">
             <Link
               to="/about"
-              className="bg-black hover:bg-black text-white hover:text-white border border-black px-4 sm:px-6 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base whitespace-nowrap"
+              className="bg-black hover:bg-black text-white hover:text-white border border-black px-4 sm:px-6 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base whitespace-nowrap group-hover/buttons:bg-transparent group-hover/buttons:text-black"
             >
               <span>Find Out More</span>
               <ArrowRight className="h-4 w-4 transition-transform" />
@@ -56,14 +56,14 @@ const Hero: React.FC = () => {
 
             <Link
               to="/products"
-              className="bg-transparent hover:bg-black text-black hover:text-white border border-black px-4 sm:px-6 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base whitespace-nowrap"
+              className="bg-transparent hover:bg-black text-black hover:text-white border border-black px-4 sm:px-6 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base whitespace-nowrap group/product"
             >
               <span>Product Suite</span>
             </Link>
 
             <button
               onClick={handleDownloadCV}
-              className="bg-transparent hover:bg-black text-black hover:text-white border border-black px-4 sm:px-6 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base whitespace-nowrap"
+              className="bg-transparent hover:bg-black text-black hover:text-white border border-black px-4 sm:px-6 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base whitespace-nowrap group/download"
             >
               <Download className="h-4 w-4" />
               <span>Download CV</span>
