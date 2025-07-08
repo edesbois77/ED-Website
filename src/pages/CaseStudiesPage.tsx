@@ -31,7 +31,7 @@ const CaseStudiesPage: React.FC = () => {
             Case Studies
           </h1>
           <p className="text-base sm:text-lg text-gray-600 font-light max-w-3xl">
-            Real-world examples of strategic leadership delivering measurable business results
+            Real-world examples of how companies have benefitted from utilising ED.
           </p>
         </div>
 
@@ -48,8 +48,7 @@ const CaseStudiesPage: React.FC = () => {
             Ready to Create Your Own Success Story?
           </h2>
           <p className="text-lg sm:text-xl text-white/80 mb-6 sm:mb-8 font-light max-w-2xl mx-auto">
-            These results aren't accidents—they're the outcome of proven strategies, experienced leadership, 
-            and relentless focus on delivery.
+            These results aren't accidents, they're the outcome of proven strategies, experienced leadership and relentless focus on delivery.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <Link
