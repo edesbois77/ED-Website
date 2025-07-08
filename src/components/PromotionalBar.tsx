@@ -18,18 +18,18 @@ const PromotionalBar: React.FC = () => {
   };
 
   return (
-    <div className="bg-[#0dea2c] border-b border-gray-200 overflow-hidden">
+    <div className="bg-black border-b border-gray-800 overflow-hidden">
       <div className="relative">
         {/* Scrolling content */}
         <div className="animate-scroll flex whitespace-nowrap py-3">
           {/* Repeat the message multiple times for continuous scroll */}
           {Array.from({ length: 10 }).map((_, index) => (
             <div key={index} className="flex items-center space-x-8 px-8">
-              <span className="text-black font-medium text-sm sm:text-base">
+              <span className="text-white font-medium text-sm sm:text-base">
                 Purchase all 8 products and acquire the services of ED today
                 <button
                   onClick={handlePurchaseAll}
-                  className="ml-2 bg-black text-white px-3 py-1 rounded-md text-xs font-medium hover:bg-gray-800 transition-all"
+                  className="ml-2 bg-white text-black px-3 py-1 rounded-md text-xs font-medium hover:bg-gray-100 transition-all"
                 >
                   Buy Now
                 </button>
