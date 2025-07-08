@@ -212,7 +212,7 @@ const AboutPage: React.FC = () => {
                 176%
               </div>
               <p className="text-sm sm:text-base text-gray-600 font-light leading-relaxed">
-                Revenue growth over the past 5 years. Taking annual revenues from $17M to $47M.
+                Revenue growth over the past 5 years.
               </p>
             </div>
 
