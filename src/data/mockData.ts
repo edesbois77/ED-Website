@@ -65,11 +65,11 @@ export const products: Product[] = [
     id: 'analys-ed',
     name: 'Analys-ED™',
     title: '',
-    summary: 'Analyz-ED turns listening into action. From customer surveys to real-time performance data, it helps shape smarter strategy, sharper creative and better outcomes, driven by insight, not assumption.',
+    summary: 'Stop guessing and start listening. Analys-ED turns real data into smart, actionable decisions, helping you evolve products, unlock commercial value and deliver better experiences for the people who matter most.',
     features: [
-      'Gathers insight through surveys, behaviours and performance signals.',
-      'Decodes what matters from fans, customers and the market.',
-      'Translates data into clear direction and meaningful outcomes.'
+      'Capture insight that reveals what your audience really wants.',
+      'Identify actionable opportunities from data others overlook.',
+      'Turn intelligence into strategy, product evolution and revenue growth.'
     ],
     image: 'https://i.imgur.com/OPzOkQd.jpeg'
   },
