@@ -202,7 +202,7 @@ const Contact: React.FC = () => {
                   <div>
                     <h4 className="text-black font-medium mb-1 text-sm sm:text-base">Office</h4>
                     <p className="text-gray-600 font-light text-sm sm:text-base">
-                      1 Ed Towers<br />
+                      1 Ed Estate<br />
                       London, United Kingom, LN5 9DN
                     </p>
                   </div>
