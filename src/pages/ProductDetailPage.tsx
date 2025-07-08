@@ -88,11 +88,11 @@ const ProductDetailPage: React.FC = () => {
       },
       'creat-ed': {
         subtitle: 'Inventive thinking. Commercial instinct. Real outcomes.',
-        overview: `<p class="mb-4 sm:mb-6">Creat-<span class="font-bold">ED</span> is built for briefs that demand more originality, more edge, more relevance. It’s not just creative for creative’s sake. It’s creativity shaped by data, driven by instinct and designed to deliver for brands, sponsors and audiences alike.</p>
+        overview: `<p class="mb-4 sm:mb-6">Creat-<span class="font-bold">ED</span> is the product that transforms thinking into commercially powerful ideas. Designed for brands, agencies and rights holders who want more than recycled solutions, it fuses creativity with entrepreneurial instinct, delivering fresh thinking, new approaches and original ways of unlocking value.</p>
 
-<p class="mb-4 sm:mb-6">Whether building campaigns, products, or partnership platforms, Creat-<span class="font-bold">ED</span> brings a challenger mindset to every idea. It questions assumptions, reframes the brief and pushes past "what’s always been done" because better is almost always possible. It’s also about people: hiring, nurturing and surrounding yourself with the kind of talent that raises the creative bar.</p>
+<p class="mb-4 sm:mb-6">Every idea is built with purpose, shaped by insight, and stress-tested for real-world impact. From rethinking the status quo to inventing smarter ways forward, Creat-<span class="font-bold">ED</span> challenges assumptions and brings bold, business-savvy creativity to the table.</p>
 
-<p>This website is just one example of that mindset in action.</p>`,
+<p>This isn’t just creativity, it’s creative leadership that delivers.</p>`,
         keyBenefits: [
           'Creative ideas shaped by data, insight and the need for commercial outcomes',
           'Strategic thinking that challenges the expected and inspires change',
