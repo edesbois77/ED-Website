@@ -32,8 +32,8 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
   {
     id: 'visit-britain',
     title: 'From Obscurity to Opportunity',
-    client: 'Visit Britain',
-    logo: 'https://i.imgur.com/2P20M61.png',
+    client: 'OneFootball',
+    logo: 'https://i.imgur.com/o8kSoHs.png',
     headlineResult: '£26M incremental bookings generated',
     summary: 'Repositioned Britain as a must-visit destination for millennial travelers through data-driven content strategy.',
     challenge: 'Visit Britain needed to increase inbound tourism by repositioning Britain as a must-visit destination for millennial travelers in key international markets. Traditional tourism marketing wasn\'t resonating with younger demographics who valued authentic experiences over conventional attractions.',
