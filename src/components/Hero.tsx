@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 max-w-2xl group/buttons">
             <Link
               to="/about"
-              className="group/findout bg-black hover:bg-black text-white hover:text-white border border-black hover:border-black px-4 sm:px-6 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base group-hover/buttons:bg-black group-hover/buttons:text-white whitespace-nowrap"
+              className="group/findout bg-black hover:bg-black text-white hover:text-white border border-black hover:border-black px-4 sm:px-6 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base group-hover/buttons:bg-transparent group-hover/buttons:text-black group-hover/buttons:border-black group-hover/findout:bg-black group-hover/findout:text-white whitespace-nowrap"
             >
               <span>Find Out More</span>
               <ArrowRight className="h-4 w-4 group-hover/findout:translate-x-0.5 transition-transform" />
@@ -56,14 +56,14 @@ const Hero: React.FC = () => {
 
             <Link
               to="/products"
-              className="group/products bg-transparent hover:bg-black text-black hover:text-white border border-black hover:border-black px-4 sm:px-6 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base group-hover/buttons:bg-black group-hover/buttons:text-white whitespace-nowrap"
+              className="group/products bg-transparent hover:bg-black text-black hover:text-white border border-black hover:border-black px-4 sm:px-6 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base group-hover/buttons:bg-transparent group-hover/buttons:text-black group-hover/buttons:border-black group-hover/products:bg-black group-hover/products:text-white whitespace-nowrap"
             >
               <span>Product Suite</span>
             </Link>
 
             <button
               onClick={handleDownloadCV}
-              className="group/download bg-transparent hover:bg-black text-black hover:text-white border border-black hover:border-black px-4 sm:px-6 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base group-hover/buttons:bg-black group-hover/buttons:text-white whitespace-nowrap"
+              className="group/download bg-transparent hover:bg-black text-black hover:text-white border border-black hover:border-black px-4 sm:px-6 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base group-hover/buttons:bg-transparent group-hover/buttons:text-black group-hover/buttons:border-black group-hover/download:bg-black group-hover/download:text-white whitespace-nowrap"
             >
               <Download className="h-4 w-4" />
               <span>Download CV</span>
