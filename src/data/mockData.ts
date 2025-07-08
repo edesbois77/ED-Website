@@ -57,7 +57,7 @@ export const products: Product[] = [
     features: [
       'Identify what’s working, what’s not, and where to focus for maximum impact.',
       'Build clear, actionable strategies your teams believe in and execute on.',
-      'Move from planning to performance with aligned, purpose-led executio.n'
+      'Move from planning to performance with aligned, purpose-led executio.'
     ],
     image: 'https://i.imgur.com/P22fPMh.jpeg'
   },
