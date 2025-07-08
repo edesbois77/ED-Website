@@ -368,11 +368,11 @@ This isn't leadership by textbook. It's shaped by doing, hiring the right people
       },
       'communicat-ed': {
         subtitle: 'Clear. Considered. Commercial.',
-        overview: `<p class="mb-4 sm:mb-6">Communicat-<span class="font-bold">ED</span> is built on the belief that great communication drives great companies. Whether it’s aligning a team, inspiring a room, or winning a pitch, this module ensures the message lands with clarity, relevance and intent.</p>
+        overview: `<p class="mb-4 sm:mb-6">Communicat-<span class="font-bold">ED</span> ensures the right message hits the right people in the right way. From aligning executive teams to inspiring company-wide belief, it brings clarity, consistency and confidence to every level of communication.</p>
 
-<p class="mb-4 sm:mb-6">From boardroom conversations to all-hands updates, Communicat-<span class="font-bold">ED</span> adapts to the audience, the moment and the mission. It’s not just about saying the right thing, it’s about building trust, driving alignment and delivering impact through the way you speak, write and show up.</p>
+<p class="mb-4 sm:mb-6">Built on years of boardroom experience, stakeholder engagement and cross-functional leadership, this product sharpens messaging, earns trust and drives strategic alignment, inside and out.</p>
 
-<p>Honest, thoughtful and always audience-aware, this is communication that makes a difference.</p>`,
+<p>Clear thinking. Confident delivery. Communication that moves business forward.</p>`,
         keyBenefits: [
           'Crafts clear, honest messaging that builds trust and alignment',
           'Adapts tone and delivery across C-Level, team and client audiences',
