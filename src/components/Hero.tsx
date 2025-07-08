@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
             This site is a creative twist on my CV.
           </p>
 
-          <div className="text-base sm:text-lg md:text-xl text-black mb-8 sm:mb-12 max-w-4xl font-light leading-relaxed space-y-3 sm:space-y-4">
+          <div className="text-base sm:text-lg md:text-xl text-black mb-8 sm:mb-12 max-w-3xl font-light leading-relaxed space-y-3 sm:space-y-4">
             <p>Each <span className="font-bold">ED</span> product represents a skill I specialise in, packaged as a service you can acquire simply by 'adding it to basket' and getting in touch.</p>
             <p>Inside, you'll find product overviews, testimonials, case studies and a breakdown of what <span className="font-bold">ED</span> is all about.</p>
           </div>
