@@ -55,9 +55,9 @@ export const products: Product[] = [
     title: '',
     summary: 'No more gut feel. No more hitting and hoping. Strategis-ED helps your business pause, refocus and plot a clear, actionable path forward, built on insight, alignment and commercial reality.',
     features: [
-      'Identify what’s working, what’s not, and where to focus for maximum impact',
-      'Build clear, actionable strategies your teams believe in and execute on',
-      'Move from planning to performance with aligned, purpose-led execution'
+      'Identify what’s working, what’s not, and where to focus for maximum impact.',
+      'Build clear, actionable strategies your teams believe in and execute on.',
+      'Move from planning to performance with aligned, purpose-led executio.n'
     ],
     image: 'https://i.imgur.com/P22fPMh.jpeg'
   },
