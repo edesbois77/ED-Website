@@ -143,11 +143,11 @@ const AboutPage: React.FC = () => {
               </h2>
               
               <p className="text-base sm:text-lg text-gray-700 leading-relaxed font-light">
-                <span className="font-bold">ED</span> isn't a traditional CV and it's not traditional consulting either. Each module in the suite is built from years of real-world experience, distilled into practical tools you can apply immediately. No fluff. No theory. Just proven approaches to growth, leadership, and commercial performance.
+                <span className="font-bold">ED</span> isn't a traditional CV and it's not traditional consulting either. Each product in the suite is built from years of real-world experience, distilled into practical tools you can apply immediately. No fluff. No theory. Just proven approaches to growth, leadership, and commercial performance.
               </p>
               
               <p className="text-base sm:text-lg text-gray-700 leading-relaxed font-light">
-                Whether you're launching a new product, entering a new market, or transforming a team, <span className="font-bold">ED's</span> modular design means you can start where the pressure is highest and scale from there. It's capability on demand, built for speed, clarity and tangible results.
+                Whether you're launching a new product, entering a new market, or transforming a team, <span className="font-bold">ED's</span> product design means you can start where the pressure is highest and scale from there. It's capability on demand, built for speed, clarity and tangible results.
               </p>
             </div>
 
@@ -323,7 +323,7 @@ const AboutPage: React.FC = () => {
                 />
               </div>
               <p className="text-xs sm:text-sm text-gray-600 font-light leading-relaxed">
-                Modular insights delivered through thought-led audio built for leaders on the move.
+                Product insights delivered through thought-led audio built for leaders on the move.
               </p>
             </div>
           </div>
