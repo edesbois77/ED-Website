@@ -15,23 +15,23 @@ html {
 /* Hero background images - responsive */
 .hero-background-grey {
   height: 100vh;
-  min-height: 500px;
-  max-height: 900px;
+  min-height: 400px;
+  max-height: 700px;
   background-color: #e3e2dd;
 }
 
 /* Responsive height adjustments */
 @media (max-height: 600px) {
   .hero-background-grey {
-    height: 90vh;
-    min-height: 450px;
+    height: 85vh;
+    min-height: 350px;
   }
 }
 
 @media (min-height: 900px) {
   .hero-background-grey {
-    height: 80vh;
-    max-height: 800px;
+    height: 70vh;
+    max-height: 600px;
   }
 }
 
