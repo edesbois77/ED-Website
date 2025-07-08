@@ -44,8 +44,8 @@ const ProductCatalogue: React.FC = () => {
         {/* Mobile: Single Product View */}
         <div className="block lg:hidden">
           <div className="relative">
-            {/* Mobile Navigation Arrows - Positioned within content */}
-            <div className="absolute top-1/2 left-2 transform -translate-y-1/2 z-10">
+            {/* Mobile Navigation Arrows - Positioned on product image */}
+            <div className="absolute top-32 left-2 transform -translate-y-1/2 z-10">
               <button
                 onClick={prevProduct}
                 className="group bg-white/60 hover:bg-white/80 border border-gray-200/50 hover:border-gray-300 rounded-lg p-3 shadow-md transition-all hover:shadow-lg disabled:opacity-20 disabled:cursor-not-allowed backdrop-blur-sm"
@@ -55,7 +55,7 @@ const ProductCatalogue: React.FC = () => {
               </button>
             </div>
 
-            <div className="absolute top-1/2 right-2 transform -translate-y-1/2 z-10">
+            <div className="absolute top-32 right-2 transform -translate-y-1/2 z-10">
               <button
                 onClick={nextProduct}
                 className="group bg-white/60 hover:bg-white/80 border border-gray-200/50 hover:border-gray-300 rounded-lg p-3 shadow-md transition-all hover:shadow-lg disabled:opacity-20 disabled:cursor-not-allowed backdrop-blur-sm"

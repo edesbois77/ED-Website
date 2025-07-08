@@ -76,8 +76,8 @@ const Testimonials: React.FC = () => {
         {/* Mobile: Single Card View */}
         <div className="block md:hidden">
           <div className="relative">
-            {/* Mobile Navigation Arrows - Positioned within content */}
-            <div className="absolute top-1/2 left-2 transform -translate-y-1/2 z-10">
+            {/* Mobile Navigation Arrows - Positioned between text and author */}
+            <div className="absolute bottom-20 left-2 z-10">
               <button
                 onClick={scrollLeft}
                 disabled={!canScrollLeft}
@@ -89,7 +89,7 @@ const Testimonials: React.FC = () => {
               </button>
             </div>
 
-            <div className="absolute top-1/2 right-2 transform -translate-y-1/2 z-10">
+            <div className="absolute bottom-20 right-2 z-10">
               <button
                 onClick={scrollRight}
                 disabled={!canScrollRight}
@@ -115,7 +115,7 @@ const Testimonials: React.FC = () => {
         <div className="hidden md:block">
           <div className="relative">
             {/* Navigation Arrows - Positioned within content */}
-            <div className="absolute top-1/2 left-4 transform -translate-y-1/2 z-20">
+            <div className="absolute bottom-24 left-4 z-20">
               <button
                 onClick={scrollLeft}
                 disabled={!canScrollLeft}
@@ -127,7 +127,7 @@ const Testimonials: React.FC = () => {
               </button>
             </div>
 
-            <div className="absolute top-1/2 right-4 transform -translate-y-1/2 z-20">
+            <div className="absolute bottom-24 right-4 z-20">
               <button
                 onClick={scrollRight}
                 disabled={!canScrollRight}
