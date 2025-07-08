@@ -191,10 +191,10 @@ const AboutPage: React.FC = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-6">
             <div className="text-center">
               <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-black mb-3 sm:mb-4">
-                $296M
+                $300M+
               </div>
               <p className="text-sm sm:text-base text-gray-600 font-light leading-relaxed">
-                Total revenue delivered across multiple organisations and markets
+                Total revenue delivered across multiple organisations and markets.
               </p>
             </div>
 
@@ -203,7 +203,7 @@ const AboutPage: React.FC = () => {
                 25+
               </div>
               <p className="text-sm sm:text-base text-gray-600 font-light leading-relaxed">
-                Years of experience across digital, media, sports and technology
+                Years of experience across digital, media, sports and technology.
               </p>
             </div>
 
