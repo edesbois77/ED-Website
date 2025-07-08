@@ -67,7 +67,7 @@ const Contact: React.FC = () => {
             Contact-<span className="font-bold">ED</span>
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto font-light">
-            Ready to transform your business? Get in touch with our team.
+            Ready to transform your business? Get in touch with ED.
           </p>
         </div>
 
@@ -181,7 +181,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="text-black font-medium mb-1 text-sm sm:text-base">Email</h4>
-                    <p className="text-gray-600 font-light text-sm sm:text-base">hello@ed-solutions.com</p>
+                    <p className="text-gray-600 font-light text-sm sm:text-base">edproductsolutions@gmail.com</p>
                   </div>
                 </div>
 
@@ -191,7 +191,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="text-black font-medium mb-1 text-sm sm:text-base">Phone</h4>
-                    <p className="text-gray-600 font-light text-sm sm:text-base">+1 (555) 123-4567</p>
+                    <p className="text-gray-600 font-light text-sm sm:text-base">+44 (0)7918 086 200</p>
                   </div>
                 </div>
 
@@ -202,8 +202,8 @@ const Contact: React.FC = () => {
                   <div>
                     <h4 className="text-black font-medium mb-1 text-sm sm:text-base">Office</h4>
                     <p className="text-gray-600 font-light text-sm sm:text-base">
-                      123 Innovation Drive<br />
-                      Tech Valley, CA 94000
+                      1 Ed Towers<br />
+                      London, United Kingom, LN5 9DN
                     </p>
                   </div>
                 </div>
