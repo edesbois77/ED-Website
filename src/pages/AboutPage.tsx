@@ -355,7 +355,7 @@ const AboutPage: React.FC = () => {
                 to="/products"
                 className="inline-flex items-center space-x-2 bg-black hover:bg-gray-800 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all text-sm sm:text-base"
               >
-                <span>Explore <span className="font-bold">ED</span> Modules</span>
+                <span>Explore <span className="font-bold">ED</span> Products</span>
               </Link>
               
               <Link
