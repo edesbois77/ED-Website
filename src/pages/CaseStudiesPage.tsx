@@ -31,7 +31,7 @@ const CaseStudiesPage: React.FC = () => {
             Case Studies
           </h1>
           <p className="text-base sm:text-lg text-gray-600 font-light max-w-3xl">
-            Real-world examples of how companies have benefitted from utilising ED.
+            Real-world examples of how companies have benefited from utilising ED.
           </p>
         </div>
 
