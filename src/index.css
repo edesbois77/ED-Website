@@ -44,6 +44,13 @@ html {
   animation: scroll 30s linear infinite;
 }
 
+/* Faster scroll on mobile */
+@media (max-width: 768px) {
+  .animate-scroll {
+    animation: scroll 20s linear infinite;
+  }
+}
+
 /* Brand logos continuous scroll animation - completely seamless and slower */
 @keyframes scroll-logos {
   0% {
