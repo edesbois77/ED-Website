@@ -54,13 +54,6 @@ const Hero: React.FC = () => {
               <ArrowRight className="h-4 w-4 transition-transform" />
             </Link>
 
-            <Link
-              to="/products"
-              className="bg-transparent hover:bg-black text-black hover:text-white border border-black px-4 sm:px-6 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base whitespace-nowrap group/product"
-            >
-              <span>Product Suite</span>
-            </Link>
-
             <button
               onClick={handleDownloadCV}
               className="bg-transparent hover:bg-black text-black hover:text-white border border-black px-4 sm:px-6 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base whitespace-nowrap group/download"
