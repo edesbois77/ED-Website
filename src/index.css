@@ -41,7 +41,7 @@ html {
 }
 
 .animate-scroll {
-  animation: scroll 40s linear infinite;
+  animation: scroll 30s linear infinite;
 }
 
 /* Brand logos continuous scroll animation - completely seamless and slower */
