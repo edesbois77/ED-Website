@@ -53,7 +53,7 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
       role: "Director of Marketing, Visit Britain"
     },
     visuals: {
-      hero: 'https://i.imgur.com/0q883hB.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      hero: 'https://i.imgur.com/oVKdgOI.jpeg?auto=compress&cs=tinysrgb&w=1200',
       gallery: [
         'https://images.pexels.com/photos/427679/pexels-photo-427679.jpeg?auto=compress&cs=tinysrgb&w=800',
         'https://images.pexels.com/photos/1796715/pexels-photo-1796715.jpeg?auto=compress&cs=tinysrgb&w=800'
