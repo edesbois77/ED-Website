@@ -38,10 +38,6 @@ const Hero: React.FC = () => {
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-4 sm:mb-6 tracking-tight">
             Welcome to ED
           </h1>
-          
-          <p className="text-lg sm:text-xl md:text-2xl text-black mb-6 sm:mb-8 max-w-xl font-light leading-relaxed">
-            A made-up brand with real experience behind it.
-          </p>
 
           <div className="text-base sm:text-lg md:text-xl text-black mb-8 sm:mb-12 max-w-xl font-light leading-relaxed space-y-3 sm:space-y-4">
             <p>This site is a creative twist on my CV.</p>
