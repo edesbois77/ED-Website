@@ -43,7 +43,7 @@ export const products: Product[] = [
     title: '',
     summary: 'A market-proven product that blends strategic thinking, deep market knowledge, sharp go-to-market planning and flawless execution to deliver measurable, repeatable revenue growth.',
     features: [
-      'Guaranteed scalable revenue growth',
+      'Guaranteed scalable revenue growth.',
       'Build GTM strategies that position, pitch and close with precision.',
       'Combine senior selling with hands-on delivery and long-term client value.'
     ],
