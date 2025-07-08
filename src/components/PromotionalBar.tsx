@@ -26,13 +26,13 @@ const PromotionalBar: React.FC = () => {
           {Array.from({ length: 10 }).map((_, index) => (
             <div key={index} className="flex items-center space-x-8 px-8">
               <span className="text-black font-medium text-sm sm:text-base">
-                -- Purchase all 8 products and acquire the services of ED today: 
+                -- Purchase all 8 products and acquire the services of ED today
                 <button
                   onClick={handlePurchaseAll}
-                  className="ml-1 underline hover:no-underline font-semibold transition-all"
+                  className="ml-2 bg-black text-white px-3 py-1 rounded-md text-xs font-medium hover:bg-gray-800 transition-all"
                 >
-                  Click Here
-                </button>  --
+                  Buy Now
+                </button> --
               </span>
             </div>
           ))}
