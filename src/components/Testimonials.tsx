@@ -75,12 +75,39 @@ const Testimonials: React.FC = () => {
 
         {/* Mobile: Single Card View */}
         <div className="block md:hidden">
+          <div className="relative">
+            {/* Mobile Navigation Arrows - Positioned within content */}
+            <div className="absolute top-1/2 left-2 transform -translate-y-1/2 z-10">
+              <button
+                onClick={scrollLeft}
+                disabled={!canScrollLeft}
+                className={`group bg-white/90 hover:bg-white border border-gray-200 hover:border-gray-300 rounded-lg p-3 shadow-md transition-all hover:shadow-lg backdrop-blur-sm ${
+                  !canScrollLeft ? 'opacity-30 cursor-not-allowed' : ''
+                }`}
+              >
+                <ChevronLeft className="h-6 w-6 text-gray-600 group-hover:text-black transition-colors" />
+              </button>
+            </div>
+
+            <div className="absolute top-1/2 right-2 transform -translate-y-1/2 z-10">
+              <button
+                onClick={scrollRight}
+                disabled={!canScrollRight}
+                className={`group bg-white/90 hover:bg-white border border-gray-200 hover:border-gray-300 rounded-lg p-3 shadow-md transition-all hover:shadow-lg backdrop-blur-sm ${
+                  !canScrollRight ? 'opacity-30 cursor-not-allowed' : ''
+                }`}
+              >
+                <ChevronRight className="h-6 w-6 text-gray-600 group-hover:text-black transition-colors" />
+              </button>
+            </div>
+
           <div className="px-4">
             <TestimonialCard 
               testimonial={testimonials[currentIndex]}
               index={currentIndex}
               isMobile={true}
             />
+          </div>
           </div>
         </div>
 
@@ -153,20 +180,7 @@ const Testimonials: React.FC = () => {
         </div>
 
         {/* Dots Navigation */}
-        <div className="flex justify-center items-center space-x-4 mt-8 sm:mt-12">
-          {/* Mobile Navigation Arrows */}
-          <button
-            onClick={scrollLeft}
-            disabled={!canScrollLeft}
-            className={`md:hidden group bg-white hover:bg-gray-50 border border-gray-200 hover:border-gray-300 rounded-lg p-3 shadow-md transition-all hover:shadow-lg ${
-              !canScrollLeft ? 'opacity-30 cursor-not-allowed' : ''
-            }`}
-          >
-            <ChevronLeft className="h-6 w-6 text-gray-600 group-hover:text-black transition-colors" />
-          </button>
-
-          {/* Dots */}
-          <div className="flex space-x-2">
+        <div className="flex justify-center space-x-2 mt-8 sm:mt-12">
           {itemsPerView === 1 ? (
             // Mobile: Show dot for each testimonial
             testimonials.map((_, index) => (
@@ -194,18 +208,6 @@ const Testimonials: React.FC = () => {
               />
             ))
           )}
-          </div>
-
-          {/* Mobile Navigation Arrows */}
-          <button
-            onClick={scrollRight}
-            disabled={!canScrollRight}
-            className={`md:hidden group bg-white hover:bg-gray-50 border border-gray-200 hover:border-gray-300 rounded-lg p-3 shadow-md transition-all hover:shadow-lg ${
-              !canScrollRight ? 'opacity-30 cursor-not-allowed' : ''
-            }`}
-          >
-            <ChevronRight className="h-6 w-6 text-gray-600 group-hover:text-black transition-colors" />
-          </button>
         </div>
       </div>
     </section>
