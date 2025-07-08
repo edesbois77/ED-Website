@@ -54,6 +54,13 @@ const Hero: React.FC = () => {
               <ArrowRight className="h-4 w-4 group-hover/findout:translate-x-0.5 transition-transform" />
             </Link>
 
+            <Link
+              to="/products"
+              className="group/products bg-transparent hover:bg-black text-black hover:text-white border border-black hover:border-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base"
+            >
+              <span>Product Suite</span>
+            </Link>
+
             <button
               onClick={handleDownloadCV}
               className="group/download bg-transparent hover:bg-black text-black hover:text-white border border-black hover:border-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base"
