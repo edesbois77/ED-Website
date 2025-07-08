@@ -34,7 +34,7 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
     title: 'From Obscurity to Opportunity',
     client: 'OneFootball',
     logo: 'https://i.imgur.com/o8kSoHs.png',
-    headlineResult: '£26M incremental bookings generated',
+    headlineResult: '176% revenue growth in 5 years',
     summary: 'Repositioned Britain as a must-visit destination for millennial travelers through data-driven content strategy.',
     challenge: 'Visit Britain needed to increase inbound tourism by repositioning Britain as a must-visit destination for millennial travelers in key international markets. Traditional tourism marketing wasn\'t resonating with younger demographics who valued authentic experiences over conventional attractions.',
     solution: 'Led a cross-functional team to launch an integrated content and influencer campaign across digital, social, and programmatic channels. Introduced real-time campaign analytics to optimize creative on the fly. Developed a content strategy focused on hidden gems, local experiences, and authentic storytelling that resonated with millennial values.',
