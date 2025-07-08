@@ -17,7 +17,7 @@ export const products: Product[] = [
     id: 'creat-ed',
     name: 'Creat-ED™',
     title: '',
-    summary: 'Creat-ED brings a creative mindset to every challenge, delivering ideas that excite brands, challenge convention and spark meaningful change. It’s not just what you create, it’s how you think.',
+    summary: 'Integrates an entrepreneurial mindset that thinks beyond the brief, blending innovation, product evolution, customer satisfaction and partner success to spark meaningful change. It’s not just what you create, it’s how you think.',
     features: [
       'Ideas built for brand impact, audience fit and commercial return.',
       'Challenges convention with fresh, instinct-led thinking.',
