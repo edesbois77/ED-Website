@@ -35,40 +35,40 @@ const Hero: React.FC = () => {
         {/* Text Content - Centered */}
         <div className={`flex flex-col justify-center items-center text-center h-full py-8 sm:py-12 lg:py-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-4 sm:mb-6 tracking-tight">
-            Introducing: <span className="font-bold">ED</span>
+            Welcome to <span className="font-bold">ED</span>
           </h1>
           
-          <p className="text-lg sm:text-xl md:text-2xl text-black mb-6 sm:mb-8 max-w-xl font-light leading-relaxed">
-            Products with executive outcomes.
+          <p className="text-lg sm:text-xl md:text-2xl text-black mb-6 sm:mb-8 max-w-4xl font-light leading-relaxed">
+            This site is a creative twist on my CV.
           </p>
 
-          <div className="text-base sm:text-lg md:text-xl text-black mb-8 sm:mb-12 max-w-xl font-light leading-relaxed space-y-3 sm:space-y-4">
-            <p>This site is a creative take on my CV, turning 25 years of leadership, strategy and delivery into a suite of products that you can acquire at a click of a button.</p>
-            <p>While the company might not be real, the experience behind it very much is. Simply review <span className="font-bold">ED's</span> products, add them to basket and benefit immediately.</p>
+          <div className="text-base sm:text-lg md:text-xl text-black mb-8 sm:mb-12 max-w-4xl font-light leading-relaxed space-y-3 sm:space-y-4">
+            <p>Each <span className="font-bold">ED</span> product represents a skill I specialise in, packaged as a service you can acquire simply by 'adding it to basket' and getting in touch.</p>
+            <p>Inside, you'll find product overviews, testimonials, case studies and a breakdown of what <span className="font-bold">ED</span> is all about.</p>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 max-w-md group/buttons">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 group/buttons">
             <Link
               to="/about"
-              className="group/findout bg-black hover:bg-transparent text-white hover:text-black border border-black hover:border-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base group-hover/buttons:bg-transparent group-hover/buttons:text-black group-hover/buttons:hover:bg-transparent group-hover/buttons:hover:text-black"
+              className="group/findout bg-black hover:bg-transparent text-white hover:text-black border border-black hover:border-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base group-hover/buttons:bg-transparent group-hover/buttons:text-black group-hover/buttons:hover:bg-transparent group-hover/buttons:hover:text-black whitespace-nowrap"
             >
-              <span>Find Out More</span>
+              <span>Find&nbsp;Out&nbsp;More</span>
               <ArrowRight className="h-4 w-4 group-hover/findout:translate-x-0.5 transition-transform" />
             </Link>
 
             <Link
               to="/products"
-              className="group/products bg-transparent hover:bg-black text-black hover:text-white border border-black hover:border-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base"
+              className="group/products bg-transparent hover:bg-black text-black hover:text-white border border-black hover:border-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base whitespace-nowrap"
             >
-              <span>Product Suite</span>
+              <span>Product&nbsp;Suite</span>
             </Link>
 
             <button
               onClick={handleDownloadCV}
-              className="group/download bg-transparent hover:bg-black text-black hover:text-white border border-black hover:border-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base"
+              className="group/download bg-transparent hover:bg-black text-black hover:text-white border border-black hover:border-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base whitespace-nowrap"
             >
               <Download className="h-4 w-4" />
-              <span>Download CV</span>
+              <span>Download&nbsp;CV</span>
             </button>
           </div>
         </div>
