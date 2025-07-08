@@ -37,7 +37,7 @@ const ProductCatalogue: React.FC = () => {
             Product Suite
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto font-light px-4 mb-6 sm:mb-8">
-            A comprehensive suite of modular solutions designed to power your business transformation.
+            Modular solutions designed to power your business transformation.
           </p>
 
           {/* Navigation Arrows - Under subtitle */}
