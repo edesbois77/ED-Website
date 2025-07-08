@@ -77,7 +77,7 @@ export const products: Product[] = [
     id: 'deliver-ed',
     name: 'Deliver-ED™',
     title: '',
-    summary: 'Achieving what you set out to do isn’t always easy, unless you bring in Deliver-ED. With a track record of exceeding expectations, it helps your business and your clients hit goals, raise the bar and outperform time and again.',
+    summary: 'Achieving what you set out to do isn’t always easy, unless you purchase Deliver-ED. With a track record of exceeding expectations, it helps your business and your clients hit goals, raise the bar and outperform time and again.',
     features: [
       'Proven to outperform goals across multiple markets and business models.',
       'Trusted to lead teams, deliver results and retain top-tier clients.',
