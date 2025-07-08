@@ -41,8 +41,8 @@ const Hero: React.FC = () => {
 
           <div className="text-base sm:text-lg md:text-xl text-black mb-8 sm:mb-12 max-w-xl font-light leading-relaxed space-y-3 sm:space-y-4">
             <p>This site is a creative twist on my CV.</p>
-            <p>Each ED product represents a skill I specialise in, packaged as a service you can ‘add to basket’ if you want to work with me.</p>
-            <p>Inside, you’ll find product overviews, testimonials, case studies, and a breakdown of what ED is all about.</p>
+            <p>Each ED product represents a skill I specialise in, packaged as a service you can aquire simply by ‘adding it to basket’ and getting in touch.</p>
+            <p>Inside, you’ll find product overviews, testimonials, case studies and a breakdown of what ED is all about.</p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 max-w-md group/buttons">
