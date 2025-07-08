@@ -31,8 +31,8 @@ const PromotionalBar: React.FC = () => {
                   onClick={handlePurchaseAll}
                   className="ml-1 underline hover:no-underline font-semibold transition-all"
                 >
-                  Click Here --
-                </button>
+                  Click Here
+                </button>  --
               </span>
             </div>
           ))}
