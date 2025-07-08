@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
         {/* Text Content - Responsive positioning */}
         <div className={`flex flex-col justify-center h-full py-8 sm:py-12 lg:py-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-4 sm:mb-6 tracking-tight">
-            Introducing: <span className="font-bold">ED</span>
+            Welcome to ED
           </h1>
           
           <p className="text-lg sm:text-xl md:text-2xl text-black mb-6 sm:mb-8 max-w-xl font-light leading-relaxed">
