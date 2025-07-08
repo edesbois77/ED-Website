@@ -39,29 +39,6 @@ const ProductCatalogue: React.FC = () => {
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto font-light px-4 mb-6 sm:mb-8">
             Modular solutions designed to power your business transformation.
           </p>
-
-          {/* Navigation Arrows - Under subtitle */}
-          <div className="flex justify-center items-center space-x-4">
-            <button
-              onClick={prevProduct}
-              className="bg-white hover:bg-gray-50 border border-gray-200 rounded-full p-3 shadow-lg transition-all hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed"
-              disabled={currentIndex === 0}
-            >
-              <ChevronLeft className="h-5 w-5 text-gray-600" />
-            </button>
-
-            <span className="text-sm text-gray-500 font-light">
-              {currentIndex + 1} of {products.length}
-            </span>
-
-            <button
-              onClick={nextProduct}
-              className="bg-white hover:bg-gray-50 border border-gray-200 rounded-full p-3 shadow-lg transition-all hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed"
-              disabled={currentIndex === products.length - 1}
-            >
-              <ChevronRight className="h-5 w-5 text-gray-600" />
-            </button>
-          </div>
         </div>
 
         {/* Mobile: Single Product View */}
@@ -79,6 +56,27 @@ const ProductCatalogue: React.FC = () => {
 
         {/* Desktop: Carousel Container */}
         <div className="hidden lg:block relative overflow-hidden">
+          {/* Navigation Arrows - Positioned within content */}
+          <div className="absolute top-1/2 left-4 transform -translate-y-1/2 z-10">
+            <button
+              onClick={prevProduct}
+              className="group bg-white/90 hover:bg-white border border-gray-200 hover:border-gray-300 rounded-lg p-4 shadow-lg transition-all hover:shadow-xl disabled:opacity-30 disabled:cursor-not-allowed backdrop-blur-sm"
+              disabled={currentIndex === 0}
+            >
+              <ChevronLeft className="h-8 w-8 text-gray-600 group-hover:text-black transition-colors" />
+            </button>
+          </div>
+
+          <div className="absolute top-1/2 right-4 transform -translate-y-1/2 z-10">
+            <button
+              onClick={nextProduct}
+              className="group bg-white/90 hover:bg-white border border-gray-200 hover:border-gray-300 rounded-lg p-4 shadow-lg transition-all hover:shadow-xl disabled:opacity-30 disabled:cursor-not-allowed backdrop-blur-sm"
+              disabled={currentIndex === products.length - 1}
+            >
+              <ChevronRight className="h-8 w-8 text-gray-600 group-hover:text-black transition-colors" />
+            </button>
+          </div>
+
           {/* Products Container - Always centered layout */}
           <div className="flex items-stretch justify-center h-[750px]">
             {/* Previous Product Preview (if exists) */}
@@ -129,7 +127,18 @@ const ProductCatalogue: React.FC = () => {
         </div>
 
         {/* Dots Navigation */}
-        <div className="flex justify-center space-x-2 mt-8 sm:mt-12">
+        <div className="flex justify-center items-center space-x-4 mt-8 sm:mt-12">
+          {/* Mobile Navigation Arrows */}
+          <button
+            onClick={prevProduct}
+            className="lg:hidden group bg-white hover:bg-gray-50 border border-gray-200 hover:border-gray-300 rounded-lg p-3 shadow-md transition-all hover:shadow-lg disabled:opacity-30 disabled:cursor-not-allowed"
+            disabled={currentIndex === 0}
+          >
+            <ChevronLeft className="h-6 w-6 text-gray-600 group-hover:text-black transition-colors" />
+          </button>
+
+          {/* Dots */}
+          <div className="flex space-x-2">
           {products.map((_, index) => (
             <button
               key={index}
@@ -141,6 +150,16 @@ const ProductCatalogue: React.FC = () => {
               }`}
             />
           ))}
+          </div>
+
+          {/* Mobile Navigation Arrows */}
+          <button
+            onClick={nextProduct}
+            className="lg:hidden group bg-white hover:bg-gray-50 border border-gray-200 hover:border-gray-300 rounded-lg p-3 shadow-md transition-all hover:shadow-lg disabled:opacity-30 disabled:cursor-not-allowed"
+            disabled={currentIndex === products.length - 1}
+          >
+            <ChevronRight className="h-6 w-6 text-gray-600 group-hover:text-black transition-colors" />
+          </button>
         </div>
       </div>
     </section>
