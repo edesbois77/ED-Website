@@ -61,7 +61,7 @@ const CaseStudiesPage: React.FC = () => {
               to="/products"
               className="text-white hover:text-gray-200 border border-white/30 hover:border-white/50 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all text-sm sm:text-base"
             >
-              Explore <span className="font-bold">ED</span> Modules
+              Explore <span className="font-bold">ED</span> Products
             </Link>
           </div>
         </div>
