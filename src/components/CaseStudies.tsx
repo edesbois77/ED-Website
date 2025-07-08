@@ -18,7 +18,7 @@ const CaseStudies: React.FC = () => {
             Success Stories
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto font-light">
-            Discover how leading companies transformed their operations by utilising <span className="font-bold">ED</span>.
+            Discover how leading companies transformed their operations by utilising ED.
           </p>
         </div>
 
