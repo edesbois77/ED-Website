@@ -41,11 +41,11 @@ const ProductDetailPage: React.FC = () => {
     const details: { [key: string]: any } = {
       'connect-ed': {
         subtitle: 'Trusted access. Strategic connection. Real traction.',
-        overview: `<p class="mb-4 sm:mb-6">Connect-<span class="font-bold">ED</span> is your shortcut to decision-makers that matter, a service module built to unlock high-value relationships across sport, media, tech and entertainment. Backed by 25 years of real-world networking, commercial development and executive engagement, Connect-<span class="font-bold">ED</span> isn't just a contact list, it's a connection strategy.</p>
+        overview: `<p class="mb-4 sm:mb-6">Looking for access that actually converts? Connect-<span class="font-bold">ED</span> is the product that opens doors. Built on 25 years of high-level relationship building across sport, media, tech and entertainment, it offers immediate access to the right people and the right approach to engage them.</p>
 
-<p class="mb-4 sm:mb-6">Whether you're looking to unlock a warm intro, expand into new sectors, or accelerate your go-to-market through partnerships, Connect-<span class="font-bold">ED</span> delivers. It blends a rich black book with the ability to build new relationships fast, through proven outreach strategies, insight-driven targeting and a reputation that opens doors.</p>
+<p class="mb-4 sm:mb-6">This isn’t just a black book, it’s a connection engine. Whether you need warm intros, high-trust referrals, or a smarter route into a new market, Connect-<span class="font-bold">ED</span> blends deep networks with proven outreach strategies that deliver traction fast.</p>
 
-<p>This isn't about spraying LinkedIn messages. It's about trusted access, targeted value and connecting in ways that move conversations and business forward.</p>`,
+<p>Forget cold DMs and dead-end prospecting. This is senior access, strategic alignment and the credibility to make your next move matter.</p>`,
         keyBenefits: [
           'Access to a senior, high-trust network built over 25 years',
           'C-Level, VP and exec contacts across sport, media and tech',
