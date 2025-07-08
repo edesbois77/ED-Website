@@ -7,7 +7,7 @@ export const products: Product[] = [
     title: '',
     summary: 'Open the door to key decision-makers across media, sport and entertainment. A black book constructed over the past 25 years. It’s not just who you know, it’s how you make it matter.',
     features: [
-      'Immediate access to a high-trust network across sport, media, and tech.',
+      'Immediate access to a high-trust network across sport, media and tech.',
       'Senior-level introductions that unlock partnerships and accelerate growth.', 
       'Proven outreach strategies that land meetings and open new markets.'
     ],
