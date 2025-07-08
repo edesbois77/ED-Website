@@ -76,15 +76,20 @@ const BasketPage: React.FC = () => {
                 className="bg-white rounded-2xl p-6 border border-gray-100 hover:shadow-md transition-all"
               >
                 <div className="flex items-start space-x-6">
-                  <img
-                    src={item.product.image}
-                    alt={item.product.title}
-                    className="w-20 h-20 object-cover rounded-xl"
-                  />
+                  <Link to={`/product/${item.product.id}`} className="block">
+                    <img
+                      src={item.product.image}
+                      alt={item.product.title}
+                      className="w-20 h-20 object-cover rounded-xl hover:opacity-80 transition-opacity"
+                    />
+                  </Link>
                   <div className="flex-1">
-                    <h3 className="text-xl font-medium text-black mb-2">
+                    <Link 
+                      to={`/product/${item.product.id}`}
+                      className="text-xl font-medium text-black mb-2 hover:text-gray-600 transition-colors block"
+                    >
                       {item.product.name}
-                    </h3>
+                    </Link>
                     <p className="text-gray-600 mb-2 font-light">{item.product.title}</p>
                     <p className="text-gray-600 text-sm leading-relaxed font-light">
                       {item.product.summary}
@@ -121,7 +126,12 @@ const BasketPage: React.FC = () => {
               <div className="space-y-4 mb-8">
                 {state.items.map((item) => (
                   <div key={item.product.id} className="flex justify-between items-center">
-                    <span className="text-gray-600 font-light">{item.product.name}</span>
+                    <Link 
+                      to={`/product/${item.product.id}`}
+                      className="text-gray-600 font-light hover:text-black transition-colors"
+                    >
+                      {item.product.name}
+                    </Link>
                     <span className="text-black font-medium">
                       {item.quantity}×
                     </span>
