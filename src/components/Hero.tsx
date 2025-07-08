@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="text-lg sm:text-xl md:text-2xl text-black mb-6 sm:mb-8 max-w-xl font-light leading-relaxed">
-            Products with executive outcomes.
+            A made-up brand with real experience behind it.
           </p>
 
           <div className="text-base sm:text-lg md:text-xl text-black mb-8 sm:mb-12 max-w-xl font-light leading-relaxed space-y-3 sm:space-y-4">
