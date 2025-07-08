@@ -180,7 +180,7 @@ This isn't leadership by textbook. It's shaped by doing, hiring the right people
       },
       'monetis-ed': {
         subtitle: 'Strategy-first selling. Built to close.',
-        overview: `<p class="mb-4 sm:mb-6">Having accumulated $294M in won business, Monetis-<span class="font-bold">ED</span> turns commercial ambition into structured, scalable revenue. It starts with knowing where to fish, using insight and instinct to shape the right strategy and then crafting the right story to land results.</p>
+        overview: `<p class="mb-4 sm:mb-6">Having generated hundreds of millions of dollars in won business, Monetis-<span class="font-bold">ED</span> turns commercial ambition into structured, scalable revenue. It starts with knowing where to fish, using insight and instinct to shape the right strategy and then crafting the right story to land results.</p>
 
 <p class="mb-4 sm:mb-6">From building positioning and go-to-market plans to pitching, negotiating and closing, Monetis-<span class="font-bold">ED</span> blends high-level thinking with hands-on sales delivery. But it doesn’t stop at the deal. Real value comes from follow-through, managing relationships, delivering on promises and ensuring clients come back for more.</p>
 
