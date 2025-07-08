@@ -89,11 +89,11 @@ export const products: Product[] = [
     id: 'communicat-ed',
     name: 'Communicat-ED™',
     title: '',
-    summary: 'Communicat-ED delivers clarity that inspires action, from boardroom strategy to team culture and commercial storytelling. It’s communication with purpose, not just polish.',
+    summary: 'Deliver clarity that inspires action, from boardroom strategy to team culture and commercial storytelling. Deliver-ED ensures communication with purpose, not just polish.',
     features: [
-      'Drive consistent overperformance across markets and revenue models.',
-      'Turn high expectations into loyal clients and standout results.',
-      'Blend strategic focus with hands-on delivery that scales.'
+      'Craft clear, persuasive messaging that moves teams and stakeholders.',
+      'Deliver board-level narratives that align, inspire and drive actions.',
+      'Translate complex ideas into standout decks, pitches and comms.'
     ],
     image: 'https://i.imgur.com/t9e2NfL.jpeg'
   }
