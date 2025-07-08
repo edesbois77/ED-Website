@@ -41,11 +41,11 @@ export const products: Product[] = [
     id: 'monetis-ed',
     name: 'Monetis-ED™',
     title: '',
-    summary: 'Monetis-ED delivers revenue through strategy, storytelling and precision selling. From knowing where to fish to landing the deal, this module brings structure, substance and standout results.',
+    summary: 'A market-proven product that blends strategic thinking, deep market knowledge, sharp go-to-market planning and flawless execution to deliver measurable, repeatable revenue growth.',
     features: [
-      'Proven revenue growth across global media and tech markets.',
-      'Builds sales strategy, positioning and pitch narratives from the ground up.',
-      'Combines senior-level selling with hands-on delivery and account care.'
+      'Guaranteed scalable revenue growth',
+      'Build GTM strategies that position, pitch and close with precision.',
+      'Combine senior selling with hands-on delivery and long-term client value.'
     ],
     image: 'https://i.imgur.com/vPlXmGQ.jpeg'
   },
