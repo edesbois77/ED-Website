@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
       {/* Very light overlay for better text readability */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 h-full">
         {/* Text Content - Responsive positioning */}
-        <div className={`flex flex-col justify-center h-full py-8 sm:py-12 lg:py-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+        <div className={`flex flex-col justify-start h-full pt-16 sm:pt-20 lg:pt-24 pb-8 sm:pb-12 lg:pb-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-4 sm:mb-6 tracking-tight">
             Welcome to ED
           </h1>
