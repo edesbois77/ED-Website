@@ -16,7 +16,7 @@ const BrandLogos: React.FC = () => {
             Tried. Tested. Delivered.
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto font-light">
-            These brands didn't just test <span className="font-bold">ED</span>'s service modules, they used them to win.
+            These brands didn't just test the ED products, they used them to win.
           </p>
         </div>
 
