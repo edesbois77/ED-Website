@@ -9,7 +9,7 @@ const CaseStudies: React.FC = () => {
 
   return (
     <section id="case-studies" className="py-12 sm:py-16 md:py-24 bg-gray-50">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="w-full mx-auto px-4 sm:px-6 lg:max-w-6xl">
         <div 
           ref={ref}
           className={`text-center mb-12 sm:mb-16 md:mb-20 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
