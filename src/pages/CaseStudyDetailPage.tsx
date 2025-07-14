@@ -107,7 +107,6 @@ const CaseStudyDetailPage: React.FC = () => {
       {/* Main Content */}
       <div className="py-8 sm:py-12 md:py-16">
         <div className="lg:max-w-6xl lg:mx-auto px-4 sm:px-6">
-          <div className="lg:max-w-6xl lg:mx-auto px-4 sm:px-6">
           <div 
             ref={contentRef}
             className={`mb-12 sm:mb-16 md:mb-20 transition-all duration-1000 ${contentVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
@@ -293,7 +292,6 @@ const CaseStudyDetailPage: React.FC = () => {
                 View More Case Studies
               </Link>
             </div>
-          </div>
       </div>
     </div>
   );
