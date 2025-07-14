@@ -18,10 +18,10 @@ const PromotionalBar: React.FC = () => {
   };
 
   return (
-    <div className="bg-black border-b border-gray-800 overflow-hidden">
+    <div className="bg-black border-b border-gray-800 overflow-hidden relative z-10">
       <div className="relative">
         {/* Scrolling content */}
-        <div className="animate-scroll flex whitespace-nowrap py-3">
+        <div className="animate-scroll flex whitespace-nowrap py-3" style={{ transform: 'translateZ(0)' }}>
           {/* Repeat the message multiple times for continuous scroll */}
           {Array.from({ length: 10 }).map((_, index) => (
             <div key={index} className="flex items-center space-x-8 px-8">

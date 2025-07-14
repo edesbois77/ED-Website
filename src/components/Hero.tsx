@@ -30,6 +30,7 @@ const Hero: React.FC = () => {
     <section 
       ref={ref}
       className="relative hero-background-grey"
+      style={{ transform: 'translateZ(0)' }}
     >
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 h-full">
         {/* Text Content - Top aligned */}

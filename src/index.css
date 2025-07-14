@@ -98,6 +98,41 @@ html {
   box-shadow: 0 0 0 2px #000000;
 }
 
+/* Mobile Safari specific fixes */
+@media (max-width: 768px) {
+  /* Force hardware acceleration and prevent rendering issues */
+  * {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  /* Prevent any modal/overlay issues */
+  .modal-overlay,
+  .backdrop,
+  [role="dialog"],
+  [role="modal"] {
+    display: none !important;
+  }
+  
+  /* Ensure proper stacking */
+  .sticky {
+    z-index: 50;
+  }
+  
+  /* Prevent horizontal scroll issues */
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Fix any transform issues */
+  .animate-scroll {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
 /* Backdrop blur support */
 @supports (backdrop-filter: blur(20px)) {
   .backdrop-blur-xl {

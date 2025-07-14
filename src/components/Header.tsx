@@ -28,7 +28,7 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-white/70 backdrop-blur-xl border-b border-gray-100">
+    <header className="sticky top-0 z-50 bg-white/85 md:bg-white/70 backdrop-blur-xl border-b border-gray-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -111,7 +111,7 @@ const Header: React.FC = () => {
 
         {/* Mobile Navigation Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden border-t border-gray-100 bg-white/85 backdrop-blur-xl">
+          <div className="lg:hidden border-t border-gray-100 bg-white/90 backdrop-blur-sm">
             <nav className="py-4 space-y-2">
               <Link
                 to="/"
