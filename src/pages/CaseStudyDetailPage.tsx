@@ -292,6 +292,8 @@ const CaseStudyDetailPage: React.FC = () => {
                 View More Case Studies
               </Link>
             </div>
+          </div>
+        </div>
       </div>
     </div>
   );
