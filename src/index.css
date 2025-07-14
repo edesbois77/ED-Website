@@ -24,3 +24,38 @@
     max-height: 550px;
   }
 }
+
+/* Mobile-specific fixes for full width */
+@media (max-width: 768px) {
+  .container {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  /* Force all max-width containers to full width on mobile */
+  .max-w-6xl,
+  .max-w-7xl,
+  .max-w-4xl,
+  .max-w-3xl,
+  .max-w-2xl,
+  .max-w-xl {
+    max-width: none !important;
+    width: 100% !important;
+  }
+  
+  /* Ensure proper mobile padding */
+  .px-4,
+  .px-6 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  /* Fix any margin auto issues */
+  .mx-auto {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}

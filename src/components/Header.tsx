@@ -29,7 +29,7 @@ const Header: React.FC = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-white/85 md:bg-white/70 backdrop-blur-xl border-b border-gray-100">
-      <div className="w-full mx-auto px-4 sm:px-6 lg:max-w-6xl">
+      <div className="w-full px-4 sm:px-6">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center group" onClick={closeMobileMenu}>
