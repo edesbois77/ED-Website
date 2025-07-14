@@ -36,7 +36,7 @@ const ThankYouPage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white py-8 sm:py-12 md:py-16">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6">
+      <div className="lg:max-w-4xl lg:mx-auto px-4 sm:px-6">
         {/* Back Link */}
         <div 
           ref={headerRef}

@@ -454,7 +454,7 @@ This isn't leadership by textbook. It's shaped by doing, hiring the right people
 
   return (
     <div className="min-h-screen bg-white py-8 sm:py-12 md:py-16">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="lg:max-w-6xl lg:mx-auto px-4 sm:px-6">
         {/* Back Link */}
         <div 
           ref={headerRef}

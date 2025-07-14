@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
       className="relative hero-background-grey"
       style={{ transform: 'translateZ(0)' }}
     >
-      <div className="relative z-10 w-full px-4 sm:px-6 h-full">
+      <div className="relative z-10 w-full px-4 sm:px-6 h-full lg:max-w-7xl lg:mx-auto">
         {/* Text Content - Top aligned */}
         <div className={`flex flex-col justify-start items-center text-center h-full pt-8 sm:pt-12 lg:pt-16 transition-all duration-1000 w-full ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-4 sm:mb-6 tracking-tight">

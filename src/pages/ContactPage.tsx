@@ -80,7 +80,7 @@ const ContactPage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white py-8 sm:py-12 md:py-16">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="lg:max-w-6xl lg:mx-auto px-6">
         {/* Back Link */}
         <div 
           ref={headerRef}

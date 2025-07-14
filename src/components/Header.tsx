@@ -30,7 +30,7 @@ const Header: React.FC = () => {
   return (
     <header className="sticky top-0 z-50 bg-white/85 md:bg-white/70 backdrop-blur-xl border-b border-gray-100">
       <div className="w-full px-4 sm:px-6">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-16 lg:max-w-7xl lg:mx-auto">
           {/* Logo */}
           <Link to="/" className="flex items-center group" onClick={closeMobileMenu}>
             <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-md overflow-hidden group-hover:opacity-80 transition-opacity">

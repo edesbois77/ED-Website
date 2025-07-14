@@ -9,7 +9,7 @@ const BasketPage: React.FC = () => {
   if (state.items.length === 0) {
     return (
       <div className="min-h-screen bg-white py-8 sm:py-12 md:py-16">
-        <div className="max-w-4xl mx-auto px-6">
+        <div className="lg:max-w-4xl lg:mx-auto px-6">
           {/* Back Link - Above Title */}
           <div className="mb-4 sm:mb-6">
             <Link
@@ -41,7 +41,7 @@ const BasketPage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white py-8 sm:py-12 md:py-16">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="lg:max-w-6xl lg:mx-auto px-6">
         {/* Back Link - Above Title */}
         <div className="mb-4 sm:mb-6">
           <Link
