@@ -160,7 +160,7 @@ const ContactPage: React.FC = () => {
                     className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-black focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent transition-all"
                   >
                     <option value="general">General Inquiry</option>
-                    <option value="demo">Hiring ED's Services</option>
+                    <option value="demo">Hiring ED</option>
                     <option value="pricing">Pricing Information</option>
                     <option value="support">Consultative Services</option>
                     <option value="partnership">Investment Opportunities</option>
