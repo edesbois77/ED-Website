@@ -14,7 +14,7 @@ const ContactPage: React.FC = () => {
     name: '',
     email: '',
     company: '',
-    phone: '0789689879',
+    phone: '',
     subject: '',
     message: '',
     requestType: 'general'
