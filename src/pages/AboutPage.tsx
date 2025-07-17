@@ -51,7 +51,7 @@ const AboutPage: React.FC = () => {
         {/* Header */}
         <div className={`mb-8 sm:mb-12 md:mb-16 transition-all duration-1000 delay-100 ${headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-3 sm:mb-4 tracking-tight">
-            About <span className="font-bold">ED</span>
+            About
           </h1>
           <p className="text-base sm:text-lg text-gray-600 font-light">
             A creative CV. A commercial case study.
