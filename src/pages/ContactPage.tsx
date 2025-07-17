@@ -333,8 +333,8 @@ const ContactPage: React.FC = () => {
                       1
                     </div>
                     <div>
-                      <h4 className="text-black font-medium mb-1">We'll review your message</h4>
-                      <p className="text-gray-600 text-sm font-light">Our team will carefully review your inquiry and requirements.</p>
+                      <h4 className="text-black font-medium mb-1">ED will review your message</h4>
+                      <p className="text-gray-600 text-sm font-light">ED will carefully review your inquiry and requirements.</p>
                     </div>
                   </div>
                   
@@ -344,7 +344,7 @@ const ContactPage: React.FC = () => {
                     </div>
                     <div>
                       <h4 className="text-black font-medium mb-1">Schedule a consultation</h4>
-                      <p className="text-gray-600 text-sm font-light">We'll reach out to schedule a personalized consultation.</p>
+                      <p className="text-gray-600 text-sm font-light">ED will reach out to schedule a personalised consultation.</p>
                     </div>
                   </div>
                   
@@ -354,7 +354,7 @@ const ContactPage: React.FC = () => {
                     </div>
                     <div>
                       <h4 className="text-black font-medium mb-1">Tailored solution</h4>
-                      <p className="text-gray-600 text-sm font-light">We'll present a customized solution that fits your needs.</p>
+                      <p className="text-gray-600 text-sm font-light">ED will present a customised solution that fits your needs.</p>
                     </div>
                   </div>
                 </div>
