@@ -228,7 +228,7 @@ const ContactPage: React.FC = () => {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-black placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent transition-all"
-                      placeholder="+1 (555) 123-4567"
+                      placeholder="+44(0) 7123-456789"
                     />
                   </div>
                 </div>
