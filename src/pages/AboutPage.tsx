@@ -166,6 +166,7 @@ const AboutPage: React.FC = () => {
                 ].map((area, index) => (
                   <div key={index} className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-custom-dark text-white rounded-full flex items-center justify-center text-sm font-medium flex-shrink-0 mt-0.5">
+                    </div>
                     <span className="text-gray-700 font-light leading-relaxed text-sm sm:text-base">{area}</span>
                   </div>
                 ))}
