@@ -101,8 +101,8 @@ const ContactPage: React.FC = () => {
             Contact Us
           </h1>
           <p className="text-lg text-gray-600 font-light max-w-2xl">
-            Ready to transform your business with <span className="font-bold">ED</span>? Get in touch with our team of experts. 
-            We're here to help you find the perfect solution for your needs.
+            Ready to transform your business with <span className="font-bold">ED</span>? Get in touch with ED directly below. 
+            ED is here to help you find the perfect solution for your needs.
           </p>
         </div>
 
