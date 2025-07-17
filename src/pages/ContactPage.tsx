@@ -260,7 +260,7 @@ const ContactPage: React.FC = () => {
                     required
                     rows={6}
                     className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-black placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent transition-all resize-none"
-                    placeholder="Tell us about your project, requirements, or how we can help you..."
+                    placeholder="Tell us about your project, requirements, or how ED can help you..."
                   />
                 </div>
 
