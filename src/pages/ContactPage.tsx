@@ -100,7 +100,7 @@ const ContactPage: React.FC = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-black mb-6 tracking-tight">
             Contact Us
           </h1>
-          <p className="text-lg text-gray-600 font-light max-w-2xl">
+          <p className="text-lg text-gray-600 font-light max-w-4xl">
             Ready to transform your business with <span className="font-bold">ED</span>? Get in touch and we will find you the perfect solution for your needs.
           </p>
         </div>
