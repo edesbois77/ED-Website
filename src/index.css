@@ -3,23 +3,26 @@
 @tailwind utilities;
 
 /* Custom styles */
-.hero-background-grey {
+.hero-background {
   height: 70vh;
   min-height: 400px;
   max-height: 600px;
-  background-color: #f9fafb;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://i.imgur.com/glMMy9l.jpeg);
 }
 
 /* Responsive height adjustments */
 @media (max-height: 600px) {
-  .hero-background-grey {
+  .hero-background {
     height: 80vh;
     min-height: 300px;
   }
 }
 
 @media (min-height: 900px) {
-  .hero-background-grey {
+  .hero-background {
     height: 60vh;
     max-height: 550px;
   }
