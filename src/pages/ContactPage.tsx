@@ -364,9 +364,9 @@ const ContactPage: React.FC = () => {
               <div className="bg-red-50 border border-red-100 rounded-2xl p-6">
                 <h4 className="text-red-800 font-medium mb-2">Need urgent support?</h4>
                 <p className="text-red-700 text-sm font-light mb-3">
-                  For critical issues affecting your production systems, please call our emergency support line.
+                  If you simply can't wait to acquire ED's services, please call our emergency support line.
                 </p>
-                <p className="text-red-800 font-medium">+1 (555) 911-HELP</p>
+                <p className="text-red-800 font-medium">+44 (0) 999-HELP</p>
                 <p className="text-red-600 text-xs font-light">Available 24/7 for enterprise customers</p>
               </div>
             </div>
