@@ -161,7 +161,7 @@ const Contact: React.FC = () => {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="group w-full bg-black hover:bg-gray-800 disabled:bg-gray-400 disabled:cursor-not-allowed text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 mt-auto text-sm sm:text-base"
+                className="group w-full bg-custom-dark hover:bg-gray-800 disabled:bg-gray-400 disabled:cursor-not-allowed text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 mt-auto text-sm sm:text-base"
               >
                 <Send className="h-4 w-4" />
                 <span>{isSubmitting ? 'Sending...' : 'Send Message'}</span>
@@ -176,7 +176,7 @@ const Contact: React.FC = () => {
               
               <div className="space-y-4 sm:space-y-6 flex-grow">
                 <div className="flex items-start space-x-3 sm:space-x-4">
-                  <div className="bg-black p-2.5 sm:p-3 rounded-xl">
+                  <div className="bg-custom-dark p-2.5 sm:p-3 rounded-xl">
                     <Mail className="h-4 w-4 sm:h-5 sm:w-5 text-white" />
                   </div>
                   <div>
@@ -186,7 +186,7 @@ const Contact: React.FC = () => {
                 </div>
 
                 <div className="flex items-start space-x-3 sm:space-x-4">
-                  <div className="bg-black p-2.5 sm:p-3 rounded-xl">
+                  <div className="bg-custom-dark p-2.5 sm:p-3 rounded-xl">
                     <Phone className="h-4 w-4 sm:h-5 sm:w-5 text-white" />
                   </div>
                   <div>
@@ -196,7 +196,7 @@ const Contact: React.FC = () => {
                 </div>
 
                 <div className="flex items-start space-x-3 sm:space-x-4">
-                  <div className="bg-black p-2.5 sm:p-3 rounded-xl">
+                  <div className="bg-custom-dark p-2.5 sm:p-3 rounded-xl">
                     <MapPin className="h-4 w-4 sm:h-5 sm:w-5 text-white" />
                   </div>
                   <div>

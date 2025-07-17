@@ -18,7 +18,7 @@ const PromotionalBar: React.FC = () => {
   };
 
   return (
-    <div className="bg-black border-b border-gray-800 overflow-hidden relative z-10">
+    <div className="bg-custom-dark border-b border-gray-800 overflow-hidden relative z-10">
       <div className="relative">
         {/* Scrolling content */}
         <div className="animate-scroll flex whitespace-nowrap py-3" style={{ transform: 'translateZ(0)' }}>
@@ -29,7 +29,7 @@ const PromotionalBar: React.FC = () => {
                 Purchase all 8 products and acquire the services of ED today
                 <button
                   onClick={handlePurchaseAll}
-                  className="ml-2 bg-white text-black px-3 py-1 rounded-md text-xs font-medium hover:bg-gray-100 transition-all"
+                  className="ml-2 bg-white text-custom-dark px-3 py-1 rounded-md text-xs font-medium hover:bg-gray-100 transition-all"
                 >
                   Buy Now
                 </button>

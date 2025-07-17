@@ -122,7 +122,7 @@ const ProductSection: React.FC<ProductSectionProps> = ({ product, index, onAddTo
             <div className="space-y-2 sm:space-y-3">
               {product.features.map((feature: string, featureIndex: number) => (
                 <div key={featureIndex} className="flex items-start space-x-3">
-                  <div className="w-1.5 h-1.5 bg-black rounded-full mt-2.5 sm:mt-3 flex-shrink-0"></div>
+                  <div className="w-1.5 h-1.5 bg-custom-dark rounded-full mt-2.5 sm:mt-3 flex-shrink-0"></div>
                   <span className="text-gray-700 font-light leading-relaxed text-sm sm:text-base">{feature}</span>
                 </div>
               ))}
@@ -133,7 +133,7 @@ const ProductSection: React.FC<ProductSectionProps> = ({ product, index, onAddTo
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2 sm:pt-4">
             <button
               onClick={() => onAddToBasket(product)}
-              className="group bg-black hover:bg-gray-800 text-white px-6 sm:px-8 py-3 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base"
+              className="group bg-custom-dark hover:bg-gray-800 text-white px-6 sm:px-8 py-3 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base"
             >
               <Plus className="h-4 w-4" />
               <span>Add To Basket</span>

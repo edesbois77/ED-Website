@@ -111,7 +111,7 @@ const ContactPage: React.FC = () => {
           className={`grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 sm:mb-20 transition-all duration-1000 delay-200 ${statsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
         >
           <div className="text-center bg-gray-50 rounded-2xl p-8">
-            <div className="bg-black p-3 rounded-xl w-fit mx-auto mb-4">
+            <div className="bg-custom-dark p-3 rounded-xl w-fit mx-auto mb-4">
               <Clock className="h-6 w-6 text-white" />
             </div>
             <h3 className="text-2xl font-bold text-black mb-2">24 Hours</h3>
@@ -119,7 +119,7 @@ const ContactPage: React.FC = () => {
           </div>
           
           <div className="text-center bg-gray-50 rounded-2xl p-8">
-            <div className="bg-black p-3 rounded-xl w-fit mx-auto mb-4">
+            <div className="bg-custom-dark p-3 rounded-xl w-fit mx-auto mb-4">
               <Users className="h-6 w-6 text-white" />
             </div>
             <h3 className="text-2xl font-bold text-black mb-2">500+</h3>
@@ -127,7 +127,7 @@ const ContactPage: React.FC = () => {
           </div>
           
           <div className="text-center bg-gray-50 rounded-2xl p-8">
-            <div className="bg-black p-3 rounded-xl w-fit mx-auto mb-4">
+            <div className="bg-custom-dark p-3 rounded-xl w-fit mx-auto mb-4">
               <Award className="h-6 w-6 text-white" />
             </div>
             <h3 className="text-2xl font-bold text-black mb-2">98%</h3>
@@ -267,7 +267,7 @@ const ContactPage: React.FC = () => {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="group w-full bg-black hover:bg-gray-800 text-white px-8 py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="group w-full bg-custom-dark hover:bg-gray-800 text-white px-8 py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   <Send className="h-4 w-4" />
                   <span>{isSubmitting ? 'Sending...' : 'Send Message'}</span>
@@ -288,7 +288,7 @@ const ContactPage: React.FC = () => {
                 
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
-                    <div className="bg-black p-3 rounded-xl">
+                    <div className="bg-custom-dark p-3 rounded-xl">
                       <Mail className="h-5 w-5 text-white" />
                     </div>
                     <div>
@@ -299,7 +299,7 @@ const ContactPage: React.FC = () => {
                   </div>
 
                   <div className="flex items-start space-x-4">
-                    <div className="bg-black p-3 rounded-xl">
+                    <div className="bg-custom-dark p-3 rounded-xl">
                       <Phone className="h-5 w-5 text-white" />
                     </div>
                     <div>
@@ -310,7 +310,7 @@ const ContactPage: React.FC = () => {
                   </div>
 
                   <div className="flex items-start space-x-4">
-                    <div className="bg-black p-3 rounded-xl">
+                    <div className="bg-custom-dark p-3 rounded-xl">
                       <MapPin className="h-5 w-5 text-white" />
                     </div>
                     <div>
@@ -329,7 +329,7 @@ const ContactPage: React.FC = () => {
                 <h3 className="text-xl font-medium text-black mb-6">What happens next?</h3>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
-                    <div className="w-6 h-6 bg-black text-white rounded-full flex items-center justify-center text-sm font-medium flex-shrink-0 mt-0.5">
+                    <div className="w-6 h-6 bg-custom-dark text-white rounded-full flex items-center justify-center text-sm font-medium flex-shrink-0 mt-0.5">
                       1
                     </div>
                     <div>
@@ -339,7 +339,7 @@ const ContactPage: React.FC = () => {
                   </div>
                   
                   <div className="flex items-start space-x-3">
-                    <div className="w-6 h-6 bg-black text-white rounded-full flex items-center justify-center text-sm font-medium flex-shrink-0 mt-0.5">
+                    <div className="w-6 h-6 bg-custom-dark text-white rounded-full flex items-center justify-center text-sm font-medium flex-shrink-0 mt-0.5">
                       2
                     </div>
                     <div>
@@ -349,7 +349,7 @@ const ContactPage: React.FC = () => {
                   </div>
                   
                   <div className="flex items-start space-x-3">
-                    <div className="w-6 h-6 bg-black text-white rounded-full flex items-center justify-center text-sm font-medium flex-shrink-0 mt-0.5">
+                    <div className="w-6 h-6 bg-custom-dark text-white rounded-full flex items-center justify-center text-sm font-medium flex-shrink-0 mt-0.5">
                       3
                     </div>
                     <div>

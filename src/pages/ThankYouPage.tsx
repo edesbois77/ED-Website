@@ -85,7 +85,7 @@ const ThankYouPage: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
               {/* Step 1 */}
               <div className="text-center">
-                <div className="w-12 h-12 bg-black text-white rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-4">
+                <div className="w-12 h-12 bg-custom-dark text-white rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-4">
                   1
                 </div>
                 <h3 className="text-lg sm:text-xl font-medium text-black mb-3">
@@ -98,7 +98,7 @@ const ThankYouPage: React.FC = () => {
 
               {/* Step 2 */}
               <div className="text-center">
-                <div className="w-12 h-12 bg-black text-white rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-4">
+                <div className="w-12 h-12 bg-custom-dark text-white rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-4">
                   2
                 </div>
                 <h3 className="text-lg sm:text-xl font-medium text-black mb-3">
@@ -111,7 +111,7 @@ const ThankYouPage: React.FC = () => {
 
               {/* Step 3 */}
               <div className="text-center">
-                <div className="w-12 h-12 bg-black text-white rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-4">
+                <div className="w-12 h-12 bg-custom-dark text-white rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-4">
                   3
                 </div>
                 <h3 className="text-lg sm:text-xl font-medium text-black mb-3">
@@ -126,8 +126,8 @@ const ThankYouPage: React.FC = () => {
             {/* Response Time Guarantee */}
             <div className="mt-8 sm:mt-12 p-4 sm:p-6 bg-white rounded-xl border border-gray-200 text-center">
               <div className="flex items-center justify-center space-x-2 mb-2">
-                <Mail className="h-5 w-5 text-black" />
-                <span className="font-medium text-black">Response Guarantee</span>
+                <Mail className="h-5 w-5 text-custom-dark" />
+                <span className="font-medium text-custom-dark">Response Guarantee</span>
               </div>
               <p className="text-gray-600 font-light text-sm sm:text-base">
                 We typically respond within 4-6 hours during business hours. 

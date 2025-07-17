@@ -91,7 +91,7 @@ const AboutPage: React.FC = () => {
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-6 sm:pt-8 border-t border-gray-200">
               <button
                 onClick={handleDownloadCV}
-                className="group bg-black hover:bg-gray-800 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base"
+                className="group bg-custom-dark hover:bg-gray-800 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base"
               >
                 <Download className="h-4 w-4" />
                 <span>Download CV</span>
@@ -165,7 +165,7 @@ const AboutPage: React.FC = () => {
                   'Impactful Communicator: Adapts messaging for all audiences'
                 ].map((area, index) => (
                   <div key={index} className="flex items-start space-x-3">
-                    <div className="w-1.5 h-1.5 bg-black rounded-full mt-2.5 sm:mt-3 flex-shrink-0"></div>
+                    <div className="w-6 h-6 bg-custom-dark text-white rounded-full flex items-center justify-center text-sm font-medium flex-shrink-0 mt-0.5">
                     <span className="text-gray-700 font-light leading-relaxed text-sm sm:text-base">{area}</span>
                   </div>
                 ))}
@@ -353,7 +353,7 @@ const AboutPage: React.FC = () => {
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
               <Link
                 to="/products"
-                className="inline-flex items-center space-x-2 bg-black hover:bg-gray-800 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all text-sm sm:text-base"
+                className="inline-flex items-center space-x-2 bg-custom-dark hover:bg-gray-800 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all text-sm sm:text-base"
               >
                 <span>Explore <span className="font-bold">ED</span> Products</span>
               </Link>

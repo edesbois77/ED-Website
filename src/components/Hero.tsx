@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 group/buttons">
             <Link
               to="/about"
-              className="group/findout bg-black hover:bg-transparent text-white hover:text-black border border-black hover:border-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base group-hover/buttons:bg-transparent group-hover/buttons:text-black group-hover/buttons:hover:bg-transparent group-hover/buttons:hover:text-black whitespace-nowrap"
+              className="group/findout bg-custom-dark hover:bg-transparent text-white hover:text-custom-dark border border-custom-dark hover:border-custom-dark px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base group-hover/buttons:bg-transparent group-hover/buttons:text-custom-dark group-hover/buttons:hover:bg-transparent group-hover/buttons:hover:text-custom-dark whitespace-nowrap"
             >
               <span>Find&nbsp;Out&nbsp;More</span>
               <ArrowRight className="h-4 w-4 group-hover/findout:translate-x-0.5 transition-transform" />
@@ -59,14 +59,14 @@ const Hero: React.FC = () => {
 
             <Link
               to="/products"
-              className="group/products bg-transparent hover:bg-black text-black hover:text-white border border-black hover:border-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base whitespace-nowrap"
+              className="group/products bg-transparent hover:bg-custom-dark text-custom-dark hover:text-white border border-custom-dark hover:border-custom-dark px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base whitespace-nowrap"
             >
               <span>Product&nbsp;Suite</span>
             </Link>
 
             <button
               onClick={handleDownloadCV}
-              className="group/download bg-transparent hover:bg-black text-black hover:text-white border border-black hover:border-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base whitespace-nowrap"
+              className="group/download bg-transparent hover:bg-custom-dark text-custom-dark hover:text-white border border-custom-dark hover:border-custom-dark px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base whitespace-nowrap"
             >
               <Download className="h-4 w-4" />
               <span>Download&nbsp;CV</span>
@@ -79,7 +79,7 @@ const Hero: React.FC = () => {
       <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-10 hidden sm:block">
         <div className="animate-bounce">
           <div className="w-5 h-8 border border-black rounded-full flex justify-center">
-            <div className="w-0.5 h-2 bg-black rounded-full mt-2 animate-pulse"></div>
+            <div className="w-0.5 h-2 bg-custom-dark rounded-full mt-2 animate-pulse"></div>
           </div>
         </div>
       </div>

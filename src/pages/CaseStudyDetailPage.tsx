@@ -204,7 +204,7 @@ const CaseStudyDetailPage: React.FC = () => {
                   <div className="mt-8 pt-6 border-t border-gray-200">
                     <Link
                       to="/contact"
-                      className="w-full bg-black hover:bg-gray-800 text-white px-6 py-3 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm"
+                      className="w-full bg-custom-dark hover:bg-gray-800 text-white px-6 py-3 rounded-full font-medium transition-all flex items-center justify-center space-x-2 text-sm"
                     >
                       <Mail className="h-4 w-4" />
                       <span>Discuss Similar Project</span>
@@ -220,7 +220,7 @@ const CaseStudyDetailPage: React.FC = () => {
             ref={resultsRef}
             className={`mb-12 sm:mb-16 md:mb-20 transition-all duration-1000 delay-200 ${resultsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
           >
-            <div className="bg-black rounded-2xl p-6 sm:p-8 md:p-12 text-white">
+            <div className="bg-custom-dark rounded-2xl p-6 sm:p-8 md:p-12 text-white">
               <h2 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8 tracking-tight text-center">
                 Outcome / Results
               </h2>
@@ -281,13 +281,13 @@ const CaseStudyDetailPage: React.FC = () => {
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
               <Link
                 to="/contact"
-                className="bg-black hover:bg-gray-800 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all text-sm sm:text-base"
+                className="bg-custom-dark hover:bg-gray-800 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all text-sm sm:text-base"
               >
                 Start Your Project
               </Link>
               <Link
                 to="/case-studies"
-                className="text-black hover:text-gray-600 border border-gray-200 hover:border-gray-300 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all text-sm sm:text-base"
+                className="text-custom-dark hover:text-gray-600 border border-gray-200 hover:border-gray-300 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all text-sm sm:text-base"
               >
                 View More Case Studies
               </Link>

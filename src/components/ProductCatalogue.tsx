@@ -248,7 +248,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, isActive, isPreview,
         }`}>
           <button
             onClick={() => onAddToBasket(product)}
-            className={`group bg-black hover:bg-gray-800 text-white rounded-full font-medium transition-all flex items-center justify-center space-x-2 ${
+            className={`group bg-custom-dark hover:bg-gray-800 text-white rounded-full font-medium transition-all flex items-center justify-center space-x-2 ${
               isMobile ? 'px-4 py-3 text-xs sm:text-sm' : 'px-6 py-3 text-sm'
             }`}
           >

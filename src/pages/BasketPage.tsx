@@ -27,7 +27,7 @@ const BasketPage: React.FC = () => {
               <p className="text-lg text-gray-600 mb-8 font-light">Your basket is empty</p>
               <Link
                 to="/"
-                className="inline-flex items-center space-x-2 bg-black hover:bg-gray-800 text-white px-8 py-3 rounded-full font-medium transition-all"
+                className="inline-flex items-center space-x-2 bg-custom-dark hover:bg-gray-800 text-white px-8 py-3 rounded-full font-medium transition-all"
               >
                 <ArrowLeft className="h-4 w-4" />
                 <span>Continue Shopping</span>
@@ -148,7 +148,7 @@ const BasketPage: React.FC = () => {
 
               <Link
                 to="/contact"
-                className="w-full bg-black hover:bg-gray-800 text-white px-8 py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 mb-6"
+                className="w-full bg-custom-dark hover:bg-gray-800 text-white px-8 py-4 rounded-full font-medium transition-all flex items-center justify-center space-x-2 mb-6"
               >
                 <Mail className="h-4 w-4" />
                 <span>Get In Touch With <span className="font-bold">ED</span></span>

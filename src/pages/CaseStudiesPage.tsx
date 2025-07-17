@@ -43,7 +43,7 @@ const CaseStudiesPage: React.FC = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="mt-16 sm:mt-20 md:mt-24 bg-black rounded-2xl p-6 sm:p-8 md:p-12 text-center">
+        <div className="mt-16 sm:mt-20 md:mt-24 bg-custom-dark rounded-2xl p-6 sm:p-8 md:p-12 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6 tracking-tight">
             Ready to Create Your Own Success Story?
           </h2>

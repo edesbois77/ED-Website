@@ -443,12 +443,12 @@ This isn't leadership by textbook. It's shaped by doing, hiring the right people
   const renderIcon = (iconType: string) => {
     switch (iconType) {
       case 'star':
-        return <Star className="h-4 w-4 sm:h-5 sm:w-5 text-black fill-current" />;
+        return <Star className="h-4 w-4 sm:h-5 sm:w-5 text-custom-dark fill-current" />;
       case 'check':
-        return <Check className="h-4 w-4 sm:h-5 sm:w-5 text-black" />;
+        return <Check className="h-4 w-4 sm:h-5 sm:w-5 text-custom-dark" />;
       case 'circle':
       default:
-        return <div className="w-4 h-4 sm:w-5 sm:h-5 bg-black rounded-full"></div>;
+        return <div className="w-4 h-4 sm:w-5 sm:h-5 bg-custom-dark rounded-full"></div>;
     }
   };
 
@@ -542,7 +542,7 @@ This isn't leadership by textbook. It's shaped by doing, hiring the right people
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
               {productDetails.keyBenefits.map((benefit: string, index: number) => (
                 <div key={index} className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-black rounded-full mt-2.5 sm:mt-3 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-custom-dark rounded-full mt-2.5 sm:mt-3 flex-shrink-0"></div>
                   <span className="text-gray-700 leading-relaxed text-sm sm:text-base">{benefit}</span>
                 </div>
               ))}
@@ -572,7 +572,7 @@ This isn't leadership by textbook. It's shaped by doing, hiring the right people
         </div>
 
         {/* CTA Section */}
-        <div className="mt-8 sm:mt-12 md:mt-16 bg-black rounded-2xl p-6 sm:p-8 md:p-12 text-center">
+        <div className="mt-8 sm:mt-12 md:mt-16 bg-custom-dark rounded-2xl p-6 sm:p-8 md:p-12 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6 tracking-tight">
             Ready to get started with {product.name}?
           </h2>
@@ -582,7 +582,7 @@ This isn't leadership by textbook. It's shaped by doing, hiring the right people
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <button
               onClick={handleAddToBasket}
-              className="bg-white hover:bg-gray-100 text-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all text-sm sm:text-base"
+              className="bg-white hover:bg-gray-100 text-custom-dark px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all text-sm sm:text-base"
             >
               Add To Basket
             </button>
