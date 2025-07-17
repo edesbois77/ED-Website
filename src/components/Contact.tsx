@@ -78,7 +78,7 @@ const Contact: React.FC = () => {
             {submitStatus === 'success' && (
               <div className="mb-6 p-4 bg-green-100 border border-green-200 rounded-xl">
                 <p className="text-green-800 font-medium text-sm sm:text-base">
-                  Thank you! Your message has been sent successfully. We'll get back to you within 24 hours.
+                  Thank you! Your message has been sent successfully. ED will get back to you within 24 hours.
                 </p>
               </div>
             )}
@@ -211,8 +211,7 @@ const Contact: React.FC = () => {
 
               <div className="mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-gray-200">
                 <p className="text-gray-500 text-xs sm:text-sm leading-relaxed font-light">
-                  Our team typically responds within 24 hours. For urgent inquiries, 
-                  please call us directly.
+                  ED typically responds within 24 hours. For urgent inquiries, please call us directly.
                 </p>
               </div>
             </div>
