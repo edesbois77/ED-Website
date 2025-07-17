@@ -293,8 +293,8 @@ const ContactPage: React.FC = () => {
                     </div>
                     <div>
                       <h4 className="text-black font-medium mb-1">Email</h4>
-                      <p className="text-gray-600 font-light">hello@ed-solutions.com</p>
-                      <p className="text-gray-500 text-sm font-light">We typically respond within 24 hours</p>
+                      <p className="text-gray-600 font-light">edproductsolutions@gmail.com</p>
+                      <p className="text-gray-500 text-sm font-light">ED typically responds within 24 hours</p>
                     </div>
                   </div>
 
