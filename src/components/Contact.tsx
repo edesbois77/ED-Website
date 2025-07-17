@@ -211,7 +211,7 @@ const Contact: React.FC = () => {
 
               <div className="mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-gray-200">
                 <p className="text-gray-500 text-xs sm:text-sm leading-relaxed font-light">
-                  ED typically responds within 24 hours. For urgent inquiries, please call us directly.
+                  ED typically responds within 24 hours. For urgent inquiries, please call ED directly.
                 </p>
               </div>
             </div>
