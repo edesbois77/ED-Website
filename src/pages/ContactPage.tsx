@@ -316,9 +316,8 @@ const ContactPage: React.FC = () => {
                     <div>
                       <h4 className="text-black font-medium mb-1">Office</h4>
                       <p className="text-gray-600 font-light">
-                        123 Innovation Drive<br />
-                        Tech Valley, CA 94000<br />
-                        United States
+                        1 Ed Estate<br />
+                        London, LN5 9DN
                       </p>
                     </div>
                   </div>
