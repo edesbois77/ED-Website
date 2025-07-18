@@ -156,7 +156,7 @@ const ThankYouPage: React.FC = () => {
               {/* Download CV */}
               <button
                 onClick={handleDownloadCV}
-                className="group bg-gray-50 hover:bg-gray-100 p-4 sm:p-6 rounded-xl transition-all text-center border border-gray-100 hover:border-gray-200"
+                className="group bg-gray-50 hover:bg-gray-100 p-4 sm:p-6 rounded-xl transition-all text-center border border-gray-100 hover:border-gray-200 flex flex-col items-center"
               >
                 <Download className="h-6 w-6 sm:h-8 sm:w-8 text-gray-600 group-hover:text-black mx-auto mb-3 transition-colors" />
                 <h3 className="font-medium text-black mb-2 text-sm sm:text-base">Download CV</h3>
@@ -168,7 +168,7 @@ const ThankYouPage: React.FC = () => {
               {/* Explore Products */}
               <Link
                 to="/products"
-                className="group bg-gray-50 hover:bg-gray-100 p-4 sm:p-6 rounded-xl transition-all text-center border border-gray-100 hover:border-gray-200"
+                className="group bg-gray-50 hover:bg-gray-100 p-4 sm:p-6 rounded-xl transition-all text-center border border-gray-100 hover:border-gray-200 flex flex-col items-center"
               >
                 <Package className="h-6 w-6 sm:h-8 sm:w-8 text-gray-600 group-hover:text-black mx-auto mb-3 transition-colors" />
                 <h3 className="font-medium text-black mb-2 text-sm sm:text-base">Product Suite</h3>
@@ -180,7 +180,7 @@ const ThankYouPage: React.FC = () => {
               {/* Case Studies */}
               <Link
                 to="/case-studies"
-                className="group bg-gray-50 hover:bg-gray-100 p-4 sm:p-6 rounded-xl transition-all text-center border border-gray-100 hover:border-gray-200"
+                className="group bg-gray-50 hover:bg-gray-100 p-4 sm:p-6 rounded-xl transition-all text-center border border-gray-100 hover:border-gray-200 flex flex-col items-center"
               >
                 <Calendar className="h-6 w-6 sm:h-8 sm:w-8 text-gray-600 group-hover:text-black mx-auto mb-3 transition-colors" />
                 <h3 className="font-medium text-black mb-2 text-sm sm:text-base">Case Studies</h3>
@@ -192,7 +192,7 @@ const ThankYouPage: React.FC = () => {
               {/* About ED */}
               <Link
                 to="/about"
-                className="group bg-gray-50 hover:bg-gray-100 p-4 sm:p-6 rounded-xl transition-all text-center border border-gray-100 hover:border-gray-200"
+                className="group bg-gray-50 hover:bg-gray-100 p-4 sm:p-6 rounded-xl transition-all text-center border border-gray-100 hover:border-gray-200 flex flex-col items-center"
               >
                 <CheckCircle className="h-6 w-6 sm:h-8 sm:w-8 text-gray-600 group-hover:text-black mx-auto mb-3 transition-colors" />
                 <h3 className="font-medium text-black mb-2 text-sm sm:text-base">About <span className="font-bold">ED</span></h3>
