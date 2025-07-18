@@ -222,7 +222,7 @@ const AboutPage: React.FC = () => {
                 $26M
               </div>
               <p className="text-sm sm:text-base text-gray-600 font-light leading-relaxed">
-                Largest ever individual deal concluded - 2011
+                Largest ever individual deal concluded
               </p>
             </div>
           </div>
