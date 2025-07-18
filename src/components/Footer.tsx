@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex items-center space-x-2 text-gray-600">
               <Mail className="h-3 w-3 sm:h-4 sm:w-4" />
-              <span className="text-xs sm:text-sm font-light">hello@ed-solutions.com</span>
+              <span className="text-xs sm:text-sm font-light">edproductsolutions@gmail.com</span>
             </div>
           </div>
 
