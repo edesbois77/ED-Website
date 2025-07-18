@@ -5,7 +5,8 @@ export default {
     extend: {
       colors: {
         'custom-dark': '#212529', // Your existing custom color
-        'promo-grey': '#495057', // A new custom color
+        'promo-colour': '#47ffe7', // A new custom color
+        'secondary-green': '#28a745', // Another new custom color
         'secondary-green': '#28a745', // Another new custom color
       },
     },
