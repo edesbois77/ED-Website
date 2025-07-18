@@ -54,7 +54,7 @@ const Header: React.FC = () => {
               to="/about"
               className="text-gray-600 hover:text-black hover:font-semibold transition-all text-sm font-medium"
             >
-              About
+              About ED
             </Link>
             <Link
               to="/products"
@@ -72,7 +72,7 @@ const Header: React.FC = () => {
               to="/contact"
               className="text-gray-600 hover:text-black hover:font-semibold transition-all text-sm font-medium"
             >
-              Contact
+              Contact ED
             </Link>
           </nav>
 
