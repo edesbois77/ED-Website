@@ -98,7 +98,7 @@ const ContactPage: React.FC = () => {
         {/* Header */}
         <div className={`mb-12 sm:mb-16 transition-all duration-1000 delay-100 ${headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <h1 className="text-4xl md:text-5xl font-bold text-black mb-6 tracking-tight">
-            Contact Us
+            Contact ED
           </h1>
           <p className="text-lg text-gray-600 font-light max-w-4xl">
             Ready to transform your business with <span className="font-bold">ED</span>? Get in touch and we will find you the perfect solution for your needs.
