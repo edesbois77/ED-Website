@@ -137,7 +137,7 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
     client: 'Coca-Cola',
     logo: 'https://i.imgur.com/vTuKtRs.png',
     headlineResult: '300% ROI on marketing investment',
-    summary: 'This is dummy data with the main case study needing to be added.,
+    summary: 'This is dummy data with the main case study needing to be added.',
     challenge: 'Coca-Cola needed to revitalize brand engagement among Gen Z consumers while maintaining broad appeal across demographics. The challenge was creating authentic connections in an increasingly skeptical media landscape where traditional advertising approaches were losing effectiveness.',
     solution: 'Developed a multi-platform campaign strategy centered on authentic storytelling and community-driven content. Led creative development that balanced brand values with cultural relevance, implementing real-time optimization based on audience feedback and engagement data.',
     results: {
