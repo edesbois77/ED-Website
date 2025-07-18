@@ -57,7 +57,7 @@ const BasketPage: React.FC = () => {
         <div className="mb-12 sm:mb-16 space-y-4 sm:space-y-6">
           <h1 className="text-4xl font-light text-black mb-4 tracking-tight">Your Basket</h1>
           <p className="text-lg text-gray-600 font-light">
-            Thanks for selecting these <span className="font-bold">ED</span> modules. 
+            Thanks for selecting these <span className="font-bold">ED</span> products. 
           </p>
     
           <p className="text-lg text-gray-600 font-light">While you can't actually purchase these service modules directly from the website, I'd like to thank you for getting this far.
