@@ -111,7 +111,7 @@ const ContactPage: React.FC = () => {
           className={`grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 sm:mb-20 transition-all duration-1000 delay-200 ${statsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
         >
           <div className="text-center bg-gray-50 rounded-2xl p-8">
-            <div className="bg-custom-dark p-3 rounded-xl w-fit mx-auto mb-4">
+            <div className="bg-custom-dark p-3 rounded-xl w-fit mx-auto mb-4 flex justify-center items-center">
               <Clock className="h-6 w-6 text-white" />
             </div>
             <h3 className="text-2xl font-bold text-black mb-2">24 Hours</h3>
@@ -119,7 +119,7 @@ const ContactPage: React.FC = () => {
           </div>
           
           <div className="text-center bg-gray-50 rounded-2xl p-8">
-            <div className="bg-custom-dark p-3 rounded-xl w-fit mx-auto mb-4">
+            <div className="bg-custom-dark p-3 rounded-xl w-fit mx-auto mb-4 flex justify-center items-center">
               <Users className="h-6 w-6 text-white" />
             </div>
             <h3 className="text-2xl font-bold text-black mb-2">500+</h3>
@@ -127,7 +127,7 @@ const ContactPage: React.FC = () => {
           </div>
           
           <div className="text-center bg-gray-50 rounded-2xl p-8">
-            <div className="bg-custom-dark p-3 rounded-xl w-fit mx-auto mb-4">
+            <div className="bg-custom-dark p-3 rounded-xl w-fit mx-auto mb-4 flex justify-center items-center">
               <Award className="h-6 w-6 text-white" />
             </div>
             <h3 className="text-2xl font-bold text-black mb-2">98%</h3>
