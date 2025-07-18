@@ -110,7 +110,7 @@ const ContactPage: React.FC = () => {
           ref={statsRef}
           className={`grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 sm:mb-20 transition-all duration-1000 delay-200 ${statsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
         >
-          <div className="text-center bg-gray-50 rounded-2xl p-8">
+          <div className="text-center bg-gray-50 rounded-2xl p-8 flex flex-col items-center">
             <div className="bg-custom-dark p-3 rounded-xl w-fit mx-auto mb-4 flex justify-center items-center">
               <Clock className="h-6 w-6 text-white" />
             </div>
@@ -118,7 +118,7 @@ const ContactPage: React.FC = () => {
             <p className="text-gray-600 font-light">Average response time</p>
           </div>
           
-          <div className="text-center bg-gray-50 rounded-2xl p-8">
+          <div className="text-center bg-gray-50 rounded-2xl p-8 flex flex-col items-center">
             <div className="bg-custom-dark p-3 rounded-xl w-fit mx-auto mb-4 flex justify-center items-center">
               <Users className="h-6 w-6 text-white" />
             </div>
@@ -126,7 +126,7 @@ const ContactPage: React.FC = () => {
             <p className="text-gray-600 font-light">Companies served</p>
           </div>
           
-          <div className="text-center bg-gray-50 rounded-2xl p-8">
+          <div className="text-center bg-gray-50 rounded-2xl p-8 flex flex-col items-center">
             <div className="bg-custom-dark p-3 rounded-xl w-fit mx-auto mb-4 flex justify-center items-center">
               <Award className="h-6 w-6 text-white" />
             </div>
