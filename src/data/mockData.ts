@@ -200,7 +200,7 @@ export const caseStudies: CaseStudy[] = [
   {
     id: '3',
     title: 'Coca-Cola: Global Campaign Success',
-    description: 'How Coca-Cola achieved 300% ROI on marketing campaigns using ED\'s strategic tools.',
+    description: 'This is dummy data... the full case study is yet to be added',
     image: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=800',
     link: '#'
   }
