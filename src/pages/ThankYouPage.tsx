@@ -85,7 +85,7 @@ const ThankYouPage: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
               {/* Step 1 */}
               <div className="text-center">
-                <div className="w-12 h-12 bg-custom-dark text-white rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-4">
+                <div className="w-12 h-12 bg-custom-dark text-white rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-4 flex-shrink-0">
                   1
                 </div>
                 <h3 className="text-lg sm:text-xl font-medium text-black mb-3">
@@ -98,7 +98,7 @@ const ThankYouPage: React.FC = () => {
 
               {/* Step 2 */}
               <div className="text-center">
-                <div className="w-12 h-12 bg-custom-dark text-white rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-4">
+                <div className="w-12 h-12 bg-custom-dark text-white rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-4 flex-shrink-0">
                   2
                 </div>
                 <h3 className="text-lg sm:text-xl font-medium text-black mb-3">
@@ -111,7 +111,7 @@ const ThankYouPage: React.FC = () => {
 
               {/* Step 3 */}
               <div className="text-center">
-                <div className="w-12 h-12 bg-custom-dark text-white rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-4">
+                <div className="w-12 h-12 bg-custom-dark text-white rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-4 flex-shrink-0">
                   3
                 </div>
                 <h3 className="text-lg sm:text-xl font-medium text-black mb-3">
