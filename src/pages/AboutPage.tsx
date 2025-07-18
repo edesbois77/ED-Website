@@ -248,7 +248,7 @@ const AboutPage: React.FC = () => {
               <div className="text-sm sm:text-base font-medium text-black mb-4">
                 Instagram
               </div>
-              <div className="mb-4">
+              <div className="mb-4 flex justify-center">
                 <img
                   src="https://i.imgur.com/Pjr5ljE.png"
                   alt="Instagram Mobile App"
@@ -265,7 +265,7 @@ const AboutPage: React.FC = () => {
               <div className="text-sm sm:text-base font-medium text-black mb-4">
                 TikTok
               </div>
-              <div className="mb-4">
+              <div className="mb-4 flex justify-center">
                 <img
                   src="https://i.imgur.com/GpgifFr.png"
                   alt="TikTok Mobile App"
@@ -282,7 +282,7 @@ const AboutPage: React.FC = () => {
               <div className="text-sm sm:text-base font-medium text-black mb-4">
                 YouTube
               </div>
-              <div className="mb-4">
+              <div className="mb-4 flex justify-center">
                 <img
                   src="https://i.imgur.com/4Yx304W.png"
                   alt="YouTube Mobile App"
@@ -299,7 +299,7 @@ const AboutPage: React.FC = () => {
               <div className="text-sm sm:text-base font-medium text-black mb-4">
                 Facebook
               </div>
-              <div className="mb-4">
+              <div className="mb-4 flex justify-center">
                 <img
                   src="https://i.imgur.com/0w0I2FM.png"
                   alt="Facebook Mobile App"
@@ -316,7 +316,7 @@ const AboutPage: React.FC = () => {
               <div className="text-sm sm:text-base font-medium text-black mb-4">
                 Spotify
               </div>
-              <div className="mb-4">
+              <div className="mb-4 flex justify-center">
                 <img
                   src="https://i.imgur.com/chry0kB.png"
                   alt="Spotify Mobile App"
