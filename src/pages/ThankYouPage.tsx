@@ -92,7 +92,7 @@ const ThankYouPage: React.FC = () => {
                   Message Review
                 </h3>
                 <p className="text-gray-600 font-light text-sm sm:text-base leading-relaxed">
-                  Our team will carefully review your inquiry and requirements within the next few hours.
+                  ED will carefully review your inquiry and requirements within the next few hours.
                 </p>
               </div>
 
@@ -118,7 +118,7 @@ const ThankYouPage: React.FC = () => {
                   Strategic Discussion
                 </h3>
                 <p className="text-gray-600 font-light text-sm sm:text-base leading-relaxed">
-                  We'll schedule a consultation to discuss how <span className="font-bold">ED</span> can help achieve your goals.
+                  ED will schedule a consultation to discuss how <span className="font-bold">ED</span> can help achieve your goals.
                 </p>
               </div>
             </div>
@@ -130,7 +130,7 @@ const ThankYouPage: React.FC = () => {
                 <span className="font-medium text-custom-dark">Response Guarantee</span>
               </div>
               <p className="text-gray-600 font-light text-sm sm:text-base">
-                We typically respond within 4-6 hours during business hours. 
+                ED typically respond within 4-6 hours during business hours. 
                 For urgent matters, expect to hear from us even sooner.
               </p>
             </div>
@@ -149,7 +149,7 @@ const ThankYouPage: React.FC = () => {
             
             <p className="text-base sm:text-lg text-gray-600 font-light text-center mb-8 sm:mb-12 max-w-2xl mx-auto">
               Explore more about <span className="font-bold">ED's</span> capabilities and see how our modular approach 
-              has delivered results for other organizations.
+              has delivered results for other organisations.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
@@ -197,7 +197,7 @@ const ThankYouPage: React.FC = () => {
                 <CheckCircle className="h-6 w-6 sm:h-8 sm:w-8 text-gray-600 group-hover:text-black mx-auto mb-3 transition-colors" />
                 <h3 className="font-medium text-black mb-2 text-sm sm:text-base">About <span className="font-bold">ED</span></h3>
                 <p className="text-gray-600 font-light text-xs sm:text-sm">
-                  Learn the story
+                  Find out more about ED
                 </p>
               </Link>
             </div>
@@ -206,8 +206,8 @@ const ThankYouPage: React.FC = () => {
             <div className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-gray-200 text-center">
               <p className="text-gray-500 text-sm sm:text-base font-light leading-relaxed">
                 <strong>Need immediate assistance?</strong><br />
-                Call us directly at <span className="font-medium text-black">+1 (555) 123-4567</span> or email 
-                <span className="font-medium text-black"> hello@ed-solutions.com</span>
+                Call us directly at <span className="font-medium text-black">+44 (0) 7918-086200</span> or email 
+                <span className="font-medium text-black"> edproductsolutions@gmail.com</span>
               </p>
             </div>
           </div>
