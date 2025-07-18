@@ -125,7 +125,7 @@ const Header: React.FC = () => {
                 className="block px-4 py-3 text-gray-600 hover:text-black hover:bg-gray-50 transition-all font-medium"
                 onClick={closeMobileMenu}
               >
-                About
+                About ED
               </Link>
               <Link
                 to="/products"
@@ -146,7 +146,7 @@ const Header: React.FC = () => {
                 className="block px-4 py-3 text-gray-600 hover:text-black hover:bg-gray-50 transition-all font-medium"
                 onClick={closeMobileMenu}
               >
-                Contact
+                Contact ED
               </Link>
             </nav>
           </div>
