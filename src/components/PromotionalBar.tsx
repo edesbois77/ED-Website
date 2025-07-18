@@ -18,7 +18,7 @@ const PromotionalBar: React.FC = () => {
   };
 
   return (
-    <div className="bg-promo-grey border-b border-gray-800 overflow-hidden relative z-10">
+    <div className="bg-promo-colour border-b border-gray-800 overflow-hidden relative z-10">
       <div className="relative">
         {/* Scrolling content */}
         <div className="animate-scroll flex whitespace-nowrap py-3" style={{ transform: 'translateZ(0)' }}>
