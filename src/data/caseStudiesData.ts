@@ -71,7 +71,7 @@ As momentum grew, we scaled the sales organisation, invested in upskilling teams
   },
   {
     id: 'coca-cola-fanrituals',
-    title: 'Uniting Fans, Inspiring Rituals: Euro2024',
+    title: 'Uniting Fans & Inspiring Rituals: Euro2024',
     client: 'Coca-Cola',
     logo: 'https://i.imgur.com/KYF8Mye.png',
     headlineResult: '3x Industry Award Nominations',
