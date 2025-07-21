@@ -91,6 +91,8 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
       gallery: [
         'https://i.imgur.com/0dHALua.jpeg?auto=compress&cs=tinysrgb&w=800',
         'https://i.imgur.com/prWkwB6.jpeg?auto=compress&cs=tinysrgb&w=800'
+        'https://i.imgur.com/0dHALua.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://i.imgur.com/prWkwB6.jpeg?auto=compress&cs=tinysrgb&w=800'
       ]
     },
     tags: ['Euro24', 'Digital', 'Coca-Cola', 'Football', 'Sponsorship', 'Partnership', 'Branded Content'],
