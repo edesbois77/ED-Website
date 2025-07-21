@@ -185,8 +185,8 @@ export const testimonials: Testimonial[] = [
 export const caseStudies: CaseStudy[] = [
   {
     id: '1',
-    title: 'From Local Secret to Global Leader',
-    description: 'How OneFootball became a household B2B name in the football industry by Scaling Teams, Building Strategic Partnerships and Driving Global Revenue Growth.',
+    title: '3x Industry Award Nominations',
+    description: 'Elevated Coca-Cola Zero Sugar’s presence across Europe by embedding the brand into fans’ match-day rituals with talent-led, multi-channel digital engagement.',
     image: 'https://i.imgur.com/24NwBv5.jpeg?auto=compress&cs=tinysrgb&w=800',
     link: '#'
   },
@@ -199,7 +199,7 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     id: '3',
-    title: 'Coca-Cola: Global Campaign Success',
+    title: '3x Industry Award Nominations',
     description: 'This is dummy data... the full case study is yet to be added',
     image: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=800',
     link: '#'
