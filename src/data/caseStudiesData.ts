@@ -55,8 +55,8 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
     visuals: {
       hero: 'https://i.imgur.com/TNFQZFC.jpeg?auto=compress&cs=tinysrgb&w=1200',
       gallery: [
-        'https://i.imgur.com/o8kSoHs.png?auto=compress&cs=tinysrgb&w=800',
-        'https://images.pexels.com/photos/1796715/pexels-photo-1796715.jpeg?auto=compress&cs=tinysrgb&w=800'
+        'https://i.imgur.com/u7Zj6Iz.png?auto=compress&cs=tinysrgb&w=800',
+        'https://i.imgur.com/ipfRWyK.jpeg?auto=compress&cs=tinysrgb&w=800'
       ]
     },
     tags: ['Football', 'Sport', 'Revenue Growth', 'Product Development', 'B2B'],
