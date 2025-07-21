@@ -142,8 +142,6 @@ const CaseStudyDetailPage: React.FC = () => {
                   </div>
                 </div>
 
-                {/* Gallery */}
-                {caseStudy.visuals.gallery && (
                 {/* Athlete Links - Only for FedEx case study */}
                 {caseStudy.id === 'fedex-nextinline' && (
                   <div>
