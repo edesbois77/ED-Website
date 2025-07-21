@@ -30,7 +30,7 @@ export interface DetailedCaseStudy {
 
 export const detailedCaseStudies: DetailedCaseStudy[] = [
   {
-    id: 'visit-britain',
+    id: 'one-football',
     title: 'From Obscurity to Opportunity',
     client: 'OneFootball',
     logo: 'https://i.imgur.com/o8kSoHs.png',
