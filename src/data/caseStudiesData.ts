@@ -116,7 +116,7 @@ By putting Coca-Cola Zero Sugar at the center of the Euro2024 fan experience, we
     title: 'Next In Line: The Future of Football with FedEx',
     client: 'FedEx',
     logo: 'https://i.imgur.com/E832FHx.png',
-    headlineResult: '6 Rising Stars & Millions of Fans Engaged',
+    headlineResult: '6 Rising Stars & Millions of Fans',
     summary: 'Revolutionized EA Sports community engagement through innovative content partnerships and data-driven insights.',
     challenge: 'In 2021, FedEx set out to shift perceptions and demonstrate its innovative, forward-thinking logistics solutions through the new ‘Where Now Meets Next’ brand positioning. With 65% of their core audience identified as UEFA Champions League fans, the challenge was to leverage the UCL’s platform to bring this positioning to life in a way that would resonate with discerning, data-driven B2B audiences. FedEx needed a standout campaign that would engage fans seeking deeper football insight and elevate the brand’s association with progress, innovation, and the next generation of football talent.',
     solution: `FedEx and their agency Fuse International selected ED and OneFootball for their creative concept, ‘Next In Line’, a campaign developed in-house to spotlight emerging Champions League talent and deliver on FedEx’s ‘Where Now Meets Next’ brand promise. Drawing on user research that revealed 72% of football fans wanted richer athlete-driven content, we crafted a multi-format series featuring some of Europe’s brightest young stars.
