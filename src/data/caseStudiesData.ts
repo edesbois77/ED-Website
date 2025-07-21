@@ -43,7 +43,7 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
         { value: '176%', label: 'Revenue Growth' },
         { value: '78', label: 'Commercial People' },
         { value: '7', label: 'Local Sales Teams' },
-        { value: '340%', label: 'Social Media Growth' }
+        { value: '22', label: 'Award Nominations' }
       ],
       description: 'The campaign exceeded all KPIs, delivering measurable impact across awareness, consideration, and conversion metrics. The content strategy became a template for future tourism campaigns.'
     },
