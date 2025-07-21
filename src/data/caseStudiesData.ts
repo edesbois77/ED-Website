@@ -55,7 +55,7 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
     visuals: {
       hero: 'https://i.imgur.com/TNFQZFC.jpeg?auto=compress&cs=tinysrgb&w=1200',
       gallery: [
-        'https://i.imgur.com/u7Zj6Iz.png?auto=compress&cs=tinysrgb&w=800',
+        'https://i.imgur.com/oVKdgOI.jpeg?auto=compress&cs=tinysrgb&w=800',
         'https://i.imgur.com/ipfRWyK.jpeg?auto=compress&cs=tinysrgb&w=800'
       ]
     },
