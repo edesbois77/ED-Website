@@ -36,7 +36,7 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
     logo: 'https://i.imgur.com/o8kSoHs.png',
     headlineResult: '176% revenue growth in 5 years',
     summary: 'Repositioned Britain as a must-visit destination for millennial travelers through data-driven content strategy.',
-    challenge: 'Visit Britain needed to increase inbound tourism by repositioning Britain as a must-visit destination for millennial travelers in key international markets. Traditional tourism marketing wasn\'t resonating with younger demographics who valued authentic experiences over conventional attractions.',
+    challenge: 'In 2019, OneFootball was a strong local player but had little revenue or recognition outside Berlin—especially in the global B2B market. The commercial team was talented but inexperienced in media and unproven in executing large, multi-market partnership deals. OneFootball’s focus on product innovation hadn’t translated into commercial growth, and the limited tech stack further restricted scale. The objective: transform OneFootball from a Berlin-based tech brand into a global B2B leader, drive substantial international revenue, and build a commercial culture ready to compete at the highest level.',
     solution: 'Led a cross-functional team to launch an integrated content and influencer campaign across digital, social, and programmatic channels. Introduced real-time campaign analytics to optimize creative on the fly. Developed a content strategy focused on hidden gems, local experiences, and authentic storytelling that resonated with millennial values.',
     results: {
       stats: [
