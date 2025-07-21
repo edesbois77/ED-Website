@@ -142,8 +142,8 @@ By putting Coca-Cola Zero Sugar at the center of the Euro2024 fan experience, we
       ]
     },
     tags: ['Gaming', 'Community Building', 'Content Strategy', 'Analytics'],
-    duration: '15 months',
-    year: '2019-2020'
+    duration: '24 months',
+    year: '2021-2023'
   },
   {
     id: 'coca-cola-campaign',
