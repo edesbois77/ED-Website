@@ -59,9 +59,9 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
         'https://images.pexels.com/photos/1796715/pexels-photo-1796715.jpeg?auto=compress&cs=tinysrgb&w=800'
       ]
     },
-    tags: ['Tourism', 'Content Strategy', 'Digital Marketing', 'Analytics'],
-    duration: '18 months',
-    year: '2015-2016'
+    tags: ['Football', 'Sport', 'Revenue Growth', 'Product Development', 'B2B'],
+    duration: '68 months',
+    year: '2019-2025'
   },
   {
     id: 'nike-global-expansion',
