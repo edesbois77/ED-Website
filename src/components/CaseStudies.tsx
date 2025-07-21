@@ -45,7 +45,7 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ caseStudy, index }) => {
     const idMapping: { [key: string]: string } = {
       '1': 'coca-cola-fanrituals',
       '2': 'one-football', 
-      '3': 'coca-cola-campaign'
+      '3': 'fedex-nextinline'
     };
     return idMapping[caseStudyId] || 'coca-cola-fanrituals';
   };
