@@ -93,7 +93,7 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
         'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800'
       ]
     },
-    tags: ['Euro24', 'Digital', 'Coca-Cola', 'Football', 'Sponsorship', 'Branded Content'],
+    tags: ['Euro24', 'Digital', 'Coca-Cola', 'Football', 'Sponsorship', 'Partnership', 'Branded Content'],
     duration: '24 months',
     year: '2023-2024'
   },
