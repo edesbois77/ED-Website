@@ -112,10 +112,10 @@ By putting Coca-Cola Zero Sugar at the center of the Euro2024 fan experience, we
     year: '2023-2024'
   },
   {
-    id: 'ea-sports-engagement',
-    title: 'Gaming Community Revolution',
-    client: 'Electronic Arts',
-    logo: 'https://i.imgur.com/yZsCnOY.png',
+    id: 'fedex-nextinline',
+    title: 'Next In Line: Showcasing the Future of Football with FedEx',
+    client: 'FedEx',
+    logo: 'https://i.imgur.com/E832FHx.png',
     headlineResult: '185% increase in player engagement',
     summary: 'Revolutionized EA Sports community engagement through innovative content partnerships and data-driven insights.',
     challenge: 'EA Sports needed to deepen player engagement and extend game lifecycles in an increasingly competitive gaming market. Traditional marketing approaches weren\'t creating the authentic community connections needed to drive long-term player retention and in-game spending.',
