@@ -138,7 +138,7 @@ By putting Coca-Cola Zero Sugar at the center of the Euro2024 fan experience, we
       hero: 'https://i.imgur.com/ubcUIH7.jpeg?auto=compress&cs=tinysrgb&w=1200',
       gallery: [
         'https://i.imgur.com/0dHALua.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://i.imgur.com/prWkwB6.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://i.imgur.com/xnPCE0F.png?auto=compress&cs=tinysrgb&w=800',
         'https://i.imgur.com/RGlbmz9.gif?auto=compress&cs=tinysrgb&w=800',
         'https://i.imgur.com/I29rSV7.gif?auto=compress&cs=tinysrgb&w=800'
       ]
