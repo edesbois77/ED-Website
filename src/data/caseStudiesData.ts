@@ -93,9 +93,9 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
         'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800'
       ]
     },
-    tags: ['E-commerce', 'Digital Transformation', 'Customer Experience', 'Team Leadership'],
+    tags: ['Euro24', 'Digital', 'Coca-Cola', 'Football', 'Sponsorship', 'Branded Content'],
     duration: '24 months',
-    year: '2018-2020'
+    year: '2023-2024'
   },
   {
     id: 'ea-sports-engagement',
