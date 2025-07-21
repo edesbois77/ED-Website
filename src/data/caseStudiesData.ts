@@ -36,8 +36,8 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
     logo: 'https://i.imgur.com/o8kSoHs.png',
     headlineResult: '176% revenue growth in 5 years',
     summary: 'How OneFootball became a household B2B name in the football industry by Scaling Teams, Building Strategic Partnerships and Driving Global Revenue Growth.',
-    challenge: 'In 2019, OneFootball was a strong local player but had little revenue or recognition outside Berlin, especially in the global B2B market. The commercial team was talented but inexperienced in media and unproven in executing large, multi-market partnership deals. OneFootball’s focus on product innovation hadn’t translated into commercial growth and the limited tech stack further restricted scale. The objective: Utilise ED to transform OneFootball from a Berlin-based tech brand into a global B2B leader, drive substantial international revenue and build a commercial culture ready to compete at the highest level.',
-    solution: 'To build OneFootball’s B2B presence and credibility beyond Berlin, ED product solutions were utilised to craft a robust go-to-market strategy grounded in storytelling, relationship-building and targeted market expansion. We established dedicated commercial teams in key media hubs: London, Paris and Milan to drive awareness and secure early flagship partnerships. By prioritising large, multi-market deals (media, content, sponsorship), we accelerated trust within the industry, creating case studies that strengthened our global pitch. As momentum grew, we scaled the sales organisation, invested in upskilling teams and enhanced our ad tech stack to unlock programmatic revenue. Strategic acquisitions and partnerships also further elevated our market position.',
+    challenge: 'In 2019, OneFootball was a strong local player but had little revenue or recognition outside Berlin, especially in the global B2B market. The commercial team was talented but inexperienced in media and unproven in executing large, multi-market partnership deals. OneFootball's focus on product innovation hadn't translated into commercial growth and the limited tech stack further restricted scale. The objective: Utilise ED to transform OneFootball from a Berlin-based tech brand into a global B2B leader, drive substantial international revenue and build a commercial culture ready to compete at the highest level.',
+    solution: 'To build OneFootball's B2B presence and credibility beyond Berlin, ED product solutions were utilised to craft a robust go-to-market strategy grounded in storytelling, relationship-building and targeted market expansion. We established dedicated commercial teams in key media hubs: London, Paris and Milan to drive awareness and secure early flagship partnerships. By prioritising large, multi-market deals (media, content, sponsorship), we accelerated trust within the industry, creating case studies that strengthened our global pitch. As momentum grew, we scaled the sales organisation, invested in upskilling teams and enhanced our ad tech stack to unlock programmatic revenue. Strategic acquisitions and partnerships also further elevated our market position.',
     results: {
       stats: [
         { value: '176%', label: 'Revenue Growth' },
@@ -70,7 +70,7 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
     logo: 'https://i.imgur.com/KYF8Mye.png',
     headlineResult: '3x Industry Award Nominations',
     summary: 'Transformed Nike\'s digital commerce strategy across European markets through innovative customer experience design.',
-    challenge: 'Coca-Cola Zero Sugar and Essence Mediacom faced a critical challenge ahead of Euro2024: despite rapid growth, the brand was in fierce competition with rivals targeting young, sugar-conscious consumers through innovative, entertainment-led campaigns. The objective was clear, strengthen consumption and forge a deeper emotional connection with fans during Europe’s biggest football moment. With millions of passionate fans engaging digitally and emotionally with Euro2024, Coca-Cola Zero Sugar needed to cut through the noise and embed itself in fans’ match-day rituals. The goal was to partner with a platform capable of authentically reaching and engaging the most devoted football audiences across every participating nation, making Coca-Cola Zero Sugar the must-have companion for the ultimate fan experience.',
+    challenge: 'Coca-Cola Zero Sugar and Essence Mediacom faced a critical challenge ahead of Euro2024: despite rapid growth, the brand was in fierce competition with rivals targeting young, sugar-conscious consumers through innovative, entertainment-led campaigns. The objective was clear, strengthen consumption and forge a deeper emotional connection with fans during Europe's biggest football moment. With millions of passionate fans engaging digitally and emotionally with Euro2024, Coca-Cola Zero Sugar needed to cut through the noise and embed itself in fans' match-day rituals. The goal was to partner with a platform capable of authentically reaching and engaging the most devoted football audiences across every participating nation, making Coca-Cola Zero Sugar the must-have companion for the ultimate fan experience.',
     solution: 'Developed and executed a comprehensive digital commerce strategy focusing on personalized customer experiences, streamlined checkout processes, and integrated omnichannel touchpoints. Led a team of 25+ specialists across UX, data analytics, and platform development to deliver a unified digital ecosystem.',
     results: {
       stats: [
@@ -90,9 +90,9 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
       hero: 'https://i.imgur.com/24NwBv5.jpeg?auto=compress&cs=tinysrgb&w=1200',
       gallery: [
         'https://i.imgur.com/0dHALua.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://i.imgur.com/prWkwB6.jpeg?auto=compress&cs=tinysrgb&w=800'
-        'https://i.imgur.com/0dHALua.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://i.imgur.com/prWkwB6.jpeg?auto=compress&cs=tinysrgb&w=800'
+        'https://i.imgur.com/prWkwB6.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://i.imgur.com/24NwBv5.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://i.imgur.com/0dHALua.jpeg?auto=compress&cs=tinysrgb&w=800'
       ]
     },
     tags: ['Euro24', 'Digital', 'Coca-Cola', 'Football', 'Sponsorship', 'Partnership', 'Branded Content'],
