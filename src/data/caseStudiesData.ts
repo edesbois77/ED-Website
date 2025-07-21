@@ -33,7 +33,7 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
     id: 'one-football',
     title: 'From Obscurity to Opportunity',
     client: 'OneFootball',
-    logo: 'https://i.imgur.com/TNFQZFC.jpeg',
+    logo: 'https://i.imgur.com/o8kSoHs.png',
     headlineResult: '176% revenue growth in 5 years',
     summary: 'Repositioned Britain as a must-visit destination for millennial travelers through data-driven content strategy.',
     challenge: 'Visit Britain needed to increase inbound tourism by repositioning Britain as a must-visit destination for millennial travelers in key international markets. Traditional tourism marketing wasn\'t resonating with younger demographics who valued authentic experiences over conventional attractions.',
@@ -53,7 +53,7 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
       role: "Director of Marketing, Visit Britain"
     },
     visuals: {
-      hero: 'https://i.imgur.com/oVKdgOI.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      hero: 'https://i.imgur.com/TNFQZFC.jpeg?auto=compress&cs=tinysrgb&w=1200',
       gallery: [
         'https://i.imgur.com/o8kSoHs.png?auto=compress&cs=tinysrgb&w=800',
         'https://images.pexels.com/photos/1796715/pexels-photo-1796715.jpeg?auto=compress&cs=tinysrgb&w=800'
