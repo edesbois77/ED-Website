@@ -185,9 +185,9 @@ export const testimonials: Testimonial[] = [
 export const caseStudies: CaseStudy[] = [
   {
     id: '1',
-    title: 'Nike: Streamlining Global Operations',
-    description: 'How Nike reduced operational costs by 40% using ED\'s integrated solution suite.',
-    image: 'https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=800',
+    title: 'From Local Secret to Global Leader',
+    description: 'How OneFootball became a household B2B name in the football industry by Scaling Teams, Building Strategic Partnerships and Driving Global Revenue Growth.',
+    image: 'https://i.imgur.com/24NwBv5.jpeg?auto=compress&cs=tinysrgb&w=800',
     link: '#'
   },
   {
