@@ -67,7 +67,7 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
     id: 'coca-cola-fanrituals',
     title: 'Uniting Fans, Inspiring Rituals: Coca-Cola Zero Sugar at Euro2024',
     client: 'Coca-Cola',
-    logo: 'https://i.imgur.com/L9LmtZv.png',
+    logo: 'https://i.imgur.com/KYF8Mye.png',
     headlineResult: '47% increase in digital revenue',
     summary: 'Transformed Nike\'s digital commerce strategy across European markets through innovative customer experience design.',
     challenge: 'Coca-Cola Zero Sugar and Essence Mediacom faced a critical challenge ahead of Euro2024: despite rapid growth, the brand was in fierce competition with rivals targeting young, sugar-conscious consumers through innovative, entertainment-led campaigns. The objective was clear, strengthen consumption and forge a deeper emotional connection with fans during Europe’s biggest football moment. With millions of passionate fans engaging digitally and emotionally with Euro2024, Coca-Cola Zero Sugar needed to cut through the noise and embed itself in fans’ match-day rituals. The goal was to partner with a platform capable of authentically reaching and engaging the most devoted football audiences across every participating nation, making Coca-Cola Zero Sugar the must-have companion for the ultimate fan experience.',
