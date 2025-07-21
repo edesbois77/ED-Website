@@ -120,9 +120,9 @@ const CaseStudyDetailPage: React.FC = () => {
                     Challenge / Objective
                   </h2>
                   <div className="space-y-4 sm:space-y-6">
-                    {caseStudy.solution.split('\n\n').map((paragraph, index) => (
-                  <p className="text-base sm:text-lg text-gray-700 leading-relaxed font-light">
-                    {caseStudy.challenge}
+                    {caseStudy.challenge.split('\n\n').map((paragraph, index) => (
+                  <p key={index} className="text-base sm:text-lg text-gray-700 leading-relaxed font-light">
+                    {paragraph}
                   </p>
                     ))}
                   </div>
