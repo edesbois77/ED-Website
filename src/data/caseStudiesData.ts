@@ -35,7 +35,7 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
     client: 'OneFootball',
     logo: 'https://i.imgur.com/o8kSoHs.png',
     headlineResult: '176% revenue growth in 5 years',
-    summary: 'How OneFootball became a household B2B name in the football industry by Scaling Teams, Building Strategic Partnerships and Driving Global Revenue Growth.',
+    summary: 'How OneFootball utilised ED to become a household B2B name in the football industry by Scaling Teams, Building Strategic Partnerships and Driving Global Revenue Growth.',
     challenge: `In 2019, OneFootball was a strong local player but had little revenue or recognition outside Berlin, especially in the global B2B market. The commercial team was talented but inexperienced in media and unproven in executing large, multi-market partnership deals. OneFootball\'s focus on product innovation hadn\'t translated into commercial growth and the limited tech stack further restricted scale.
 
 The objective: Utilise ED to transform OneFootball from a Berlin-based tech brand into a global B2B leader, drive substantial international revenue and build a commercial culture ready to compete at the highest level.`,
