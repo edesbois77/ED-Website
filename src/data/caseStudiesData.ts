@@ -48,9 +48,9 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
       description: 'The holistic, growth-driven approach transformed OneFootball into a trusted, market-leading B2B partner for brands, agencies and rights holders worldwide, fueling 176% revenue growth and tripling the size of our commercial team between 2019 and 2025.'
     },
     testimonial: {
-      quote: "Edward's strategic leadership helped us break through with a fresh, data-driven approach—delivering results that exceeded expectations and fundamentally changed how we think about digital tourism marketing.",
-      author: "Sarah Mitchell",
-      role: "Director of Marketing, Visit Britain"
+      quote: "Utilising ED's varied suite of products, it enabled OneFootball to transform their B2B awareness, improve the commercial standards, enter new markets and ultimately grow media revenues to an industry leading level. ",
+      author: "Michael Pennington",
+      role: "CEO - Forza Football (previously SVP of International Sales at OneFootball)"
     },
     visuals: {
       hero: 'https://i.imgur.com/TNFQZFC.jpeg?auto=compress&cs=tinysrgb&w=1200',
