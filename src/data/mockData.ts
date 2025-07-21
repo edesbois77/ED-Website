@@ -193,7 +193,7 @@ export const caseStudies: CaseStudy[] = [
   {
     id: '2',
     title: 'From Local Secret to Global Leader',
-    description: 'How OneFootball became a household B2B name in the football industry by Scaling Teams, Building Strategic Partnerships and Driving Global Revenue Growth.',
+    description: 'How OneFootball utilised ED to become a household B2B name in the football industry by Scaling Teams, Building Strategic Partnerships and Driving Global Revenue Growth.',
     image: 'https://i.imgur.com/TNFQZFC.jpeg?auto=compress&cs=tinysrgb&w=800',
     link: '#'
   },
