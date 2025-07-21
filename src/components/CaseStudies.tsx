@@ -43,8 +43,8 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ caseStudy, index }) => {
   // Map the case study IDs from mockData to the detailed case study IDs
   const getCaseStudyDetailId = (caseStudyId: string) => {
     const idMapping: { [key: string]: string } = {
-      '1': 'nike-global-expansion',
-      '2': 'ea-sports-engagement', 
+      '1': 'coca-cola-fanrituals',
+      '2': 'one-football', 
       '3': 'coca-cola-campaign'
     };
     return idMapping[caseStudyId] || 'nike-global-expansion';
