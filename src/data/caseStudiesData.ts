@@ -131,7 +131,7 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
     duration: '15 months',
     year: '2019-2020'
   },
-  {
+  {/* Summary {
     id: 'coca-cola-campaign',
     title: 'Global Brand Activation Success',
     client: 'Coca-Cola',
@@ -232,5 +232,5 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
     tags: ['Retail Strategy', 'Customer Experience', 'Team Development', 'Operations'],
     duration: '18 months',
     year: '2017-2019'
-  }
+  }*/}
 ];
