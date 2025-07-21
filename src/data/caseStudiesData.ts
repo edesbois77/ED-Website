@@ -147,7 +147,7 @@ Next In Line spanned the OneFootball ecosystem and beyond, combining branded med
         'https://i.imgur.com/I29rSV7.gif?auto=compress&cs=tinysrgb&w=800'
       ]
     },
-    tags: ['UEFA Champions League', 'Football', 'Sponsorship', 'Branded Content', 'Next In Line'],
+    tags: ['Football', 'Sponsorship', 'Branded Content', 'UEFA Champions League', 'Next In Line'],
     duration: '24 months',
     year: '2021-2023'
   },
