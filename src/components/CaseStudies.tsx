@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { caseStudies } from '../data/mockData';
+import { detailedCaseStudies } from '../data/caseStudiesData';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const CaseStudies: React.FC = () => {
@@ -50,7 +51,15 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ caseStudy, index }) => {
     return idMapping[caseStudyId] || 'coca-cola-fanrituals';
   };
 
+  // Get logo from detailed case studies
+  const getLogo = (caseStudyId: string) => {
+    const detailPageId = getCaseStudyDetailId(caseStudyId);
+    const detailedCaseStudy = detailedCaseStudies.find(cs => cs.id === detailPageId);
+    return detailedCaseStudy?.logo;
+  };
+
   const detailPageId = getCaseStudyDetailId(caseStudy.id);
+  const logo = getLogo(caseStudy.id);
 
   return (
     <div 
@@ -67,6 +76,16 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ caseStudy, index }) => {
             className="w-full h-40 sm:h-48 object-cover transition-transform duration-700 group-hover:scale-105"
           />
         </Link>
+        {/* Client Logo Overlay */}
+        {logo && (
+          <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg p-2">
+            <img
+              src={logo}
+              alt="Client logo"
+              className="h-6 w-auto object-contain"
+            />
+          </div>
+        )}
       </div>
 
       {/* Content */}
