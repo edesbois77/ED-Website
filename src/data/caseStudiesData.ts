@@ -87,7 +87,7 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
       role: "VP Digital Commerce, Nike Europe"
     },
     visuals: {
-      hero: 'https://i.imgur.com/R7srV6R.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      hero: 'https://i.imgur.com/24NwBv5.jpeg?auto=compress&cs=tinysrgb&w=1200',
       gallery: [
         'https://i.imgur.com/0dHALua.jpeg?auto=compress&cs=tinysrgb&w=800',
         'https://i.imgur.com/prWkwB6.jpeg?auto=compress&cs=tinysrgb&w=800'
