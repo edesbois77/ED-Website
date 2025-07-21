@@ -37,7 +37,7 @@ const CaseStudiesPage: React.FC = () => {
 
         {/* Case Studies Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-          {detailedCaseStudies.map((caseStudy, index) => (
+          {detailedCaseStudies.slice(0, 3).map((caseStudy, index) => (
             <CaseStudyCard key={caseStudy.id} caseStudy={caseStudy} index={index} />
           ))}
         </div>
