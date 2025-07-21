@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import { BasketProvider } from './context/BasketContext';
 import ScrollToTop from './components/ScrollToTop';
 import Header from './components/Header';
@@ -15,10 +15,26 @@ import CaseStudiesPage from './pages/CaseStudiesPage';
 import CaseStudyDetailPage from './pages/CaseStudyDetailPage';
 import ThankYouPage from './pages/ThankYouPage';
 
+function RedirectHandler() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const redirect = params.get('redirect');
+    if (redirect) {
+      navigate(redirect, { replace: true });
+    }
+  }, [navigate]);
+
+  return null; // This component renders nothing, just does the redirect logic
+}
+
 function App() {
   return (
     <BasketProvider>
       <Router basename={import.meta.env.BASE_URL || "/"}>
+        {/* This component checks for ?redirect= and navigates as needed */}
+        <RedirectHandler />
         <ScrollToTop />
         <div className="min-h-screen bg-white">
           <Header />
