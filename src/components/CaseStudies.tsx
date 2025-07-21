@@ -47,7 +47,7 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ caseStudy, index }) => {
       '2': 'one-football', 
       '3': 'coca-cola-campaign'
     };
-    return idMapping[caseStudyId] || 'nike-global-expansion';
+    return idMapping[caseStudyId] || 'coca-cola-fanrituals';
   };
 
   const detailPageId = getCaseStudyDetailId(caseStudy.id);
