@@ -199,7 +199,7 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     id: '3',
-    title: '3x Industry Award Nominations',
+    title: 'Next In Line: The Future of Football with FedEx',
     description: 'This is dummy data... the full case study is yet to be added',
     image: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=800',
     link: '#'
