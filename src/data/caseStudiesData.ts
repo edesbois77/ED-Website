@@ -135,7 +135,7 @@ By putting Coca-Cola Zero Sugar at the center of the Euro2024 fan experience, we
       role: "Head of Community, EA Sports"
     },
     visuals: {
-      hero: 'https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      hero: 'https://i.imgur.com/ubcUIH7.jpeg?auto=compress&cs=tinysrgb&w=1200',
       gallery: [
         'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=800',
         'https://images.pexels.com/photos/1293261/pexels-photo-1293261.jpeg?auto=compress&cs=tinysrgb&w=800'
