@@ -64,8 +64,8 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
     year: '2019-2025'
   },
   {
-    id: 'nike-global-expansion',
-    title: 'Digital Commerce Transformation',
+    id: 'coca-cola-fanrituals',
+    title: 'Uniting Fans, Inspiring Rituals: Coca-Cola Zero Sugar at Euro2024',
     client: 'Nike',
     logo: 'https://i.imgur.com/L9LmtZv.png',
     headlineResult: '47% increase in digital revenue',
