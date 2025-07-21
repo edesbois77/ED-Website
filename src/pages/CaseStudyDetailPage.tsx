@@ -144,6 +144,67 @@ const CaseStudyDetailPage: React.FC = () => {
 
                 {/* Gallery */}
                 {caseStudy.visuals.gallery && (
+                {/* Athlete Links - Only for FedEx case study */}
+                {caseStudy.id === 'fedex-nextinline' && (
+                  <div>
+                    <h3 className="text-xl sm:text-2xl font-medium text-black mb-4 sm:mb-6">
+                      Featured Athletes
+                    </h3>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
+                      <a
+                        href="https://www.youtube.com/watch?v=UtTvf2O5Zsk"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-black hover:text-gray-600 font-medium transition-colors text-sm sm:text-base underline hover:no-underline"
+                      >
+                        Eduardo Camavinga
+                      </a>
+                      <a
+                        href="https://www.youtube.com/watch?v=l4GWmgImaBM"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-black hover:text-gray-600 font-medium transition-colors text-sm sm:text-base underline hover:no-underline"
+                      >
+                        Trevoh Chalobah
+                      </a>
+                      <a
+                        href="https://www.youtube.com/watch?v=k_5d5T5C-4o"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-black hover:text-gray-600 font-medium transition-colors text-sm sm:text-base underline hover:no-underline"
+                      >
+                        Jonathan David
+                      </a>
+                      <a
+                        href="https://www.youtube.com/watch?v=IfagAkXXWzA"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-black hover:text-gray-600 font-medium transition-colors text-sm sm:text-base underline hover:no-underline"
+                      >
+                        Dejan Kulusevski
+                      </a>
+                      <a
+                        href="https://www.youtube.com/watch?v=s9vOWksQMec"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-black hover:text-gray-600 font-medium transition-colors text-sm sm:text-base underline hover:no-underline"
+                      >
+                        Fikayo Tomori
+                      </a>
+                      <a
+                        href="https://www.youtube.com/watch?v=RHkMc2oYZbY&t=4s"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-black hover:text-gray-600 font-medium transition-colors text-sm sm:text-base underline hover:no-underline"
+                      >
+                        Nuno Mendes
+                      </a>
+                    </div>
+                  </div>
+                )}
+
+                {/* Gallery */}
+                {caseStudy.visuals.gallery && (
                   <div>
                     <h3 className="text-xl sm:text-2xl font-medium text-black mb-4 sm:mb-6">
                       Project Visuals
