@@ -75,7 +75,7 @@ As momentum grew, we scaled the sales organisation, invested in upskilling teams
     client: 'Coca-Cola',
     logo: 'https://i.imgur.com/KYF8Mye.png',
     headlineResult: '3x Industry Award Nominations',
-    summary: 'Transformed Nike\'s digital commerce strategy across European markets through innovative customer experience design.',
+    summary: 'Elevated Coca-Cola Zero Sugar’s presence across Europe by embedding the brand into fans’ match-day rituals with talent-led, multi-channel digital engagement.',
     challenge: `Coca-Cola Zero Sugar and Essence Mediacom faced a critical challenge ahead of Euro2024: despite rapid growth, the brand was in fierce competition with rivals targeting young, sugar-conscious consumers through innovative, entertainment-led campaigns. The objective was clear, strengthen consumption and forge a deeper emotional connection with fans during Europe's biggest football moment. With millions of passionate fans engaging digitally and emotionally with Euro2024, Coca-Cola Zero Sugar needed to cut through the noise and embed itself in fans' match-day rituals.
     
     The goal was to partner with a platform capable of authentically reaching and engaging the most devoted football audiences across every participating nation, making Coca-Cola Zero Sugar the must-have companion for the ultimate fan experience.`,
