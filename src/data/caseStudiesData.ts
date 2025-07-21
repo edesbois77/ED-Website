@@ -141,7 +141,7 @@ By putting Coca-Cola Zero Sugar at the center of the Euro2024 fan experience, we
         'https://images.pexels.com/photos/1293261/pexels-photo-1293261.jpeg?auto=compress&cs=tinysrgb&w=800'
       ]
     },
-    tags: ['Gaming', 'Community Building', 'Content Strategy', 'Analytics'],
+    tags: ['UEFA Championa League', 'Community Building', 'Content Strategy', 'Analytics'],
     duration: '24 months',
     year: '2021-2023'
   },
