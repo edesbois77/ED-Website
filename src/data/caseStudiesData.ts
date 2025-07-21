@@ -113,7 +113,7 @@ By putting Coca-Cola Zero Sugar at the center of the Euro2024 fan experience, we
   },
   {
     id: 'fedex-nextinline',
-    title: 'Next In Line: Showcasing the Future of Football with FedEx',
+    title: 'Next In Line: The Future of Football with FedEx',
     client: 'FedEx',
     logo: 'https://i.imgur.com/E832FHx.png',
     headlineResult: '185% increase in player engagement',
