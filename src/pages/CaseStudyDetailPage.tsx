@@ -278,24 +278,27 @@ const CaseStudyDetailPage: React.FC = () => {
           </div>
 
           {/* CTA Section */}
-          <div className="bg-white rounded-2xl border border-gray-100 p-6 sm:p-8 md:p-12 text-center">
+          <div className="bg-custom-dark rounded-2xl p-6 sm:p-8 md:p-12 text-center">
             <h2 className="text-2xl sm:text-3xl font-bold text-black mb-4 sm:mb-6 tracking-tight">
               Ready to Achieve Similar Results?
             </h2>
-            <p className="text-lg sm:text-xl text-gray-600 mb-6 sm:mb-8 font-light max-w-2xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6 tracking-tight">
+              Ready to Achieve Similar Results?
+            </h2>
+            <p className="text-lg sm:text-xl text-white/80 mb-6 sm:mb-8 font-light max-w-2xl mx-auto">
               Every successful project starts with understanding your unique challenges and objectives. 
               Let's discuss how <span className="font-bold">ED's</span> proven approach can deliver results for your organization.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
               <Link
                 to="/contact"
-                className="bg-custom-dark hover:bg-gray-800 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all text-sm sm:text-base"
+                className="bg-white hover:bg-gray-100 text-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all text-sm sm:text-base"
               >
                 Start Your Project
               </Link>
               <Link
                 to="/case-studies"
-                className="text-custom-dark hover:text-gray-600 border border-gray-200 hover:border-gray-300 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all text-sm sm:text-base"
+                className="text-white hover:text-gray-200 border border-white/30 hover:border-white/50 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all text-sm sm:text-base"
               >
                 View More Case Studies
               </Link>
