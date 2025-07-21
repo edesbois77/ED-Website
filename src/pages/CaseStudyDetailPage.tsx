@@ -279,9 +279,6 @@ const CaseStudyDetailPage: React.FC = () => {
 
           {/* CTA Section */}
           <div className="bg-custom-dark rounded-2xl p-6 sm:p-8 md:p-12 text-center">
-            <h2 className="text-2xl sm:text-3xl font-bold text-black mb-4 sm:mb-6 tracking-tight">
-              Ready to Achieve Similar Results?
-            </h2>
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6 tracking-tight">
               Ready to Achieve Similar Results?
             </h2>
