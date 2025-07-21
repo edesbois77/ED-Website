@@ -199,7 +199,7 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     id: '3',
-    title: 'Next In Line: The Future of Football with FedEx',
+    title: 'Next In Line: The Future of Football',
     description: 'Positioned FedEx as an innovator in European football by connecting Champions League fans with emerging stars through talent-led, multi-platform content and data-driven engagement.',
     image: 'https://i.imgur.com/ubcUIH7.jpeg?auto=compress&cs=tinysrgb&w=800',
     link: '#'
