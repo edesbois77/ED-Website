@@ -137,8 +137,10 @@ By putting Coca-Cola Zero Sugar at the center of the Euro2024 fan experience, we
     visuals: {
       hero: 'https://i.imgur.com/ubcUIH7.jpeg?auto=compress&cs=tinysrgb&w=1200',
       gallery: [
-        'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://images.pexels.com/photos/1293261/pexels-photo-1293261.jpeg?auto=compress&cs=tinysrgb&w=800'
+        'https://i.imgur.com/0dHALua.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://i.imgur.com/prWkwB6.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://i.imgur.com/24NwBv5.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://i.imgur.com/pbX2QQX.gif?auto=compress&cs=tinysrgb&w=800'
       ]
     },
     tags: ['UEFA Championa League', 'Community Building', 'Content Strategy', 'Analytics'],
