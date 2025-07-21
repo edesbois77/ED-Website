@@ -118,7 +118,7 @@ By putting Coca-Cola Zero Sugar at the center of the Euro2024 fan experience, we
     logo: 'https://i.imgur.com/E832FHx.png',
     headlineResult: '185% increase in player engagement',
     summary: 'Revolutionized EA Sports community engagement through innovative content partnerships and data-driven insights.',
-    challenge: 'EA Sports needed to deepen player engagement and extend game lifecycles in an increasingly competitive gaming market. Traditional marketing approaches weren\'t creating the authentic community connections needed to drive long-term player retention and in-game spending.',
+    challenge: 'In 2021, FedEx set out to shift perceptions and demonstrate its innovative, forward-thinking logistics solutions through the new ‘Where Now Meets Next’ brand positioning. With 65% of their core audience identified as UEFA Champions League fans, the challenge was to leverage the UCL’s platform to bring this positioning to life in a way that would resonate with discerning, data-driven B2B audiences. FedEx needed a standout campaign that would engage fans seeking deeper football insight and elevate the brand’s association with progress, innovation, and the next generation of football talent.',
     solution: 'Created an integrated community engagement strategy combining influencer partnerships, user-generated content campaigns, and real-time analytics. Developed a content ecosystem that celebrated player achievements and fostered genuine community connections across multiple gaming titles.',
     results: {
       stats: [
