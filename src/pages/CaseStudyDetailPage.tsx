@@ -238,6 +238,8 @@ const CaseStudyDetailPage: React.FC = () => {
                   </div>
                 )}
 
+              </div>
+
               {/* Sidebar */}
               <div className="lg:col-span-1">
                 <div className="bg-gray-50 rounded-2xl p-6 sm:p-8 sticky top-24">
