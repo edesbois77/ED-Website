@@ -134,7 +134,7 @@ Next In Line spanned the OneFootball ecosystem and beyond, combining branded med
       description: 'The strategy transformed EA Sports\' relationship with its community, creating sustainable engagement models that continue to drive growth across multiple game franchises.'
     },
     testimonial: {
-      quote: "Edward understood our gaming community better than we did. His strategic approach to community building delivered engagement levels we never thought possible and created lasting value for our players and our business.",
+      quote: "Partnering with ED transformed our UEFA Champions League activation from standard sponsorship to standout success. The innovative thinking and data-driven approach behind ‘Next In Line’ helped us connect with fans in new and authentic ways, driving engagement and brand lift across Europe. ED made the difference.",
       author: "Alex Chen",
       role: "Head of Community, EA Sports"
     },
