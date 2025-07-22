@@ -207,34 +207,34 @@ const CaseStudyDetailPage: React.FC = () => {
                     <h3 className="text-xl sm:text-2xl font-medium text-black mb-4 sm:mb-6">
                       Project Visuals
                     </h3>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
-                  {caseStudy.visuals.gallery.map((image, index) => {
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+                    {caseStudy.visuals.gallery.map((image, index) => {
                       // Check if the file is a video based on its extension
-                  const isVideo = /\.(mp4|webm|ogg|mov)$/i.test(image);
+                    const isVideo = /\.(mp4|webm|ogg|mov)$/i.test(image);
         
-                  return (
-                    <div key={index} className="rounded-xl overflow-hidden">
-                    {isVideo ? (
-                      <video
-                        src={image}
-                        controls
-                        loop
-                        muted
-                        playsInline
-                        className="w-full h-48 sm:h-56 object-cover hover:scale-105 transition-transform duration-500"
-                        aria-label={`${caseStudy.title} video ${index + 1}`}
-                      />
-                    ) : (
-                      <img
-                        src={image}
-                        alt={`${caseStudy.title} visual ${index + 1}`}
-                        className="w-full h-48 sm:h-56 object-cover hover:scale-105 transition-transform duration-500"
-                      />
-                    )}
+                    return (
+                      <div key={index} className="rounded-xl overflow-hidden">
+                      {isVideo ? (
+                        <video
+                          src={image}
+                          controls
+                          loop
+                          muted
+                          playsInline
+                          className="w-full h-48 sm:h-56 object-cover hover:scale-105 transition-transform duration-500"
+                          aria-label={`${caseStudy.title} video ${index + 1}`}
+                        />
+                      ) : (
+                        <img
+                          src={image}
+                          alt={`${caseStudy.title} visual ${index + 1}`}
+                          className="w-full h-48 sm:h-56 object-cover hover:scale-105 transition-transform duration-500"
+                        />
+                      )}
+                      </div>
+                    );
+                    })}
                     </div>
-                );
-                })}
-                  </div>
                   </div>
                 )}
 
