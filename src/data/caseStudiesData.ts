@@ -127,9 +127,9 @@ Next In Line spanned the OneFootball ecosystem and beyond, combining branded med
     results: {
       stats: [
         { value: '+20M', label: 'Users Reached' },
-        { value: '92%', label: 'Community Growth' },
-        { value: '$34M', label: 'Additional In-Game Revenue' },
-        { value: '156%', label: 'Content Interaction Rate' }
+        { value: '100+', label: 'Pieces of Content' },
+        { value: '2x', label: 'Next In Line Seasons' },
+        { value: '10+', label: 'Countries Activated' }
       ],
       description: 'The strategy transformed EA Sports\' relationship with its community, creating sustainable engagement models that continue to drive growth across multiple game franchises.'
     },
