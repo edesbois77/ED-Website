@@ -209,14 +209,17 @@ const CaseStudyDetailPage: React.FC = () => {
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                     {caseStudy.visuals.gallery.map((image, index) => {
-                      // Check if the file is a video based on its extension
-                    const isVideo = image.toLowerCase().endsWith('.mp4') || 
-                       image.toLowerCase().endsWith('.webm') || 
-                       image.toLowerCase().endsWith('.ogg') || 
-                       image.toLowerCase().endsWith('.mov');
+                      // Check if the file is a video based on its extension (handles URLs with query parameters)
+                    const urlWithoutParams = image.split('?')[0].toLowerCase();
+                    const isVideo = urlWithoutParams.endsWith('.mp4') || 
+                       urlWithoutParams.endsWith('.webm') || 
+                       urlWithoutParams.endsWith('.ogg') || 
+                       urlWithoutParams.endsWith('.mov');
         
                     // Debug log to see what's being detected
-                    console.log('File:', image, 'Is Video:', isVideo);
+                    console.log('Original URL:', image);
+                    console.log('URL without params:', urlWithoutParams);
+                    console.log('Is Video:', isVideo);
         
                     return (
                       <div key={index} className="rounded-xl overflow-hidden">
