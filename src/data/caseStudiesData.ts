@@ -47,14 +47,14 @@ As momentum grew, we scaled the sales organisation, invested in upskilling teams
     results: {
       stats: [
         { value: '176%', label: 'Revenue Growth' },
-        { value: '78', label: 'Commercial People' },
-        { value: '7', label: 'Local Sales Teams' },
+        { value: '3x', label: 'New Countries Launched' },
+        { value: '254%', label: 'Sales Team Growth ' },
         { value: '22', label: 'Award Nominations' }
       ],
       description: 'The holistic, growth-driven approach transformed OneFootball into a trusted, market-leading B2B partner for brands, agencies and rights holders worldwide, fueling 176% revenue growth and tripling the size of our commercial team between 2019 and 2025.'
     },
     testimonial: {
-      quote: "Utilising ED's varied suite of products, it enabled OneFootball to transform their B2B awareness, improve the commercial standards, enter new markets and ultimately grow media revenues to an industry leading level.",
+      quote: "Utilising ED's varied suite of products, it enabled OneFootball to transform their B2B awareness, improve the commercial standards, enter new markets and ultimately grow media revenues to an industry-leading level.",
       author: "Michael Pennington",
       role: "CEO - Forza Football (previously SVP of International Sales at OneFootball)"
     },
@@ -63,6 +63,8 @@ As momentum grew, we scaled the sales organisation, invested in upskilling teams
       gallery: [
         'https://i.imgur.com/oVKdgOI.jpeg?auto=compress&cs=tinysrgb&w=800',
         'https://i.imgur.com/ipfRWyK.jpeg?auto=compress&cs=tinysrgb&w=800'
+        'https://i.imgur.com/24NwBv5.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://i.imgur.com/pbX2QQX.gif?auto=compress&cs=tinysrgb&w=800'
       ]
     },
     tags: ['Football', 'Sport', 'Revenue Growth', 'Product Development', 'B2B'],
