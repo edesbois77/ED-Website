@@ -63,8 +63,8 @@ As momentum grew, we scaled the sales organisation, invested in upskilling teams
       gallery: [
         'https://i.imgur.com/oVKdgOI.jpeg?auto=compress&cs=tinysrgb&w=800',
         'https://i.imgur.com/ipfRWyK.jpeg?auto=compress&cs=tinysrgb&w=800'
-        'https://i.imgur.com/24NwBv5.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://i.imgur.com/pbX2QQX.gif?auto=compress&cs=tinysrgb&w=800'
+        'https://i.imgur.com/54YBBzA.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://i.imgur.com/Ee5AMUb.jpeg?auto=compress&cs=tinysrgb&w=800'
       ]
     },
     tags: ['Football', 'Sport', 'Revenue Growth', 'Product Development', 'B2B'],
