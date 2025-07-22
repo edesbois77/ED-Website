@@ -86,7 +86,7 @@ At the heart of the campaign was talent-led storytelling: German international T
 By putting Coca-Cola Zero Sugar at the center of the Euro2024 fan experience, we transformed match-day rituals and made the brand a genuine companion for football lovers across multiple markets. The campaign didn't just cut through the noise, it drove record engagement, deepened emotional connection and established Coca-Cola Zero Sugar as the drink of choice for millions of passionate football fans during the tournament.`,
     results: {
       stats: [
-        { value: 'Widespread Fan Engagement', label: 'Digital Revenue Increase' },
+        { value: '2x', label: 'Digital Revenue Increase' },
         { value: '62%', label: 'Conversion Rate Improvement' },
         { value: '€89M', label: 'Additional Annual Revenue' },
         { value: '#1', label: 'Largest media deal at OneFootball' }
