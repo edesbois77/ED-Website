@@ -126,7 +126,7 @@ The campaign launched in the 2021/22 season with exclusive interviews and featur
 Next In Line spanned the OneFootball ecosystem and beyond, combining branded media, social storytelling, bespoke sponsorship assets, competitions and data capture initiatives. The campaign reached millions of engaged football fans via the OneFootball network, partner publishers like ESPN and 90min and was amplified by FedEx, UEFA and Champions Journal. Through this approach, FedEx not only brought their innovative brand positioning to life but also became a trusted storyteller in the world of elite football, driving meaningful engagement and deepening their connection with B2B audiences across Europe.`,
     results: {
       stats: [
-        { value: '185%', label: 'Player Engagement Increase' },
+        { value: '+20M', label: 'Users Reached' },
         { value: '92%', label: 'Community Growth' },
         { value: '$34M', label: 'Additional In-Game Revenue' },
         { value: '156%', label: 'Content Interaction Rate' }
