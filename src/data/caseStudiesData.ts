@@ -131,7 +131,7 @@ Next In Line spanned the OneFootball ecosystem and beyond, combining branded med
         { value: '2x', label: 'Next In Line Seasons' },
         { value: '10+', label: 'Countries Activated' }
       ],
-      description: 'The strategy transformed EA Sports\' relationship with its community, creating sustainable engagement models that continue to drive growth across multiple game franchises.'
+      description: 'The campaign established FedEx as a forward-thinking brand in European football, building deeper fan connections and elevating engagement through innovative talent-led storytelling.'
     },
     testimonial: {
       quote: "Partnering with ED transformed our UEFA Champions League activation from standard sponsorship to standout success. The innovative thinking and data-driven approach behind ‘Next In Line’ helped us connect with fans in new and authentic ways, driving engagement and brand lift across Europe. ED made the difference.",
