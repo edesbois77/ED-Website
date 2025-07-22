@@ -94,9 +94,9 @@ By putting Coca-Cola Zero Sugar at the center of the Euro2024 fan experience, we
       description: 'The transformation positioned Nike as a leader in digital commerce innovation, with the new platform becoming a benchmark for the industry.'
     },
     testimonial: {
-      quote: "Edward brought strategic vision and execution excellence that transformed our entire digital approach. The results speak for themselves—this project became the foundation for our continued digital leadership.",
-      author: "Marcus Johnson",
-      role: "VP Digital Commerce, Nike Europe"
+      quote: "Working with ED enabled us to place Coca-Cola Zero Sugar at the heart of the Euro2024 digital fan experience. ED's creative approach, passion and digital expertise brought our brand to life in new ways, deepening engagement and driving real emotional connection with football fans across Europe.",
+      author: "NAME TO BE ADDED HERE",
+      role: "Someone at EMC or Coca-Cola"
     },
     visuals: {
       hero: 'https://i.imgur.com/24NwBv5.jpeg?auto=compress&cs=tinysrgb&w=1200',
