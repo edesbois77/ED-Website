@@ -97,8 +97,8 @@ By putting Coca-Cola Zero Sugar at the center of the Euro2024 fan experience, we
     },
     testimonial: {
       quote: "Working with ED enabled us to place Coca-Cola Zero Sugar at the heart of the Euro2024 digital fan experience. ED's creative approach, passion and digital expertise brought our brand to life in new ways, deepening engagement and driving real emotional connection with football fans across Europe.",
-      author: "NAME TO BE ADDED HERE",
-      role: "Someone at EMC or Coca-Cola"
+      author: "",
+      role: ""
     },
     visuals: {
       hero: 'https://i.imgur.com/24NwBv5.jpeg?auto=compress&cs=tinysrgb&w=1200',
@@ -137,8 +137,8 @@ Next In Line spanned the OneFootball ecosystem and beyond, combining branded med
     },
     testimonial: {
       quote: "Partnering with ED transformed our UEFA Champions League activation from standard sponsorship to standout success. The innovative thinking and data-driven approach behind ‘Next In Line’ helped us connect with fans in new and authentic ways, driving engagement and brand lift across Europe. ED made the difference.",
-      author: "NAME TO BE ADDED HERE",
-      role: "Someone at Fuse or FedEx"
+      author: "",
+      role: ""
     },
     visuals: {
       hero: 'https://i.imgur.com/ubcUIH7.jpeg?auto=compress&cs=tinysrgb&w=1200',
