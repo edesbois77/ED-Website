@@ -89,7 +89,7 @@ By putting Coca-Cola Zero Sugar at the center of the Euro2024 fan experience, we
         { value: 'Widespread Fan Engagement', label: 'Digital Revenue Increase' },
         { value: '62%', label: 'Conversion Rate Improvement' },
         { value: '€89M', label: 'Additional Annual Revenue' },
-        { value: '35%', label: 'Customer Retention Growth' }
+        { value: '#1', label: 'Largest media deal at OneFootball' }
       ],
       description: 'The transformation positioned Nike as a leader in digital commerce innovation, with the new platform becoming a benchmark for the industry.'
     },
