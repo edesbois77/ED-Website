@@ -135,8 +135,8 @@ Next In Line spanned the OneFootball ecosystem and beyond, combining branded med
     },
     testimonial: {
       quote: "Partnering with ED transformed our UEFA Champions League activation from standard sponsorship to standout success. The innovative thinking and data-driven approach behind ‘Next In Line’ helped us connect with fans in new and authentic ways, driving engagement and brand lift across Europe. ED made the difference.",
-      author: "Alex Chen",
-      role: "Head of Community, EA Sports"
+      author: "NAME TO BE ADDED HERE",
+      role: "Someone at Fuse or FedEx"
     },
     visuals: {
       hero: 'https://i.imgur.com/ubcUIH7.jpeg?auto=compress&cs=tinysrgb&w=1200',
