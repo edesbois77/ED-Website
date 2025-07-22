@@ -210,7 +210,13 @@ const CaseStudyDetailPage: React.FC = () => {
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                     {caseStudy.visuals.gallery.map((image, index) => {
                       // Check if the file is a video based on its extension
-                    const isVideo = /\.(mp4|webm|ogg|mov)$/i.test(image);
+                    const isVideo = image.toLowerCase().endsWith('.mp4') || 
+                       image.toLowerCase().endsWith('.webm') || 
+                       image.toLowerCase().endsWith('.ogg') || 
+                       image.toLowerCase().endsWith('.mov');
+        
+                    // Debug log to see what's being detected
+                    console.log('File:', image, 'Is Video:', isVideo);
         
                     return (
                       <div key={index} className="rounded-xl overflow-hidden">
