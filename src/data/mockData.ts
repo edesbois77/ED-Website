@@ -102,83 +102,35 @@ export const products: Product[] = [
 export const testimonials: Testimonial[] = [
   {
     id: '1',
-    name: 'Sarah Johnson',
-    company: 'Nike',
-    content: 'ED transformed our entire workflow. The integration capabilities alone saved us months of development time.',
+    name: 'Kristiana Carlet',
+    company: 'Spotify',
+    content: 'Connect-ED, Creat-ED, and Monetis-ED will change the game for you as it did for us. The full ED suite always delivers!',
     rating: 5,
-    avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150'
+    avatar: 'https://i.imgur.com/MLlVj4K.jpeg?auto=compress&cs=tinysrgb&w=150'
   },
   {
     id: '2',
-    name: 'Michael Chen',
-    company: 'Electronic Arts',
-    content: 'The analytics platform provided insights we never knew we needed. Game-changing for our product strategy.',
+    name: 'Ryan Storrar',
+    company: 'GroupM',
+    content: 'The Strategis-ED, Creat-ED and Deliver-ED modules helped us build consistently high-performing partnerships. Truly transformative for GroupM’s approach.',
     rating: 5,
-    avatar: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=150'
+    avatar: 'https://i.imgur.com/Pfb2ejp.jpeg?auto=compress&cs=tinysrgb&w=150'
   },
   {
     id: '3',
-    name: 'Emily Rodriguez',
-    company: 'Coca-Cola',
-    content: 'Implementation was seamless, and the ROI was evident within the first quarter. Highly recommend ED.',
+    name: 'Steve McHenry',
+    company: 'Sky',
+    content: 'Monetis-ED, Communicat-ED and Creat-ED have become go-to solutions for us over the years, delivering great results time and again.',
     rating: 5,
-    avatar: 'https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=150'
+    avatar: 'https://i.imgur.com/SJ5N3iO.jpeg?auto=compress&cs=tinysrgb&w=150'
   },
   {
     id: '4',
-    name: 'David Park',
-    company: 'Microsoft',
-    content: 'ED\'s modular approach allowed us to scale our operations efficiently. The team support is exceptional.',
+    name: 'Michael Pennington',
+    company: 'Forza Football',
+    content: 'The ED product suite has never let me down, delivering consistently for over 15 years. I can not recommend them highly enough.',
     rating: 5,
-    avatar: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150'
-  },
-  {
-    id: '5',
-    name: 'Lisa Thompson',
-    company: 'Apple',
-    content: 'The strategic planning tools helped us align our global teams and achieve our quarterly goals ahead of schedule.',
-    rating: 5,
-    avatar: 'https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=150'
-  },
-  {
-    id: '6',
-    name: 'James Wilson',
-    company: 'Google',
-    content: 'Outstanding platform with incredible flexibility. ED adapted perfectly to our complex infrastructure needs.',
-    rating: 5,
-    avatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150'
-  },
-  {
-    id: '7',
-    name: 'Maria Garcia',
-    company: 'Amazon',
-    content: 'The communication hub streamlined our global operations. We saw immediate improvements in team collaboration.',
-    rating: 5,
-    avatar: 'https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=150'
-  },
-  {
-    id: '8',
-    name: 'Robert Kim',
-    company: 'Meta',
-    content: 'ED\'s analytics capabilities gave us deep insights into user behavior patterns we hadn\'t seen before.',
-    rating: 5,
-    avatar: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=150'
-  },
-  {
-    id: '9',
-    name: 'Jennifer Lee',
-    company: 'Tesla',
-    content: 'The revenue optimization tools helped us increase our profit margins by 35% in just six months.',
-    rating: 5,
-    avatar: 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=150'
-  },
-  {
-    id: '10',
-    name: 'Alex Turner',
-    company: 'Netflix',
-    content: 'Content creation became effortless with ED. Our production timeline improved by 50% across all projects.',
-    rating: 5,
-    avatar: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=150'
+    avatar: 'https://i.imgur.com/HPMUlxF.jpeg?auto=compress&cs=tinysrgb&w=150'
   }
 ];
 
