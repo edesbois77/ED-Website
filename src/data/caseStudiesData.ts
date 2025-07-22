@@ -91,7 +91,7 @@ By putting Coca-Cola Zero Sugar at the center of the Euro2024 fan experience, we
         { value: '24', label: 'Month Partnership' },
         { value: '#1', label: 'Largest media deal at OneFootball' }
       ],
-      description: 'The transformation positioned Nike as a leader in digital commerce innovation, with the new platform becoming a benchmark for the industry.'
+      description: 'The campaign cemented Coca-Cola Zero Sugar as the go-to drink for passionate football fans, driving brand love and digital engagement across key European markets.'
     },
     testimonial: {
       quote: "Working with ED enabled us to place Coca-Cola Zero Sugar at the heart of the Euro2024 digital fan experience. ED's creative approach, passion and digital expertise brought our brand to life in new ways, deepening engagement and driving real emotional connection with football fans across Europe.",
