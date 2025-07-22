@@ -62,7 +62,7 @@ As momentum grew, we scaled the sales organisation, invested in upskilling teams
       hero: 'https://i.imgur.com/TNFQZFC.jpeg?auto=compress&cs=tinysrgb&w=1200',
       gallery: [
         'https://i.imgur.com/oVKdgOI.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://i.imgur.com/ipfRWyK.jpeg?auto=compress&cs=tinysrgb&w=800'
+        'https://i.imgur.com/ipfRWyK.jpeg?auto=compress&cs=tinysrgb&w=800',
         'https://i.imgur.com/54YBBzA.jpeg?auto=compress&cs=tinysrgb&w=800',
         'https://i.imgur.com/Ee5AMUb.jpeg?auto=compress&cs=tinysrgb&w=800'
       ]
