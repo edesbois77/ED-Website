@@ -106,7 +106,7 @@ export const testimonials: Testimonial[] = [
     company: 'Spotify',
     content: 'Connect-ED, Creat-ED, and Monetis-ED will change the game for you as it did for us. The full ED suite always delivers!',
     rating: 5,
-    avatar: '/images/MLlVj4K.jpeguto=compress&cs=tinysrgb&w=150'
+    avatar: '/images/MLlVj4K.jpeg'
   },
   {
     id: '2',
@@ -114,7 +114,7 @@ export const testimonials: Testimonial[] = [
     company: 'GroupM',
     content: 'The Strategis-ED, Creat-ED and Deliver-ED modules helped us build consistently high-performing partnerships. Truly transformative for GroupM’s approach.',
     rating: 5,
-    avatar: '/images/Pfb2ejp.jpeguto=compress&cs=tinysrgb&w=150'
+    avatar: '/images/Pfb2ejp.jpeg'
   },
   {
     id: '3',
@@ -122,7 +122,7 @@ export const testimonials: Testimonial[] = [
     company: 'Sky',
     content: 'Monetis-ED, Communicat-ED and Creat-ED have become go-to solutions for us over the years, delivering great results time and again.',
     rating: 5,
-    avatar: '/images/SJ5N3iO.jpeguto=compress&cs=tinysrgb&w=150'
+    avatar: '/images/SJ5N3iO.jpeg'
   },
   {
     id: '4',
@@ -130,7 +130,7 @@ export const testimonials: Testimonial[] = [
     company: 'Forza Football',
     content: 'The ED product suite has never let me down, delivering consistently for over 15 years. I can not recommend them highly enough.',
     rating: 5,
-    avatar: '/images/HPMUlxF.jpeguto=compress&cs=tinysrgb&w=150'
+    avatar: '/images/HPMUlxF.jpeg'
   }
 ];
 
@@ -139,21 +139,21 @@ export const caseStudies: CaseStudy[] = [
     id: '1',
     title: '3x Industry Award Nominations',
     description: 'Elevated Coca-Cola Zero Sugar’s presence across Europe by embedding the brand into fans’ match-day rituals with talent-led, multi-channel digital engagement.',
-    image: '/images/24NwBv5.jpeguto=compress&cs=tinysrgb&w=800',
+    image: '/images/24NwBv5.jpeg',
     link: '#'
   },
   {
     id: '2',
     title: 'From Local Secret to Global Leader',
     description: 'How OneFootball utilised ED to become a household B2B name in the football industry by Scaling Teams, Building Strategic Partnerships and Driving Global Revenues.',
-    image: '/images/TNFQZFC.jpeguto=compress&cs=tinysrgb&w=800',
+    image: '/images/TNFQZFC.jpeg',
     link: '#'
   },
   {
     id: '3',
     title: 'Next In Line: The Future of Football',
     description: 'Positioning FedEx as an innovator in football by connecting UCL fans with emerging stars through talent-led, multi-platform content and data-driven engagement.',
-    image: '/images/ubcUIH7.jpeguto=compress&cs=tinysrgb&w=800',
+    image: '/images/ubcUIH7.jpeg',
     link: '#'
   }
 ];
