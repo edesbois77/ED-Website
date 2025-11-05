@@ -59,12 +59,12 @@ As momentum grew, we scaled the sales organisation, invested in upskilling teams
       role: "CEO - Forza Football (previously SVP of International Sales at OneFootball)"
     },
     visuals: {
-      hero: '/images/TNFQZFC.jpeguto=compress&cs=tinysrgb&w=1200',
+      hero: '/images/TNFQZFC.jpegauto=compress&cs=tinysrgb&w=1200',
       gallery: [
-        '/images/oVKdgOI.jpeguto=compress&cs=tinysrgb&w=800',
-        '/images/ipfRWyK.jpeguto=compress&cs=tinysrgb&w=800',
-        '/images/54YBBzA.jpeguto=compress&cs=tinysrgb&w=800',
-        '/images/Ee5AMUb.jpeguto=compress&cs=tinysrgb&w=800'
+        '/images/oVKdgOI.jpegauto=compress&cs=tinysrgb&w=800',
+        '/images/ipfRWyK.jpegauto=compress&cs=tinysrgb&w=800',
+        '/images/54YBBzA.jpegauto=compress&cs=tinysrgb&w=800',
+        '/images/Ee5AMUb.jpegauto=compress&cs=tinysrgb&w=800'
       ]
     },
     tags: ['Football', 'Sport', 'Revenue Growth', 'Product Development', 'B2B'],
@@ -101,12 +101,12 @@ By putting Coca-Cola Zero Sugar at the center of the Euro2024 fan experience, we
       role: ""
     },
     visuals: {
-      hero: '/images/24NwBv5.jpeguto=compress&cs=tinysrgb&w=1200',
+      hero: '/images/24NwBv5.jpegauto=compress&cs=tinysrgb&w=1200',
       gallery: [
-        '/videos/lsSzBqm.mp4uto=compress&cs=tinysrgb&w=800',
-        '/images/prWkwB6.jpeguto=compress&cs=tinysrgb&w=800',
-        '/images/24NwBv5.jpeguto=compress&cs=tinysrgb&w=800',
-        '/images/pbX2QQX.gifuto=compress&cs=tinysrgb&w=800'
+        '/videos/lsSzBqm.mp4auto=compress&cs=tinysrgb&w=800',
+        '/images/prWkwB6.jpegauto=compress&cs=tinysrgb&w=800',
+        '/images/24NwBv5.jpegauto=compress&cs=tinysrgb&w=800',
+        '/images/pbX2QQX.gifauto=compress&cs=tinysrgb&w=800'
       ]
     },
     tags: ['Euro24', 'Digital', 'Coca-Cola', 'Football', 'Sponsorship', 'Partnership', 'Branded Content'],
@@ -141,12 +141,12 @@ Next In Line spanned the OneFootball ecosystem and beyond, combining branded med
       role: ""
     },
     visuals: {
-      hero: '/images/ubcUIH7.jpeguto=compress&cs=tinysrgb&w=1200',
+      hero: '/images/ubcUIH7.jpegauto=compress&cs=tinysrgb&w=1200',
       gallery: [
-        '/images/yLray3u.pnguto=compress&cs=tinysrgb&w=800',
-        '/images/xnPCE0F.pnguto=compress&cs=tinysrgb&w=800',
-        '/images/RGlbmz9.gifuto=compress&cs=tinysrgb&w=800',
-        '/images/I29rSV7.gifuto=compress&cs=tinysrgb&w=800'
+        '/images/yLray3u.pngauto=compress&cs=tinysrgb&w=800',
+        '/images/xnPCE0F.pngauto=compress&cs=tinysrgb&w=800',
+        '/images/RGlbmz9.gifauto=compress&cs=tinysrgb&w=800',
+        '/images/I29rSV7.gifauto=compress&cs=tinysrgb&w=800'
       ]
     },
     tags: ['UCL', 'Sponsorship','FedEx', 'Branded Content', 'Digital', 'UEFA Champions League', 'Next In Line', 'Football'],
