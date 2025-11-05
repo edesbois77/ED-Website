@@ -111,7 +111,7 @@ const AboutPage: React.FC = () => {
           <div className="order-first lg:order-last">
             <div className="relative group overflow-hidden rounded-2xl w-full">
               <img
-                src="/images/XuTvRSY.jpegauto=compress&cs=tinysrgb&w=800"
+                src="/images/XuTvRSY.jpeg"
                 alt="ED Solutions Platform"
                 className="w-full h-64 sm:h-80 lg:h-[700px] object-cover object-top transition-transform duration-700 group-hover:scale-105"
               />
@@ -128,7 +128,7 @@ const AboutPage: React.FC = () => {
           <div>
             <div className="relative group overflow-hidden rounded-2xl w-full">
               <img
-                src="/images/plK4cLO.jpegauto=compress&cs=tinysrgb&w=700"
+                src="/images/plK4cLO.jpeguto=compress&cs=tinysrgb&w=700"
                 alt="Team Collaboration"
                 className="w-full h-64 sm:h-80 lg:h-[700px] object-cover object-top transition-transform duration-700 group-hover:scale-105"
               />
