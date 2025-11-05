@@ -33,7 +33,7 @@ export const detailedCaseStudies: DetailedCaseStudy[] = [
     id: 'one-football',
     title: 'From Local Secret to Global Leader',
     client: 'OneFootball',
-    logo: 'https://i.imgur.com/o8kSoHs.png',
+    logo: '/images/o8kSoHs.png',
     headlineResult: '176% revenue growth in 5 years',
     summary: 'How OneFootball utilised ED to become a household B2B name in the football industry by Scaling Teams, Building Strategic Partnerships and Driving Global Revenue Growth.',
     challenge: `In 2019, OneFootball was a strong local player but had little revenue or recognition outside Berlin, especially in the global B2B market. The commercial team was talented but inexperienced in media and unproven in executing large, multi-market partnership deals. OneFootball\'s focus on product innovation hadn\'t translated into commercial growth and the limited tech stack further restricted scale.
@@ -59,12 +59,12 @@ As momentum grew, we scaled the sales organisation, invested in upskilling teams
       role: "CEO - Forza Football (previously SVP of International Sales at OneFootball)"
     },
     visuals: {
-      hero: 'https://i.imgur.com/TNFQZFC.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      hero: '/images/TNFQZFC.jpeguto=compress&cs=tinysrgb&w=1200',
       gallery: [
-        'https://i.imgur.com/oVKdgOI.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://i.imgur.com/ipfRWyK.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://i.imgur.com/54YBBzA.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://i.imgur.com/Ee5AMUb.jpeg?auto=compress&cs=tinysrgb&w=800'
+        '/images/oVKdgOI.jpeguto=compress&cs=tinysrgb&w=800',
+        '/images/ipfRWyK.jpeguto=compress&cs=tinysrgb&w=800',
+        '/images/54YBBzA.jpeguto=compress&cs=tinysrgb&w=800',
+        '/images/Ee5AMUb.jpeguto=compress&cs=tinysrgb&w=800'
       ]
     },
     tags: ['Football', 'Sport', 'Revenue Growth', 'Product Development', 'B2B'],
@@ -75,7 +75,7 @@ As momentum grew, we scaled the sales organisation, invested in upskilling teams
     id: 'coca-cola-fanrituals',
     title: 'Uniting Fans & Inspiring Rituals: Euro2024',
     client: 'Coca-Cola',
-    logo: 'https://i.imgur.com/KYF8Mye.png',
+    logo: '/images/KYF8Mye.png',
     headlineResult: '3x Industry Award Nominations',
     summary: 'Elevated Coca-Cola Zero Sugar’s presence across Europe by embedding the brand into fans’ match-day rituals with talent-led, multi-channel digital engagement.',
     challenge: `Coca-Cola Zero Sugar and Essence Mediacom faced a critical challenge ahead of Euro2024: despite rapid growth, the brand was in fierce competition with rivals targeting young, sugar-conscious consumers through innovative, entertainment-led campaigns. The objective was clear, strengthen consumption and forge a deeper emotional connection with fans during Europe's biggest football moment. With millions of passionate fans engaging digitally and emotionally with Euro2024, Coca-Cola Zero Sugar needed to cut through the noise and embed itself in fans' match-day rituals.
@@ -101,12 +101,12 @@ By putting Coca-Cola Zero Sugar at the center of the Euro2024 fan experience, we
       role: ""
     },
     visuals: {
-      hero: 'https://i.imgur.com/24NwBv5.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      hero: '/images/24NwBv5.jpeguto=compress&cs=tinysrgb&w=1200',
       gallery: [
-        'https://i.imgur.com/lsSzBqm.mp4?auto=compress&cs=tinysrgb&w=800',
-        'https://i.imgur.com/prWkwB6.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://i.imgur.com/24NwBv5.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://i.imgur.com/pbX2QQX.gif?auto=compress&cs=tinysrgb&w=800'
+        '/videos/lsSzBqm.mp4uto=compress&cs=tinysrgb&w=800',
+        '/images/prWkwB6.jpeguto=compress&cs=tinysrgb&w=800',
+        '/images/24NwBv5.jpeguto=compress&cs=tinysrgb&w=800',
+        '/images/pbX2QQX.gifuto=compress&cs=tinysrgb&w=800'
       ]
     },
     tags: ['Euro24', 'Digital', 'Coca-Cola', 'Football', 'Sponsorship', 'Partnership', 'Branded Content'],
@@ -117,7 +117,7 @@ By putting Coca-Cola Zero Sugar at the center of the Euro2024 fan experience, we
     id: 'fedex-nextinline',
     title: 'Next In Line: The Future of Football with FedEx',
     client: 'FedEx',
-    logo: 'https://i.imgur.com/E832FHx.png',
+    logo: '/images/E832FHx.png',
     headlineResult: '6 Rising Stars & Millions of Fans',
     summary: 'Positioned FedEx as an innovator in European football by connecting Champions League fans with emerging stars through talent-led, multi-platform content and data-driven engagement.',
     challenge: 'In 2021, FedEx set out to shift perceptions and demonstrate its innovative, forward-thinking logistics solutions through the new ‘Where Now Meets Next’ brand positioning. With 65% of their core audience identified as UEFA Champions League fans, the challenge was to leverage the UCL’s platform to bring this positioning to life in a way that would resonate with discerning, data-driven B2B audiences. FedEx needed a standout campaign that would engage fans seeking deeper football insight and elevate the brand’s association with progress, innovation, and the next generation of football talent.',
@@ -141,12 +141,12 @@ Next In Line spanned the OneFootball ecosystem and beyond, combining branded med
       role: ""
     },
     visuals: {
-      hero: 'https://i.imgur.com/ubcUIH7.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      hero: '/images/ubcUIH7.jpeguto=compress&cs=tinysrgb&w=1200',
       gallery: [
-        'https://i.imgur.com/yLray3u.png?auto=compress&cs=tinysrgb&w=800',
-        'https://i.imgur.com/xnPCE0F.png?auto=compress&cs=tinysrgb&w=800',
-        'https://i.imgur.com/RGlbmz9.gif?auto=compress&cs=tinysrgb&w=800',
-        'https://i.imgur.com/I29rSV7.gif?auto=compress&cs=tinysrgb&w=800'
+        '/images/yLray3u.pnguto=compress&cs=tinysrgb&w=800',
+        '/images/xnPCE0F.pnguto=compress&cs=tinysrgb&w=800',
+        '/images/RGlbmz9.gifuto=compress&cs=tinysrgb&w=800',
+        '/images/I29rSV7.gifuto=compress&cs=tinysrgb&w=800'
       ]
     },
     tags: ['UCL', 'Sponsorship','FedEx', 'Branded Content', 'Digital', 'UEFA Champions League', 'Next In Line', 'Football'],
@@ -157,7 +157,7 @@ Next In Line spanned the OneFootball ecosystem and beyond, combining branded med
     id: 'coca-cola-campaign',
     title: 'Global Brand Activation Success',
     client: 'Coca-Cola',
-    logo: 'https://i.imgur.com/vTuKtRs.png',
+    logo: '/images/vTuKtRs.png',
     headlineResult: '300% ROI on marketing investment',
     summary: 'This is dummy data with the main case study needing to be added.',
     challenge: 'Coca-Cola needed to revitalize brand engagement among Gen Z consumers while maintaining broad appeal across demographics. The challenge was creating authentic connections in an increasingly skeptical media landscape where traditional advertising approaches were losing effectiveness.',
@@ -191,7 +191,7 @@ Next In Line spanned the OneFootball ecosystem and beyond, combining branded med
     id: 'microsoft-transformation',
     title: 'Enterprise Platform Innovation',
     client: 'Microsoft',
-    logo: 'https://i.imgur.com/8Dt3rUC.png',
+    logo: '/images/8Dt3rUC.png',
     headlineResult: '$127M new revenue stream created',
     summary: 'Led enterprise platform development that created new revenue opportunities and strengthened market position.',
     challenge: 'Microsoft needed to expand its enterprise offerings in the competitive cloud services market while differentiating from established players. The goal was to create new revenue streams that leveraged existing strengths while addressing unmet customer needs.',
@@ -225,7 +225,7 @@ Next In Line spanned the OneFootball ecosystem and beyond, combining branded med
     id: 'apple-retail-experience',
     title: 'Retail Experience Transformation',
     client: 'Apple',
-    logo: 'https://i.imgur.com/DeDjzd2.png',
+    logo: '/images/DeDjzd2.png',
     headlineResult: '43% increase in customer satisfaction',
     summary: 'Transformed Apple retail experience through innovative customer journey design and team development programs.',
     challenge: 'Apple needed to evolve its retail experience to meet changing customer expectations while maintaining the premium brand experience. The challenge was balancing efficiency with the personal touch that defines Apple\'s customer service philosophy.',

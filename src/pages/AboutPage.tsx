@@ -111,7 +111,7 @@ const AboutPage: React.FC = () => {
           <div className="order-first lg:order-last">
             <div className="relative group overflow-hidden rounded-2xl w-full">
               <img
-                src="https://i.imgur.com/XuTvRSY.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/images/XuTvRSY.jpeguto=compress&cs=tinysrgb&w=800"
                 alt="ED Solutions Platform"
                 className="w-full h-64 sm:h-80 lg:h-[700px] object-cover object-top transition-transform duration-700 group-hover:scale-105"
               />
@@ -128,7 +128,7 @@ const AboutPage: React.FC = () => {
           <div>
             <div className="relative group overflow-hidden rounded-2xl w-full">
               <img
-                src="https://i.imgur.com/plK4cLO.jpeg?auto=compress&cs=tinysrgb&w=700"
+                src="/images/plK4cLO.jpeguto=compress&cs=tinysrgb&w=700"
                 alt="Team Collaboration"
                 className="w-full h-64 sm:h-80 lg:h-[700px] object-cover object-top transition-transform duration-700 group-hover:scale-105"
               />
@@ -250,7 +250,7 @@ const AboutPage: React.FC = () => {
               </div>
               <div className="mb-4 flex justify-center">
                 <img
-                  src="https://i.imgur.com/Pjr5ljE.png"
+                  src="/images/Pjr5ljE.png"
                   alt="Instagram Mobile App"
                   className="w-full max-w-[200px] mx-auto h-auto"
                 />
@@ -267,7 +267,7 @@ const AboutPage: React.FC = () => {
               </div>
               <div className="mb-4 flex justify-center">
                 <img
-                  src="https://i.imgur.com/GpgifFr.png"
+                  src="/images/GpgifFr.png"
                   alt="TikTok Mobile App"
                   className="w-full max-w-[200px] mx-auto h-auto"
                 />
@@ -284,7 +284,7 @@ const AboutPage: React.FC = () => {
               </div>
               <div className="mb-4 flex justify-center">
                 <img
-                  src="https://i.imgur.com/4Yx304W.png"
+                  src="/images/4Yx304W.png"
                   alt="YouTube Mobile App"
                   className="w-full max-w-[200px] mx-auto h-auto"
                 />
@@ -301,7 +301,7 @@ const AboutPage: React.FC = () => {
               </div>
               <div className="mb-4 flex justify-center">
                 <img
-                  src="https://i.imgur.com/0w0I2FM.png"
+                  src="/images/0w0I2FM.png"
                   alt="Facebook Mobile App"
                   className="w-full max-w-[200px] mx-auto h-auto"
                 />
@@ -318,7 +318,7 @@ const AboutPage: React.FC = () => {
               </div>
               <div className="mb-4 flex justify-center">
                 <img
-                  src="https://i.imgur.com/chry0kB.png"
+                  src="/images/chry0kB.png"
                   alt="Spotify Mobile App"
                   className="w-full max-w-[200px] mx-auto h-auto"
                 />

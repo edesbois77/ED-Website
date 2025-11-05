@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
             <div className="flex items-center space-x-2 mb-4 sm:mb-6">
               <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-md overflow-hidden">
                 <img
-                  src="https://i.imgur.com/9TYbf14.png"
+                  src="/images/9TYbf14.png"
                   alt="ED Logo"
                   className="w-full h-full object-contain"
                 />

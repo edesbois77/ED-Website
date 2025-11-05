@@ -35,7 +35,7 @@ const Header: React.FC = () => {
           <Link to="/" className="flex items-center group" onClick={closeMobileMenu}>
             <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-md overflow-hidden group-hover:opacity-80 transition-opacity">
               <img
-                src="https://i.imgur.com/9TYbf14.png"
+                src="/images/9TYbf14.png"
                 alt="ED Logo"
                 className="w-full h-full object-contain"
               />
