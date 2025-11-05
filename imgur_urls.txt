@@ -32,6 +32,6 @@
 
 
 ?auto=compress&cs=tinysrgb&w=800
-?auto=compress&cs=tinysrgb&w=800
-?auto=compress&cs=tinysrgb&w=800
-
+https://i.imgur.com/XuTvRSY.jpeg?auto=compress&cs=tinysrgb&w=800
+https://i.imgur.com/yLray3u.png?auto=compress&cs=tinysrgb&w=800
+https://i.imgur.com/yZsCnOY.png
