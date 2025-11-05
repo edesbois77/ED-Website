@@ -128,7 +128,7 @@ const AboutPage: React.FC = () => {
           <div>
             <div className="relative group overflow-hidden rounded-2xl w-full">
               <img
-                src="/images/plK4cLO.jpeguto=compress&cs=tinysrgb&w=700"
+                src="/images/plK4cLO.jpeg"
                 alt="Team Collaboration"
                 className="w-full h-64 sm:h-80 lg:h-[700px] object-cover object-top transition-transform duration-700 group-hover:scale-105"
               />
